@@ -1,0 +1,28 @@
+# Секреты — не пушить в GitHub
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.eggs/
+
+# Логи и локальная БД
+logs/
+*.log
+*.db
+lingvo_bot.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker (опционально)
+# .docker/

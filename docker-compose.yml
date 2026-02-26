@@ -1,0 +1,15 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - DATABASE_URL=${DATABASE_URL}
+    # Опционально: если используете PGHOST и т.д. вместо DATABASE_URL
+    # environment:
+    #   - PGHOST=${PGHOST}
+    #   - PGPORT=${PGPORT}
+    #   - PGDATABASE=${PGDATABASE}
+    #   - PGUSER=${PGUSER}
+    #   - PGPASSWORD=${PGPASSWORD}
