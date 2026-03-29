@@ -428,8 +428,11 @@ async def send_daily_words(context: ContextTypes.DEFAULT_TYPE) -> None:
         f"Удачи в изучении английского! 📚✨"
     )
     
-    # Отправляем сообщение всем подписанным пользователям
-    for user_id in subscribed_users.copy():
+    # Берем пользователей из БД, чтобы рассылка работала и после рестарта.
+    user_ids = database.get_all_user_ids()
+    subscribed_users.update(user_ids)
+
+    for user_id in user_ids:
         try:
             await context.bot.send_message(
                 chat_id=user_id,
@@ -474,6 +477,7 @@ def main() -> None:
         # Проверка подключения к PostgreSQL (alwaysdata и др.)
         try:
             database.init_db()
+            subscribed_users.update(database.get_all_user_ids())
             logger.info("Подключение к БД успешно, таблицы проверены")
         except Exception as e:
             logger.error("Ошибка подключения к БД: %s. Проверьте DATABASE_URL или PGHOST/PGUSER/PGPASSWORD в .env", e)
