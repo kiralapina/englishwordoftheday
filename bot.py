@@ -10,6 +10,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, Keyboar
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
 import database
+import usage_metrics
 import word_api
 
 # Загрузка переменных окружения
@@ -106,6 +107,18 @@ def get_word_of_day() -> dict:
     logger.info(f"Получено слово дня: {word_data['word']} (день года: {day_of_year}, индекс: {word_index})")
     return word_data
 
+
+def track_activity(user_id: int, event_type: str) -> None:
+    """Log bot-wide user activity without breaking the main flow."""
+    try:
+        usage_metrics.track_user_activity(
+            user_id=str(user_id),
+            event_type=event_type,
+            event_at=datetime.utcnow(),
+        )
+    except Exception as e:
+        logger.warning("Failed to track user activity for %s (%s): %s", user_id, event_type, e)
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Обработчик команды /start"""
     user = update.effective_user
@@ -129,6 +142,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
     
     await update.message.reply_text(message, parse_mode='HTML', reply_markup=main_menu_keyboard())
+    track_activity(user_id, "command_start")
     logger.info(f"User {user_id} ({user.first_name}) started the bot")
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -141,9 +155,10 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         "📖 <b>Мои слова</b> — твоя лексика и повторения (SRS)\n"
         "➕ <b>Добавить слово</b> — формат: <code>слово — перевод</code>\n"
         "⚙️ <b>Настройки</b> — смена уровня\n\n"
-        "/start — главное меню | /word — слово дня | /help — эта справка | /test — проверка бота"
+        "/start — главное меню | /word — слово дня | /help — эта справка | /test — проверка бота | /stats — статистика"
     )
     await update.message.reply_text(message, parse_mode='HTML', reply_markup=main_menu_keyboard())
+    track_activity(user.id, "command_help")
     logger.info(f"User {user.id} ({user.first_name}) requested help")
 
 async def word_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -159,6 +174,7 @@ async def word_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     )
     
     await update.message.reply_text(message, parse_mode='HTML')
+    track_activity(update.effective_user.id, "command_word")
     logger.info(f"User {update.effective_user.id} requested word of the day")
 
 async def test_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -178,7 +194,27 @@ async def test_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     )
     
     await update.message.reply_text(message, parse_mode='HTML')
+    track_activity(user.id, "command_test")
     logger.info(f"User {user.id} tested the bot")
+
+
+async def stats_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Показать внутреннюю статистику использования бота."""
+    user = update.effective_user
+    try:
+        metrics = usage_metrics.get_usage_metrics()
+        total_users = len(database.get_all_user_ids())
+        message = (
+            "📊 <b>Статистика бота</b>\n\n"
+            f"MAU ({metrics['window_days']} days): <b>{metrics['mau']}</b>\n"
+            f"Всего пользователей: <b>{total_users}</b>\n"
+            f"Рассчитано: <code>{metrics['calculated_at']}</code>"
+        )
+        await update.message.reply_text(message, parse_mode='HTML')
+        track_activity(user.id, "command_stats")
+    except Exception as e:
+        logger.error("Failed to build stats: %s", e)
+        await update.message.reply_text("Не удалось получить статистику. Проверь подключение к БД.")
 
 
 async def idiom_of_day_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -194,12 +230,14 @@ async def idiom_of_day_command(update: Update, context: ContextTypes.DEFAULT_TYP
         f"✏️ Напиши в ответ своё предложение с этой фразой — потренируешься!"
     )
     await update.message.reply_text(msg, parse_mode='HTML')
+    track_activity(user.id, "open_idiom_of_day")
     logger.info(f"User {user.id} requested idiom of the day")
 
 
 async def my_words_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Мои слова: показать количество на повторение и предложить повторить."""
     user = update.effective_user
+    track_activity(user.id, "open_my_words")
     due = database.get_words_for_review(user.id, limit=20)
     all_words = database.get_all_user_words(user.id, limit=100)
     
@@ -222,12 +260,14 @@ async def my_words_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -
 
 async def settings_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Настройки: выбор уровня."""
-    level = database.get_user_level(update.effective_user.id)
+    user_id = update.effective_user.id
+    level = database.get_user_level(user_id)
     await update.message.reply_text(
         f"⚙️ Твой уровень: <b>{level}</b>. Выбери новый уровень:",
         reply_markup=level_keyboard(),
         parse_mode='HTML'
     )
+    track_activity(user_id, "open_settings")
 
 
 async def callback_level(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -239,6 +279,7 @@ async def callback_level(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     level = query.data.replace("level_", "")
     database.set_user_level(update.effective_user.id, level)
     await query.edit_message_text(f"✅ Уровень изменён на <b>{level}</b>. Идиомы дня теперь под твой уровень.", parse_mode='HTML')
+    track_activity(update.effective_user.id, "set_level")
     logger.info(f"User {update.effective_user.id} set level to {level}")
 
 
@@ -253,11 +294,13 @@ async def callback_review(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
         due = database.get_words_for_review(user_id, limit=20)
         if not due:
             await query.edit_message_text("🔄 На сегодня повторений нет. Загляни завтра!")
+            track_activity(user_id, "review_start_empty")
             return
         context.user_data["review_list"] = due
         context.user_data["review_index"] = 0
         await query.edit_message_text("🔄 Выбери перевод ниже:")
         await _send_review_word(query, context, user_id, due[0])
+        track_activity(user_id, "review_start")
         return
     
     if data.startswith("review_ok_"):
@@ -273,12 +316,14 @@ async def callback_review(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
             await query.edit_message_text("✅ Верно! Повторение на сегодня завершено. 🎉")
             context.user_data.pop("review_list", None)
             context.user_data.pop("review_index", None)
+        track_activity(user_id, "review_ok")
         return
     
     if data.startswith("review_fail_"):
         await query.edit_message_text("❌ Неверно. Попробуй ещё раз позже в «Мои слова».")
         context.user_data.pop("review_list", None)
         context.user_data.pop("review_index", None)
+        track_activity(user_id, "review_fail")
 
 
 def _make_review_keyboard(vocab_id: int, translation: str, user_id: int) -> InlineKeyboardMarkup:
@@ -319,6 +364,7 @@ async def add_word_prompt(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
         "• Пример после точки: <code>слово — перевод. Пример.</code>",
         parse_mode='HTML'
     )
+    track_activity(update.effective_user.id, "open_add_word")
 
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -329,6 +375,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     # Режим «добавить слово»: парсим "слово — перевод" или одно слово (тогда автопополнение по API)
     if context.user_data.get("awaiting_add_word"):
         context.user_data.pop("awaiting_add_word", None)
+        track_activity(user.id, "add_word")
         translation = ""
         transcription = ""
         example = ""
@@ -385,6 +432,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             f"<i>Пример: {word_data['example']}</i>"
         )
         await update.message.reply_text(msg, parse_mode='HTML')
+        track_activity(user.id, "open_word_of_day")
         return
     if message_text == "💬 Идиома дня":
         await idiom_of_day_command(update, context)
@@ -413,6 +461,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         f"/help — справка."
     )
     await update.message.reply_text(response)
+    track_activity(user.id, "message")
     logger.info(f"User {user.id} sent a message: {message_text}")
 
 async def send_daily_words(context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -477,6 +526,7 @@ def main() -> None:
         # Проверка подключения к PostgreSQL (alwaysdata и др.)
         try:
             database.init_db()
+            usage_metrics.init_usage_metrics()
             subscribed_users.update(database.get_all_user_ids())
             logger.info("Подключение к БД успешно, таблицы проверены")
         except Exception as e:
@@ -494,9 +544,10 @@ def main() -> None:
         application.add_handler(CommandHandler("help", help_command))
         application.add_handler(CommandHandler("word", word_command))
         application.add_handler(CommandHandler("test", test_command))
+        application.add_handler(CommandHandler("stats", stats_command))
         application.add_handler(CallbackQueryHandler(callback_level, pattern="^level_"))
         application.add_handler(CallbackQueryHandler(callback_review, pattern="^review"))
-        logger.info("Обработчики команд зарегистрированы: /start, /help, /word, /test + меню и SRS")
+        logger.info("Обработчики команд зарегистрированы: /start, /help, /word, /test, /stats + меню и SRS")
         
         # Регистрируем обработчик текстовых сообщений (в конце, чтобы не перехватывать команды)
         application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
