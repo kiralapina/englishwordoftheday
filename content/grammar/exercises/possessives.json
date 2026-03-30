@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "possessives_mc_001",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "This is ___ bag.",
+    "options": [
+      "I",
+      "mine",
+      "my",
+      "me"
+    ],
+    "correct_answers": [
+      "my"
+    ],
+    "accepted_answers": [
+      "my"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_mc_002",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "He loves ___ dog.",
+    "options": [
+      "him",
+      "their",
+      "his",
+      "he"
+    ],
+    "correct_answers": [
+      "his"
+    ],
+    "accepted_answers": [
+      "his"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_mc_003",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "She is with ___ sister.",
+    "options": [
+      "she",
+      "her",
+      "hers",
+      "his"
+    ],
+    "correct_answers": [
+      "her"
+    ],
+    "accepted_answers": [
+      "her"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_mc_004",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "We like ___ school.",
+    "options": [
+      "our",
+      "we",
+      "ours",
+      "us"
+    ],
+    "correct_answers": [
+      "our"
+    ],
+    "accepted_answers": [
+      "our"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_mc_005",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "They are in ___ house.",
+    "options": [
+      "them",
+      "they",
+      "theirs",
+      "their"
+    ],
+    "correct_answers": [
+      "their"
+    ],
+    "accepted_answers": [
+      "their"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_mc_006",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "I know ___ name.",
+    "options": [
+      "your",
+      "we",
+      "yours",
+      "you"
+    ],
+    "correct_answers": [
+      "your"
+    ],
+    "accepted_answers": [
+      "your"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_mc_007",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "The cat is in ___ bed.",
+    "options": [
+      "it",
+      "their",
+      "its",
+      "it's"
+    ],
+    "correct_answers": [
+      "its"
+    ],
+    "accepted_answers": [
+      "its"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_mc_008",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "Anna and I are doing ___ homework.",
+    "options": [
+      "our",
+      "ours",
+      "my",
+      "we"
+    ],
+    "correct_answers": [
+      "our"
+    ],
+    "accepted_answers": [
+      "our"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_gap_001",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "This is ___ bag.",
+    "options": [],
+    "correct_answers": [
+      "my"
+    ],
+    "accepted_answers": [
+      "my"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_gap_002",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "He loves ___ dog.",
+    "options": [],
+    "correct_answers": [
+      "his"
+    ],
+    "accepted_answers": [
+      "his"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_gap_003",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "She is with ___ sister.",
+    "options": [],
+    "correct_answers": [
+      "her"
+    ],
+    "accepted_answers": [
+      "her"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_gap_004",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "We like ___ school.",
+    "options": [],
+    "correct_answers": [
+      "our"
+    ],
+    "accepted_answers": [
+      "our"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_gap_005",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "They are in ___ house.",
+    "options": [],
+    "correct_answers": [
+      "their"
+    ],
+    "accepted_answers": [
+      "their"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_gap_006",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "I know ___ name.",
+    "options": [],
+    "correct_answers": [
+      "your"
+    ],
+    "accepted_answers": [
+      "your"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_gap_007",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "The cat is in ___ bed.",
+    "options": [],
+    "correct_answers": [
+      "its"
+    ],
+    "accepted_answers": [
+      "its"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_gap_008",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "Anna and I are doing ___ homework.",
+    "options": [],
+    "correct_answers": [
+      "our"
+    ],
+    "accepted_answers": [
+      "our"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_trans_001",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: This bag belongs to me.",
+    "options": [],
+    "source_sentence": "This bag belongs to me.",
+    "instruction": "Rewrite with a possessive adjective.",
+    "correct_answers": [
+      "This is my bag."
+    ],
+    "accepted_answers": [
+      "This is my bag.",
+      "This is my bag"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_trans_002",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: That car belongs to her.",
+    "options": [],
+    "source_sentence": "That car belongs to her.",
+    "instruction": "Rewrite with a possessive adjective.",
+    "correct_answers": [
+      "That is her car."
+    ],
+    "accepted_answers": [
+      "That is her car.",
+      "That is her car"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_trans_003",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: This room belongs to us.",
+    "options": [],
+    "source_sentence": "This room belongs to us.",
+    "instruction": "Rewrite with a possessive adjective.",
+    "correct_answers": [
+      "This is our room."
+    ],
+    "accepted_answers": [
+      "This is our room.",
+      "This is our room"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "possessives_trans_004",
+    "topic_id": "possessives",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The toys belong to them.",
+    "options": [],
+    "source_sentence": "The toys belong to them.",
+    "instruction": "Rewrite with a possessive adjective.",
+    "correct_answers": [
+      "Those are their toys."
+    ],
+    "accepted_answers": [
+      "Those are their toys.",
+      "Those are their toys"
+    ],
+    "explanation_template": "Use possessive adjectives like my, your, his, her, our, and their before nouns.",
+    "mistake_type": "possessive_adjective",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

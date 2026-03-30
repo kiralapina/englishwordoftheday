@@ -1,0 +1,19 @@
+{
+  "topic_id": "present_simple",
+  "title": "Present Simple",
+  "summary": "Use Present Simple for routines, repeated actions, and general facts.",
+  "structure": [
+    "I/You/We/They + base verb",
+    "He/She/It + verb-s"
+  ],
+  "examples": [
+    "I work every day.",
+    "She goes to school by bus.",
+    "They live in Madrid."
+  ],
+  "common_mistakes": [
+    "Missing -s with he/she/it.",
+    "Using Present Continuous for routines.",
+    "Forgetting do/does in questions."
+  ]
+}

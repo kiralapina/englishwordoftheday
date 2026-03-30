@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "basic_reported_speech_mc_001",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "She said that she ___ tired.",
+    "options": [
+      "was",
+      "were being",
+      "be",
+      "is"
+    ],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_mc_002",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "He told me that he ___ a car.",
+    "options": [
+      "has",
+      "having",
+      "had",
+      "have"
+    ],
+    "correct_answers": [
+      "had"
+    ],
+    "accepted_answers": [
+      "had"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_mc_003",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "They said that they ___ busy.",
+    "options": [
+      "be",
+      "were",
+      "are",
+      "was"
+    ],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_mc_004",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "Anna said that she ___ the answer.",
+    "options": [
+      "knew",
+      "know",
+      "knows",
+      "has known"
+    ],
+    "correct_answers": [
+      "knew"
+    ],
+    "accepted_answers": [
+      "knew"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_mc_005",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "Tom told us that he ___ home early.",
+    "options": [
+      "was going",
+      "goes",
+      "has gone",
+      "is going"
+    ],
+    "correct_answers": [
+      "was going"
+    ],
+    "accepted_answers": [
+      "was going"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_mc_006",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "She said that she ___ coffee every morning.",
+    "options": [
+      "drink",
+      "drank",
+      "drinks",
+      "is drinking"
+    ],
+    "correct_answers": [
+      "drank"
+    ],
+    "accepted_answers": [
+      "drank"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_mc_007",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "He told me that he ___ the film before.",
+    "options": [
+      "has seen",
+      "see",
+      "had seen",
+      "saw"
+    ],
+    "correct_answers": [
+      "had seen"
+    ],
+    "accepted_answers": [
+      "had seen"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_mc_008",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "They said that they ___ to help.",
+    "options": [
+      "have wanted",
+      "wanted",
+      "want",
+      "are wanting"
+    ],
+    "correct_answers": [
+      "wanted"
+    ],
+    "accepted_answers": [
+      "wanted"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_gap_001",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "She said that she ___ tired.",
+    "options": [],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_gap_002",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "He told me that he ___ a car.",
+    "options": [],
+    "correct_answers": [
+      "had"
+    ],
+    "accepted_answers": [
+      "had"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_gap_003",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "They said that they ___ busy.",
+    "options": [],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_gap_004",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "Anna said that she ___ the answer.",
+    "options": [],
+    "correct_answers": [
+      "knew"
+    ],
+    "accepted_answers": [
+      "knew"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_gap_005",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "Tom told us that he ___ home early.",
+    "options": [],
+    "correct_answers": [
+      "was going"
+    ],
+    "accepted_answers": [
+      "was going"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_gap_006",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "She said that she ___ coffee every morning.",
+    "options": [],
+    "correct_answers": [
+      "drank"
+    ],
+    "accepted_answers": [
+      "drank"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_gap_007",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "He told me that he ___ the film before.",
+    "options": [],
+    "correct_answers": [
+      "had seen"
+    ],
+    "accepted_answers": [
+      "had seen"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_gap_008",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "They said that they ___ to help.",
+    "options": [],
+    "correct_answers": [
+      "wanted"
+    ],
+    "accepted_answers": [
+      "wanted"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_trans_001",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She said, 'I am tired.'",
+    "options": [],
+    "source_sentence": "She said, 'I am tired.'",
+    "instruction": "Rewrite in reported speech.",
+    "correct_answers": [
+      "She said that she was tired."
+    ],
+    "accepted_answers": [
+      "She said that she was tired.",
+      "She said that she was tired"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_trans_002",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He told me, 'I have a car.'",
+    "options": [],
+    "source_sentence": "He told me, 'I have a car.'",
+    "instruction": "Rewrite in reported speech.",
+    "correct_answers": [
+      "He told me that he had a car."
+    ],
+    "accepted_answers": [
+      "He told me that he had a car.",
+      "He told me that he had a car"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_trans_003",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They said, 'We are busy.'",
+    "options": [],
+    "source_sentence": "They said, 'We are busy.'",
+    "instruction": "Rewrite in reported speech.",
+    "correct_answers": [
+      "They said that they were busy."
+    ],
+    "accepted_answers": [
+      "They said that they were busy.",
+      "They said that they were busy"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_reported_speech_trans_004",
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Anna said, 'I know the answer.'",
+    "options": [],
+    "source_sentence": "Anna said, 'I know the answer.'",
+    "instruction": "Rewrite in reported speech.",
+    "correct_answers": [
+      "Anna said that she knew the answer."
+    ],
+    "accepted_answers": [
+      "Anna said that she knew the answer.",
+      "Anna said that she knew the answer"
+    ],
+    "explanation_template": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+    "mistake_type": "reported_speech_backshift",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

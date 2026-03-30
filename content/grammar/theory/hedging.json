@@ -1,0 +1,21 @@
+{
+  "topic_id": "hedging",
+  "title": "Hedging",
+  "summary": "Use hedging language to sound cautious, polite, or less absolute.",
+  "structure": [
+    "It seems that...",
+    "It may be the case that...",
+    "tend to",
+    "appear to"
+  ],
+  "examples": [
+    "It seems that the plan is working.",
+    "This may not be entirely accurate.",
+    "They tend to arrive late."
+  ],
+  "common_mistakes": [
+    "Sounding too direct in formal writing.",
+    "Using absolute statements where hedging is better.",
+    "Combining too many hedges awkwardly."
+  ]
+}

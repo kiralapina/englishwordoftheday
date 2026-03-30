@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "some_any_much_many_mc_001",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I have ___ friends at school.",
+    "options": [
+      "any",
+      "much",
+      "many",
+      "some"
+    ],
+    "correct_answers": [
+      "some"
+    ],
+    "accepted_answers": [
+      "some"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_mc_002",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Do you have ___ sugar?",
+    "options": [
+      "any",
+      "much",
+      "some",
+      "many"
+    ],
+    "correct_answers": [
+      "any"
+    ],
+    "accepted_answers": [
+      "any"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_mc_003",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "There are ___ students here.",
+    "options": [
+      "many",
+      "any",
+      "much",
+      "some"
+    ],
+    "correct_answers": [
+      "many"
+    ],
+    "accepted_answers": [
+      "many"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_mc_004",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "We do not have ___ time.",
+    "options": [
+      "some",
+      "much",
+      "many",
+      "a few"
+    ],
+    "correct_answers": [
+      "much"
+    ],
+    "accepted_answers": [
+      "much"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_mc_005",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Can I have ___ water, please?",
+    "options": [
+      "many",
+      "any",
+      "much",
+      "some"
+    ],
+    "correct_answers": [
+      "some"
+    ],
+    "accepted_answers": [
+      "some"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_mc_006",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Are there ___ books on the shelf?",
+    "options": [
+      "many",
+      "any",
+      "some",
+      "much"
+    ],
+    "correct_answers": [
+      "any"
+    ],
+    "accepted_answers": [
+      "any"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_mc_007",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "How ___ money do you need?",
+    "options": [
+      "any",
+      "much",
+      "some",
+      "many"
+    ],
+    "correct_answers": [
+      "much"
+    ],
+    "accepted_answers": [
+      "much"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_mc_008",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "How ___ apples are there?",
+    "options": [
+      "many",
+      "much",
+      "some",
+      "any"
+    ],
+    "correct_answers": [
+      "many"
+    ],
+    "accepted_answers": [
+      "many"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_gap_001",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I have ___ friends at school.",
+    "options": [],
+    "correct_answers": [
+      "some"
+    ],
+    "accepted_answers": [
+      "some"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_gap_002",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Do you have ___ sugar?",
+    "options": [],
+    "correct_answers": [
+      "any"
+    ],
+    "accepted_answers": [
+      "any"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_gap_003",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "There are ___ students here.",
+    "options": [],
+    "correct_answers": [
+      "many"
+    ],
+    "accepted_answers": [
+      "many"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_gap_004",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "We do not have ___ time.",
+    "options": [],
+    "correct_answers": [
+      "much"
+    ],
+    "accepted_answers": [
+      "much"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_gap_005",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Can I have ___ water, please?",
+    "options": [],
+    "correct_answers": [
+      "some"
+    ],
+    "accepted_answers": [
+      "some"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_gap_006",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Are there ___ books on the shelf?",
+    "options": [],
+    "correct_answers": [
+      "any"
+    ],
+    "accepted_answers": [
+      "any"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_gap_007",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "How ___ money do you need?",
+    "options": [],
+    "correct_answers": [
+      "much"
+    ],
+    "accepted_answers": [
+      "much"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_gap_008",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "How ___ apples are there?",
+    "options": [],
+    "correct_answers": [
+      "many"
+    ],
+    "accepted_answers": [
+      "many"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_trans_001",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I do not have some money.",
+    "options": [],
+    "source_sentence": "I do not have some money.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "I do not have any money."
+    ],
+    "accepted_answers": [
+      "I do not have any money.",
+      "I do not have any money"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_trans_002",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: How much apples do you want?",
+    "options": [],
+    "source_sentence": "How much apples do you want?",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "How many apples do you want?"
+    ],
+    "accepted_answers": [
+      "How many apples do you want?",
+      "How many apples do you want?"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_trans_003",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: There are much cars outside.",
+    "options": [],
+    "source_sentence": "There are much cars outside.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "There are many cars outside."
+    ],
+    "accepted_answers": [
+      "There are many cars outside.",
+      "There are many cars outside"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "some_any_much_many_trans_004",
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Can I have any water?",
+    "options": [],
+    "source_sentence": "Can I have any water?",
+    "instruction": "Rewrite as a polite offer request with some.",
+    "correct_answers": [
+      "Can I have some water?"
+    ],
+    "accepted_answers": [
+      "Can I have some water?",
+      "Can I have some water?"
+    ],
+    "explanation_template": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+    "mistake_type": "quantity_word_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

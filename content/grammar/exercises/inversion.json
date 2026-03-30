@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "inversion_mc_001",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Never ___ I seen such a view.",
+    "options": [
+      "did",
+      "am",
+      "had",
+      "have"
+    ],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_mc_002",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Rarely ___ she complain.",
+    "options": [
+      "do",
+      "is",
+      "does",
+      "has"
+    ],
+    "correct_answers": [
+      "does"
+    ],
+    "accepted_answers": [
+      "does"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_mc_003",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Only then ___ I understand the problem.",
+    "options": [
+      "have",
+      "was",
+      "do",
+      "did"
+    ],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_mc_004",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Seldom ___ they arrive on time.",
+    "options": [
+      "do",
+      "are",
+      "have",
+      "did"
+    ],
+    "correct_answers": [
+      "do"
+    ],
+    "accepted_answers": [
+      "do"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_mc_005",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Not only ___ he late, but he was also unprepared.",
+    "options": [
+      "did",
+      "was",
+      "has",
+      "is"
+    ],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_mc_006",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Hardly ever ___ we see them now.",
+    "options": [
+      "are",
+      "have",
+      "did",
+      "do"
+    ],
+    "correct_answers": [
+      "do"
+    ],
+    "accepted_answers": [
+      "do"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_mc_007",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Little ___ she know what would happen next.",
+    "options": [
+      "does",
+      "was",
+      "had",
+      "did"
+    ],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_mc_008",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Under no circumstances ___ you open the door.",
+    "options": [
+      "do",
+      "should",
+      "have",
+      "are"
+    ],
+    "correct_answers": [
+      "should"
+    ],
+    "accepted_answers": [
+      "should"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_gap_001",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Never ___ I seen such a view.",
+    "options": [],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_gap_002",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Rarely ___ she complain.",
+    "options": [],
+    "correct_answers": [
+      "does"
+    ],
+    "accepted_answers": [
+      "does"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_gap_003",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Only then ___ I understand the problem.",
+    "options": [],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_gap_004",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Seldom ___ they arrive on time.",
+    "options": [],
+    "correct_answers": [
+      "do"
+    ],
+    "accepted_answers": [
+      "do"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_gap_005",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Not only ___ he late, but he was also unprepared.",
+    "options": [],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_gap_006",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Hardly ever ___ we see them now.",
+    "options": [],
+    "correct_answers": [
+      "do"
+    ],
+    "accepted_answers": [
+      "do"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_gap_007",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Little ___ she know what would happen next.",
+    "options": [],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_gap_008",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Under no circumstances ___ you open the door.",
+    "options": [],
+    "correct_answers": [
+      "should"
+    ],
+    "accepted_answers": [
+      "should"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_trans_001",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I have never seen such a mess.",
+    "options": [],
+    "source_sentence": "I have never seen such a mess.",
+    "instruction": "Rewrite using inversion with never.",
+    "correct_answers": [
+      "Never have I seen such a mess."
+    ],
+    "accepted_answers": [
+      "Never have I seen such a mess.",
+      "Never have I seen such a mess"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_trans_002",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She rarely complains.",
+    "options": [],
+    "source_sentence": "She rarely complains.",
+    "instruction": "Rewrite using inversion with rarely.",
+    "correct_answers": [
+      "Rarely does she complain."
+    ],
+    "accepted_answers": [
+      "Rarely does she complain.",
+      "Rarely does she complain"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_trans_003",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I only understood then.",
+    "options": [],
+    "source_sentence": "I only understood then.",
+    "instruction": "Rewrite using inversion with only then.",
+    "correct_answers": [
+      "Only then did I understand."
+    ],
+    "accepted_answers": [
+      "Only then did I understand.",
+      "Only then did I understand"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "inversion_trans_004",
+    "topic_id": "inversion",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: You should not open the door under any circumstances.",
+    "options": [],
+    "source_sentence": "You should not open the door under any circumstances.",
+    "instruction": "Rewrite using inversion.",
+    "correct_answers": [
+      "Under no circumstances should you open the door."
+    ],
+    "accepted_answers": [
+      "Under no circumstances should you open the door.",
+      "Under no circumstances should you open the door"
+    ],
+    "explanation_template": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+    "mistake_type": "inversion_pattern",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

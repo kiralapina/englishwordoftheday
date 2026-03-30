@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "relative_clauses_mc_001",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The girl ___ sits there is my cousin.",
+    "options": [
+      "which",
+      "where",
+      "what",
+      "who"
+    ],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_mc_002",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "This is the phone ___ I bought yesterday.",
+    "options": [
+      "whose",
+      "that",
+      "who",
+      "where"
+    ],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_mc_003",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The city ___ I was born is small.",
+    "options": [
+      "that",
+      "who",
+      "which",
+      "where"
+    ],
+    "correct_answers": [
+      "where"
+    ],
+    "accepted_answers": [
+      "where"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_mc_004",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The teacher ___ helped me was kind.",
+    "options": [
+      "where",
+      "what",
+      "who",
+      "which"
+    ],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_mc_005",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "I like books ___ make me think.",
+    "options": [
+      "who",
+      "whose",
+      "where",
+      "that"
+    ],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_mc_006",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The restaurant ___ we had dinner was crowded.",
+    "options": [
+      "who",
+      "that",
+      "which",
+      "where"
+    ],
+    "correct_answers": [
+      "where"
+    ],
+    "accepted_answers": [
+      "where"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_mc_007",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The friend ___ called me is in Spain.",
+    "options": [
+      "where",
+      "which",
+      "who",
+      "that place"
+    ],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_mc_008",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The film ___ we watched was funny.",
+    "options": [
+      "where",
+      "who",
+      "whose",
+      "that"
+    ],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_gap_001",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The girl ___ sits there is my cousin.",
+    "options": [],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_gap_002",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "This is the phone ___ I bought yesterday.",
+    "options": [],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_gap_003",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The city ___ I was born is small.",
+    "options": [],
+    "correct_answers": [
+      "where"
+    ],
+    "accepted_answers": [
+      "where"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_gap_004",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The teacher ___ helped me was kind.",
+    "options": [],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_gap_005",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "I like books ___ make me think.",
+    "options": [],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_gap_006",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The restaurant ___ we had dinner was crowded.",
+    "options": [],
+    "correct_answers": [
+      "where"
+    ],
+    "accepted_answers": [
+      "where"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_gap_007",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The friend ___ called me is in Spain.",
+    "options": [],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_gap_008",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The film ___ we watched was funny.",
+    "options": [],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_trans_001",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The woman lives next door. She is a doctor.",
+    "options": [],
+    "source_sentence": "The woman lives next door. She is a doctor.",
+    "instruction": "Join the sentences with who.",
+    "correct_answers": [
+      "The woman who lives next door is a doctor."
+    ],
+    "accepted_answers": [
+      "The woman who lives next door is a doctor.",
+      "The woman who lives next door is a doctor"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_trans_002",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: This is the cafe. We met there.",
+    "options": [],
+    "source_sentence": "This is the cafe. We met there.",
+    "instruction": "Join the sentences with where.",
+    "correct_answers": [
+      "This is the cafe where we met."
+    ],
+    "accepted_answers": [
+      "This is the cafe where we met.",
+      "This is the cafe where we met"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_trans_003",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I have a book. It explains grammar.",
+    "options": [],
+    "source_sentence": "I have a book. It explains grammar.",
+    "instruction": "Join the sentences with that.",
+    "correct_answers": [
+      "I have a book that explains grammar."
+    ],
+    "accepted_answers": [
+      "I have a book that explains grammar.",
+      "I have a book that explains grammar"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "relative_clauses_trans_004",
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The man is my uncle. He is wearing a hat.",
+    "options": [],
+    "source_sentence": "The man is my uncle. He is wearing a hat.",
+    "instruction": "Join the sentences with who.",
+    "correct_answers": [
+      "The man who is wearing a hat is my uncle."
+    ],
+    "accepted_answers": [
+      "The man who is wearing a hat is my uncle.",
+      "The man who is wearing a hat is my uncle"
+    ],
+    "explanation_template": "Use who, which, that, and where to add information about a person, thing, or place.",
+    "mistake_type": "relative_clause_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

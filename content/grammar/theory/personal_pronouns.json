@@ -1,0 +1,18 @@
+{
+  "topic_id": "personal_pronouns",
+  "title": "Personal Pronouns",
+  "summary": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+  "structure": [
+    "I / you / he / she / it / we / they + verb"
+  ],
+  "examples": [
+    "She is my friend.",
+    "They live nearby.",
+    "It is on the table."
+  ],
+  "common_mistakes": [
+    "Using object pronouns as the subject.",
+    "Confusing he and she.",
+    "Using they for a singular thing."
+  ]
+}

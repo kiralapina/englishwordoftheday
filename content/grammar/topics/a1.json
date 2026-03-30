@@ -1,0 +1,58 @@
+[
+  {
+    "topic_id": "to_be",
+    "level": "A1",
+    "title": "To Be",
+    "order": 1,
+    "is_active": true
+  },
+  {
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "title": "Articles A/An/The",
+    "order": 2,
+    "is_active": true
+  },
+  {
+    "topic_id": "present_simple",
+    "level": "A1",
+    "title": "Present Simple",
+    "order": 3,
+    "is_active": true
+  },
+  {
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "title": "There Is / There Are",
+    "order": 4,
+    "is_active": true
+  },
+  {
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "title": "Personal Pronouns",
+    "order": 5,
+    "is_active": true
+  },
+  {
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "title": "Singular and Plural",
+    "order": 6,
+    "is_active": true
+  },
+  {
+    "topic_id": "possessives",
+    "level": "A1",
+    "title": "Possessives",
+    "order": 7,
+    "is_active": true
+  },
+  {
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "title": "Basic Prepositions of Place",
+    "order": 8,
+    "is_active": true
+  }
+]

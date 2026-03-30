@@ -1,0 +1,20 @@
+{
+  "topic_id": "advanced_modality",
+  "title": "Advanced Modality",
+  "summary": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+  "structure": [
+    "might have done",
+    "should have done",
+    "needn't have done"
+  ],
+  "examples": [
+    "You should have told me.",
+    "They might have missed the train.",
+    "You needn't have bought any food."
+  ],
+  "common_mistakes": [
+    "Using base verb instead of have + V3.",
+    "Confusing didn't need to with needn't have.",
+    "Using to after a modal."
+  ]
+}

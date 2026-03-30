@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "there_is_are_mc_001",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There ___ a book on the table.",
+    "options": [
+      "am",
+      "be",
+      "is",
+      "are"
+    ],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_mc_002",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There ___ many students here.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "be"
+    ],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_mc_003",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There ___ an apple in my bag.",
+    "options": [
+      "are",
+      "am",
+      "is",
+      "be"
+    ],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_mc_004",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There ___ two windows in the room.",
+    "options": [
+      "are",
+      "is",
+      "am",
+      "be"
+    ],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_mc_005",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There ___ some water in the bottle.",
+    "options": [
+      "be",
+      "are",
+      "is",
+      "am"
+    ],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_mc_006",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There ___ three cars outside.",
+    "options": [
+      "are",
+      "is",
+      "be",
+      "am"
+    ],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_mc_007",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There ___ a cat under the chair.",
+    "options": [
+      "is",
+      "be",
+      "are",
+      "am"
+    ],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_mc_008",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There ___ a lot of people at the party.",
+    "options": [
+      "are",
+      "is",
+      "be",
+      "am"
+    ],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_gap_001",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There ___ a book on the table.",
+    "options": [],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_gap_002",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There ___ many students here.",
+    "options": [],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_gap_003",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There ___ an apple in my bag.",
+    "options": [],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_gap_004",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There ___ two windows in the room.",
+    "options": [],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_gap_005",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There ___ some water in the bottle.",
+    "options": [],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_gap_006",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There ___ three cars outside.",
+    "options": [],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_gap_007",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There ___ a cat under the chair.",
+    "options": [],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_gap_008",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There ___ a lot of people at the party.",
+    "options": [],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_trans_001",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: A book is on the desk.",
+    "options": [],
+    "source_sentence": "A book is on the desk.",
+    "instruction": "Rewrite using there is.",
+    "correct_answers": [
+      "There is a book on the desk."
+    ],
+    "accepted_answers": [
+      "There is a book on the desk.",
+      "There is a book on the desk"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_trans_002",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Two dogs are in the yard.",
+    "options": [],
+    "source_sentence": "Two dogs are in the yard.",
+    "instruction": "Rewrite using there are.",
+    "correct_answers": [
+      "There are two dogs in the yard."
+    ],
+    "accepted_answers": [
+      "There are two dogs in the yard.",
+      "There are two dogs in the yard"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_trans_003",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: There is a bank near here.",
+    "options": [],
+    "source_sentence": "There is a bank near here.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Is there a bank near here?"
+    ],
+    "accepted_answers": [
+      "Is there a bank near here?",
+      "Is there a bank near here?"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "there_is_are_trans_004",
+    "topic_id": "there_is_are",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: There are many chairs in the room.",
+    "options": [],
+    "source_sentence": "There are many chairs in the room.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Are there many chairs in the room?"
+    ],
+    "accepted_answers": [
+      "Are there many chairs in the room?",
+      "Are there many chairs in the room?"
+    ],
+    "explanation_template": "Use there is for singular nouns and there are for plural nouns when introducing things.",
+    "mistake_type": "there_is_are",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

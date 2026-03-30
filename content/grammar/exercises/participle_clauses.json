@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "participle_clauses_mc_001",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "___ down the street, I saw an old friend.",
+    "options": [
+      "Walk",
+      "Having walk",
+      "Walking",
+      "Walked"
+    ],
+    "correct_answers": [
+      "Walking"
+    ],
+    "accepted_answers": [
+      "Walking"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_mc_002",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "___ in 1920, the house still looks elegant.",
+    "options": [
+      "Build",
+      "Having build",
+      "Building",
+      "Built"
+    ],
+    "correct_answers": [
+      "Built"
+    ],
+    "accepted_answers": [
+      "Built"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_mc_003",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "___ the task, she went home.",
+    "options": [
+      "Having finish",
+      "Finishing",
+      "Having finished",
+      "Finished"
+    ],
+    "correct_answers": [
+      "Having finished"
+    ],
+    "accepted_answers": [
+      "Having finished"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_mc_004",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "___ by the noise, he looked outside.",
+    "options": [
+      "Disturb",
+      "Disturbed",
+      "Disturbing",
+      "Having disturb"
+    ],
+    "correct_answers": [
+      "Disturbed"
+    ],
+    "accepted_answers": [
+      "Disturbed"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_mc_005",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "___ at the map, we found the station.",
+    "options": [
+      "Looked",
+      "Look",
+      "Having look",
+      "Looking"
+    ],
+    "correct_answers": [
+      "Looking"
+    ],
+    "accepted_answers": [
+      "Looking"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_mc_006",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "___ in several languages, the book became famous.",
+    "options": [
+      "Written",
+      "Having write",
+      "Write",
+      "Writing"
+    ],
+    "correct_answers": [
+      "Written"
+    ],
+    "accepted_answers": [
+      "Written"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_mc_007",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "___ her answer, she felt relieved.",
+    "options": [
+      "Submitting",
+      "Having submitted",
+      "Having submit",
+      "Submitted"
+    ],
+    "correct_answers": [
+      "Having submitted"
+    ],
+    "accepted_answers": [
+      "Having submitted"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_mc_008",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "___ by sunlight, the room felt warm.",
+    "options": [
+      "Having light",
+      "Lighting",
+      "Light",
+      "Lit"
+    ],
+    "correct_answers": [
+      "Lit"
+    ],
+    "accepted_answers": [
+      "Lit"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_gap_001",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ down the street, I saw an old friend.",
+    "options": [],
+    "correct_answers": [
+      "Walking"
+    ],
+    "accepted_answers": [
+      "Walking"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_gap_002",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ in 1920, the house still looks elegant.",
+    "options": [],
+    "correct_answers": [
+      "Built"
+    ],
+    "accepted_answers": [
+      "Built"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_gap_003",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ the task, she went home.",
+    "options": [],
+    "correct_answers": [
+      "Having finished"
+    ],
+    "accepted_answers": [
+      "Having finished"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_gap_004",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ by the noise, he looked outside.",
+    "options": [],
+    "correct_answers": [
+      "Disturbed"
+    ],
+    "accepted_answers": [
+      "Disturbed"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_gap_005",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ at the map, we found the station.",
+    "options": [],
+    "correct_answers": [
+      "Looking"
+    ],
+    "accepted_answers": [
+      "Looking"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_gap_006",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ in several languages, the book became famous.",
+    "options": [],
+    "correct_answers": [
+      "Written"
+    ],
+    "accepted_answers": [
+      "Written"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_gap_007",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ her answer, she felt relieved.",
+    "options": [],
+    "correct_answers": [
+      "Having submitted"
+    ],
+    "accepted_answers": [
+      "Having submitted"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_gap_008",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ by sunlight, the room felt warm.",
+    "options": [],
+    "correct_answers": [
+      "Lit"
+    ],
+    "accepted_answers": [
+      "Lit"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_trans_001",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: When I was walking down the street, I saw an old friend.",
+    "options": [],
+    "source_sentence": "When I was walking down the street, I saw an old friend.",
+    "instruction": "Rewrite with a participle clause.",
+    "correct_answers": [
+      "Walking down the street, I saw an old friend."
+    ],
+    "accepted_answers": [
+      "Walking down the street, I saw an old friend.",
+      "Walking down the street, I saw an old friend"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_trans_002",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Because it was built in 1920, the house looks elegant.",
+    "options": [],
+    "source_sentence": "Because it was built in 1920, the house looks elegant.",
+    "instruction": "Rewrite with a participle clause.",
+    "correct_answers": [
+      "Built in 1920, the house looks elegant."
+    ],
+    "accepted_answers": [
+      "Built in 1920, the house looks elegant.",
+      "Built in 1920, the house looks elegant"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_trans_003",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: After she had finished the task, she went home.",
+    "options": [],
+    "source_sentence": "After she had finished the task, she went home.",
+    "instruction": "Rewrite with a participle clause.",
+    "correct_answers": [
+      "Having finished the task, she went home."
+    ],
+    "accepted_answers": [
+      "Having finished the task, she went home.",
+      "Having finished the task, she went home"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "participle_clauses_trans_004",
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Because he was disturbed by the noise, he looked outside.",
+    "options": [],
+    "source_sentence": "Because he was disturbed by the noise, he looked outside.",
+    "instruction": "Rewrite with a participle clause.",
+    "correct_answers": [
+      "Disturbed by the noise, he looked outside."
+    ],
+    "accepted_answers": [
+      "Disturbed by the noise, he looked outside.",
+      "Disturbed by the noise, he looked outside"
+    ],
+    "explanation_template": "Use participle clauses to make sentences shorter and more formal.",
+    "mistake_type": "participle_clause_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

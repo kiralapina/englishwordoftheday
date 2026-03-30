@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "personal_pronouns_mc_001",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "___ is my brother.",
+    "options": [
+      "His",
+      "He",
+      "They",
+      "Him"
+    ],
+    "correct_answers": [
+      "He"
+    ],
+    "accepted_answers": [
+      "He"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_mc_002",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "___ are from Italy.",
+    "options": [
+      "They",
+      "Their",
+      "Them",
+      "It"
+    ],
+    "correct_answers": [
+      "They"
+    ],
+    "accepted_answers": [
+      "They"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_mc_003",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "___ am very tired.",
+    "options": [
+      "I",
+      "Me",
+      "She",
+      "My"
+    ],
+    "correct_answers": [
+      "I"
+    ],
+    "accepted_answers": [
+      "I"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_mc_004",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "___ is a big dog.",
+    "options": [
+      "It",
+      "They",
+      "Its",
+      "Them"
+    ],
+    "correct_answers": [
+      "It"
+    ],
+    "accepted_answers": [
+      "It"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_mc_005",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "___ are late again.",
+    "options": [
+      "He",
+      "Yours",
+      "You",
+      "Your"
+    ],
+    "correct_answers": [
+      "You"
+    ],
+    "accepted_answers": [
+      "You"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_mc_006",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "___ live in Madrid.",
+    "options": [
+      "Our",
+      "It",
+      "Us",
+      "We"
+    ],
+    "correct_answers": [
+      "We"
+    ],
+    "accepted_answers": [
+      "We"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_mc_007",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "___ is my English teacher.",
+    "options": [
+      "She",
+      "They",
+      "Her",
+      "Hers"
+    ],
+    "correct_answers": [
+      "She"
+    ],
+    "accepted_answers": [
+      "She"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_mc_008",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "___ is on the chair.",
+    "options": [
+      "Them",
+      "We",
+      "It",
+      "Its"
+    ],
+    "correct_answers": [
+      "It"
+    ],
+    "accepted_answers": [
+      "It"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_gap_001",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ is my brother.",
+    "options": [],
+    "correct_answers": [
+      "He"
+    ],
+    "accepted_answers": [
+      "He"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_gap_002",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ are from Italy.",
+    "options": [],
+    "correct_answers": [
+      "They"
+    ],
+    "accepted_answers": [
+      "They"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_gap_003",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ am very tired.",
+    "options": [],
+    "correct_answers": [
+      "I"
+    ],
+    "accepted_answers": [
+      "I"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_gap_004",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ is a big dog.",
+    "options": [],
+    "correct_answers": [
+      "It"
+    ],
+    "accepted_answers": [
+      "It"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_gap_005",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ are late again.",
+    "options": [],
+    "correct_answers": [
+      "You"
+    ],
+    "accepted_answers": [
+      "You"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_gap_006",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ live in Madrid.",
+    "options": [],
+    "correct_answers": [
+      "We"
+    ],
+    "accepted_answers": [
+      "We"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_gap_007",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ is my English teacher.",
+    "options": [],
+    "correct_answers": [
+      "She"
+    ],
+    "accepted_answers": [
+      "She"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_gap_008",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ is on the chair.",
+    "options": [],
+    "correct_answers": [
+      "It"
+    ],
+    "accepted_answers": [
+      "It"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_trans_001",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Anna is my friend.",
+    "options": [],
+    "source_sentence": "Anna is my friend.",
+    "instruction": "Replace the name with a pronoun.",
+    "correct_answers": [
+      "She is my friend."
+    ],
+    "accepted_answers": [
+      "She is my friend.",
+      "She is my friend"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_trans_002",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Tom and I are ready.",
+    "options": [],
+    "source_sentence": "Tom and I are ready.",
+    "instruction": "Replace the names with a pronoun.",
+    "correct_answers": [
+      "We are ready."
+    ],
+    "accepted_answers": [
+      "We are ready.",
+      "We are ready"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_trans_003",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The book is new.",
+    "options": [],
+    "source_sentence": "The book is new.",
+    "instruction": "Replace the noun with a pronoun.",
+    "correct_answers": [
+      "It is new."
+    ],
+    "accepted_answers": [
+      "It is new.",
+      "It is new"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "personal_pronouns_trans_004",
+    "topic_id": "personal_pronouns",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: My parents are busy.",
+    "options": [],
+    "source_sentence": "My parents are busy.",
+    "instruction": "Replace the noun phrase with a pronoun.",
+    "correct_answers": [
+      "They are busy."
+    ],
+    "accepted_answers": [
+      "They are busy.",
+      "They are busy"
+    ],
+    "explanation_template": "Use subject pronouns like I, you, he, she, it, we, and they as the subject of the sentence.",
+    "mistake_type": "personal_pronoun_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "topic_id": "cleft_sentences",
+  "title": "Cleft Sentences",
+  "summary": "Use cleft sentences to emphasize one part of a sentence.",
+  "structure": [
+    "It was X that...",
+    "What I need is..."
+  ],
+  "examples": [
+    "It was John who called.",
+    "What I need is a break.",
+    "The reason why I left was the noise."
+  ],
+  "common_mistakes": [
+    "Keeping normal word order after it was.",
+    "Using the wrong cleft pattern.",
+    "Overusing clefts in very simple contexts."
+  ]
+}

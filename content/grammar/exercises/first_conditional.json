@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "first_conditional_mc_001",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "If it rains, we ___ at home.",
+    "options": [
+      "will stay",
+      "will stays",
+      "stays",
+      "stay"
+    ],
+    "correct_answers": [
+      "will stay"
+    ],
+    "accepted_answers": [
+      "will stay"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_mc_002",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "She will pass if she ___ hard.",
+    "options": [
+      "studied",
+      "study",
+      "will study",
+      "studies"
+    ],
+    "correct_answers": [
+      "studies"
+    ],
+    "accepted_answers": [
+      "studies"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_mc_003",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "If I ___ late, I will text you.",
+    "options": [
+      "was",
+      "will be",
+      "be",
+      "am"
+    ],
+    "correct_answers": [
+      "am"
+    ],
+    "accepted_answers": [
+      "am"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_mc_004",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "They will buy the house if the bank ___ yes.",
+    "options": [
+      "say",
+      "says",
+      "said",
+      "will say"
+    ],
+    "correct_answers": [
+      "says"
+    ],
+    "accepted_answers": [
+      "says"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_mc_005",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "If you hurry, you ___ the bus.",
+    "options": [
+      "will catch",
+      "catches",
+      "will catches",
+      "catch"
+    ],
+    "correct_answers": [
+      "will catch"
+    ],
+    "accepted_answers": [
+      "will catch"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_mc_006",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "We will go outside if the sun ___.",
+    "options": [
+      "shines",
+      "shined",
+      "will shine",
+      "shine"
+    ],
+    "correct_answers": [
+      "shines"
+    ],
+    "accepted_answers": [
+      "shines"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_mc_007",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "If he ___ enough money, he will travel.",
+    "options": [
+      "will save",
+      "saves",
+      "saved",
+      "save"
+    ],
+    "correct_answers": [
+      "saves"
+    ],
+    "accepted_answers": [
+      "saves"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_mc_008",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "I will cook dinner if you ___ home early.",
+    "options": [
+      "will come",
+      "come",
+      "comes",
+      "came"
+    ],
+    "correct_answers": [
+      "come"
+    ],
+    "accepted_answers": [
+      "come"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_gap_001",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "If it rains, we ___ at home.",
+    "options": [],
+    "correct_answers": [
+      "will stay"
+    ],
+    "accepted_answers": [
+      "will stay"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_gap_002",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "She will pass if she ___ hard.",
+    "options": [],
+    "correct_answers": [
+      "studies"
+    ],
+    "accepted_answers": [
+      "studies"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_gap_003",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "If I ___ late, I will text you.",
+    "options": [],
+    "correct_answers": [
+      "am"
+    ],
+    "accepted_answers": [
+      "am"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_gap_004",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "They will buy the house if the bank ___ yes.",
+    "options": [],
+    "correct_answers": [
+      "says"
+    ],
+    "accepted_answers": [
+      "says"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_gap_005",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "If you hurry, you ___ the bus.",
+    "options": [],
+    "correct_answers": [
+      "will catch"
+    ],
+    "accepted_answers": [
+      "will catch"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_gap_006",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "We will go outside if the sun ___.",
+    "options": [],
+    "correct_answers": [
+      "shines"
+    ],
+    "accepted_answers": [
+      "shines"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_gap_007",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "If he ___ enough money, he will travel.",
+    "options": [],
+    "correct_answers": [
+      "saves"
+    ],
+    "accepted_answers": [
+      "saves"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_gap_008",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "I will cook dinner if you ___ home early.",
+    "options": [],
+    "correct_answers": [
+      "come"
+    ],
+    "accepted_answers": [
+      "come"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_trans_001",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Study hard or you will fail.",
+    "options": [],
+    "source_sentence": "Study hard or you will fail.",
+    "instruction": "Rewrite using if.",
+    "correct_answers": [
+      "If you study hard, you will not fail."
+    ],
+    "accepted_answers": [
+      "If you study hard, you will not fail.",
+      "If you study hard, you will not fail"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_trans_002",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I will call you if I am free.",
+    "options": [],
+    "source_sentence": "I will call you if I am free.",
+    "instruction": "Rewrite with the if-clause first.",
+    "correct_answers": [
+      "If I am free, I will call you."
+    ],
+    "accepted_answers": [
+      "If I am free, I will call you.",
+      "If I am free, I will call you"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_trans_003",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: If she is tired, she will rest.",
+    "options": [],
+    "source_sentence": "If she is tired, she will rest.",
+    "instruction": "Rewrite as a negative result.",
+    "correct_answers": [
+      "If she is tired, she will not work."
+    ],
+    "accepted_answers": [
+      "If she is tired, she will not work.",
+      "If she is tired, she will not work"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "first_conditional_trans_004",
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: We will stay home if it rains.",
+    "options": [],
+    "source_sentence": "We will stay home if it rains.",
+    "instruction": "Rewrite with the if-clause first.",
+    "correct_answers": [
+      "If it rains, we will stay home."
+    ],
+    "accepted_answers": [
+      "If it rains, we will stay home.",
+      "If it rains, we will stay home"
+    ],
+    "explanation_template": "Use the first conditional for real future possibilities.",
+    "mistake_type": "conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "topic_id": "modals_advice_obligation",
+  "title": "Modals of Advice and Obligation",
+  "summary": "Use should for advice and must / have to for obligation.",
+  "structure": [
+    "should + verb",
+    "must + verb",
+    "have to + verb"
+  ],
+  "examples": [
+    "You should rest.",
+    "I must leave now.",
+    "She has to work tomorrow."
+  ],
+  "common_mistakes": [
+    "Using to after should or must.",
+    "Confusing must and have to.",
+    "Adding -s after a modal."
+  ]
+}

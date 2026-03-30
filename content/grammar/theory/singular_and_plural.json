@@ -1,0 +1,19 @@
+{
+  "topic_id": "singular_and_plural",
+  "title": "Singular and Plural",
+  "summary": "Use singular nouns for one thing and plural nouns for two or more things.",
+  "structure": [
+    "one book / two books",
+    "one child / two children"
+  ],
+  "examples": [
+    "I have one cat.",
+    "She has two bags.",
+    "The children are outside."
+  ],
+  "common_mistakes": [
+    "Forgetting -s in regular plurals.",
+    "Using one with plural nouns.",
+    "Missing irregular plural forms."
+  ]
+}

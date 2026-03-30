@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "present_perfect_vs_past_simple_mc_001",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "I ___ to Paris last year.",
+    "options": [
+      "go",
+      "went",
+      "have gone",
+      "have been"
+    ],
+    "correct_answers": [
+      "went"
+    ],
+    "accepted_answers": [
+      "went"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_mc_002",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "She ___ never ___ sushi.",
+    "options": [
+      "has eaten",
+      "ate",
+      "have eaten",
+      "has eat"
+    ],
+    "correct_answers": [
+      "has eaten"
+    ],
+    "accepted_answers": [
+      "has eaten"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_mc_003",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "We ___ our homework yesterday.",
+    "options": [
+      "finish",
+      "have finish",
+      "finished",
+      "have finished"
+    ],
+    "correct_answers": [
+      "finished"
+    ],
+    "accepted_answers": [
+      "finished"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_mc_004",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "He ___ just ___.",
+    "options": [
+      "arrived",
+      "has arrived",
+      "has arrive",
+      "have arrived"
+    ],
+    "correct_answers": [
+      "has arrived"
+    ],
+    "accepted_answers": [
+      "has arrived"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_mc_005",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "They ___ this film already.",
+    "options": [
+      "seen",
+      "saw",
+      "have seen",
+      "have saw"
+    ],
+    "correct_answers": [
+      "have seen"
+    ],
+    "accepted_answers": [
+      "have seen"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_mc_006",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "I ___ him two days ago.",
+    "options": [
+      "have met",
+      "met",
+      "have meet",
+      "meet"
+    ],
+    "correct_answers": [
+      "met"
+    ],
+    "accepted_answers": [
+      "met"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_mc_007",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "My sister ___ in London in 2022.",
+    "options": [
+      "has live",
+      "lived",
+      "has lived",
+      "live"
+    ],
+    "correct_answers": [
+      "lived"
+    ],
+    "accepted_answers": [
+      "lived"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_mc_008",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "___ you ever ___ to Berlin?",
+    "options": [
+      "Have been",
+      "Did go",
+      "Have went",
+      "Were gone"
+    ],
+    "correct_answers": [
+      "Have been"
+    ],
+    "accepted_answers": [
+      "Have been"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_gap_001",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ to Paris last year.",
+    "options": [],
+    "correct_answers": [
+      "went"
+    ],
+    "accepted_answers": [
+      "went"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_gap_002",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ never ___ sushi.",
+    "options": [],
+    "correct_answers": [
+      "has eaten"
+    ],
+    "accepted_answers": [
+      "has eaten"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_gap_003",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ our homework yesterday.",
+    "options": [],
+    "correct_answers": [
+      "finished"
+    ],
+    "accepted_answers": [
+      "finished"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_gap_004",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ just ___.",
+    "options": [],
+    "correct_answers": [
+      "has arrived"
+    ],
+    "accepted_answers": [
+      "has arrived"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_gap_005",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "They ___ this film already.",
+    "options": [],
+    "correct_answers": [
+      "have seen"
+    ],
+    "accepted_answers": [
+      "have seen"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_gap_006",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ him two days ago.",
+    "options": [],
+    "correct_answers": [
+      "met"
+    ],
+    "accepted_answers": [
+      "met"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_gap_007",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "My sister ___ in London in 2022.",
+    "options": [],
+    "correct_answers": [
+      "lived"
+    ],
+    "accepted_answers": [
+      "lived"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_gap_008",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ you ever ___ to Berlin?",
+    "options": [],
+    "correct_answers": [
+      "Have been"
+    ],
+    "accepted_answers": [
+      "Have been"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_trans_001",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I have visited London in 2021.",
+    "options": [],
+    "source_sentence": "I have visited London in 2021.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "I visited London in 2021."
+    ],
+    "accepted_answers": [
+      "I visited London in 2021.",
+      "I visited London in 2021"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_trans_002",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She went to Japan before.",
+    "options": [],
+    "source_sentence": "She went to Japan before.",
+    "instruction": "Rewrite for life experience.",
+    "correct_answers": [
+      "She has been to Japan before."
+    ],
+    "accepted_answers": [
+      "She has been to Japan before.",
+      "She has been to Japan before"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_trans_003",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: We have finished it yesterday.",
+    "options": [],
+    "source_sentence": "We have finished it yesterday.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "We finished it yesterday."
+    ],
+    "accepted_answers": [
+      "We finished it yesterday.",
+      "We finished it yesterday"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_vs_past_simple_trans_004",
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Did you ever eat sushi?",
+    "options": [],
+    "source_sentence": "Did you ever eat sushi?",
+    "instruction": "Rewrite with Present Perfect.",
+    "correct_answers": [
+      "Have you ever eaten sushi?"
+    ],
+    "accepted_answers": [
+      "Have you ever eaten sushi?",
+      "Have you ever eaten sushi?"
+    ],
+    "explanation_template": "Use Present Perfect for life experience or unfinished time, and Past Simple for finished past time.",
+    "mistake_type": "pp_vs_past_simple",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "topic_id": "past_simple",
+  "title": "Past Simple",
+  "summary": "Use Past Simple for completed actions in the past.",
+  "structure": [
+    "Regular verbs: verb-ed",
+    "Questions/negatives: did + base verb"
+  ],
+  "examples": [
+    "I visited Rome last year.",
+    "She watched a film yesterday.",
+    "Did you call him?"
+  ],
+  "common_mistakes": [
+    "Using past form after did.",
+    "Forgetting -ed on regular verbs.",
+    "Mixing present and past time markers."
+  ]
+}

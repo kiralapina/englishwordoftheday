@@ -1,0 +1,20 @@
+{
+  "topic_id": "basic_modals",
+  "title": "Basic Modals",
+  "summary": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+  "structure": [
+    "can + verb",
+    "must + verb",
+    "mustn't + verb"
+  ],
+  "examples": [
+    "She can swim.",
+    "You must stop here.",
+    "We mustn't be late."
+  ],
+  "common_mistakes": [
+    "Adding to after a modal.",
+    "Using -s after can or must.",
+    "Confusing can't and mustn't."
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "topic_id": "inversion",
+    "level": "C1",
+    "title": "Inversion",
+    "order": 1,
+    "is_active": true
+  },
+  {
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "title": "Advanced Conditionals",
+    "order": 2,
+    "is_active": true
+  },
+  {
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "title": "Cleft Sentences",
+    "order": 3,
+    "is_active": true
+  },
+  {
+    "topic_id": "participle_clauses",
+    "level": "C1",
+    "title": "Participle Clauses",
+    "order": 4,
+    "is_active": true
+  },
+  {
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "title": "Ellipsis and Substitution",
+    "order": 5,
+    "is_active": true
+  },
+  {
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "title": "Advanced Modality",
+    "order": 6,
+    "is_active": true
+  },
+  {
+    "topic_id": "hedging",
+    "level": "C1",
+    "title": "Hedging",
+    "order": 7,
+    "is_active": true
+  },
+  {
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "title": "Formal Linking Devices",
+    "order": 8,
+    "is_active": true
+  }
+]

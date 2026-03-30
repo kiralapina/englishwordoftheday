@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "basic_prepositions_of_place_mc_001",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "The book is ___ the table.",
+    "options": [
+      "between",
+      "on",
+      "in",
+      "under"
+    ],
+    "correct_answers": [
+      "on"
+    ],
+    "accepted_answers": [
+      "on"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_mc_002",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "The shoes are ___ the bed.",
+    "options": [
+      "in",
+      "under",
+      "on",
+      "between"
+    ],
+    "correct_answers": [
+      "under"
+    ],
+    "accepted_answers": [
+      "under"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_mc_003",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "The milk is ___ the fridge.",
+    "options": [
+      "on",
+      "between",
+      "in",
+      "under"
+    ],
+    "correct_answers": [
+      "in"
+    ],
+    "accepted_answers": [
+      "in"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_mc_004",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "The bank is ___ the cafe.",
+    "options": [
+      "in",
+      "next to",
+      "under",
+      "on"
+    ],
+    "correct_answers": [
+      "next to"
+    ],
+    "accepted_answers": [
+      "next to"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_mc_005",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "The ball is ___ the chair and the table.",
+    "options": [
+      "between",
+      "in",
+      "on",
+      "behind"
+    ],
+    "correct_answers": [
+      "between"
+    ],
+    "accepted_answers": [
+      "between"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_mc_006",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "The car is ___ the house.",
+    "options": [
+      "behind",
+      "on",
+      "in",
+      "between"
+    ],
+    "correct_answers": [
+      "behind"
+    ],
+    "accepted_answers": [
+      "behind"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_mc_007",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "The picture is ___ the wall.",
+    "options": [
+      "under",
+      "in",
+      "on",
+      "between"
+    ],
+    "correct_answers": [
+      "on"
+    ],
+    "accepted_answers": [
+      "on"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_mc_008",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "My phone is ___ my bag.",
+    "options": [
+      "between",
+      "in",
+      "behind",
+      "on"
+    ],
+    "correct_answers": [
+      "in"
+    ],
+    "accepted_answers": [
+      "in"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_gap_001",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "The book is ___ the table.",
+    "options": [],
+    "correct_answers": [
+      "on"
+    ],
+    "accepted_answers": [
+      "on"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_gap_002",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "The shoes are ___ the bed.",
+    "options": [],
+    "correct_answers": [
+      "under"
+    ],
+    "accepted_answers": [
+      "under"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_gap_003",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "The milk is ___ the fridge.",
+    "options": [],
+    "correct_answers": [
+      "in"
+    ],
+    "accepted_answers": [
+      "in"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_gap_004",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "The bank is ___ the cafe.",
+    "options": [],
+    "correct_answers": [
+      "next to"
+    ],
+    "accepted_answers": [
+      "next to"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_gap_005",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "The ball is ___ the chair and the table.",
+    "options": [],
+    "correct_answers": [
+      "between"
+    ],
+    "accepted_answers": [
+      "between"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_gap_006",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "The car is ___ the house.",
+    "options": [],
+    "correct_answers": [
+      "behind"
+    ],
+    "accepted_answers": [
+      "behind"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_gap_007",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "The picture is ___ the wall.",
+    "options": [],
+    "correct_answers": [
+      "on"
+    ],
+    "accepted_answers": [
+      "on"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_gap_008",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "My phone is ___ my bag.",
+    "options": [],
+    "correct_answers": [
+      "in"
+    ],
+    "accepted_answers": [
+      "in"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_trans_001",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The cat is under the chair.",
+    "options": [],
+    "source_sentence": "The cat is under the chair.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Is the cat under the chair?"
+    ],
+    "accepted_answers": [
+      "Is the cat under the chair?",
+      "Is the cat under the chair?"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_trans_002",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The keys are on the desk.",
+    "options": [],
+    "source_sentence": "The keys are on the desk.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "The keys are not on the desk."
+    ],
+    "accepted_answers": [
+      "The keys are not on the desk.",
+      "The keys are not on the desk"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_trans_003",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The shop is next to the bank.",
+    "options": [],
+    "source_sentence": "The shop is next to the bank.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Is the shop next to the bank?"
+    ],
+    "accepted_answers": [
+      "Is the shop next to the bank?",
+      "Is the shop next to the bank?"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_prepositions_of_place_trans_004",
+    "topic_id": "basic_prepositions_of_place",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The ball is in the box.",
+    "options": [],
+    "source_sentence": "The ball is in the box.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "The ball is not in the box."
+    ],
+    "accepted_answers": [
+      "The ball is not in the box.",
+      "The ball is not in the box"
+    ],
+    "explanation_template": "Use in, on, under, next to, between, and behind to describe where things are.",
+    "mistake_type": "preposition_of_place",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

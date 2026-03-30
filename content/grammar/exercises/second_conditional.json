@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "second_conditional_mc_001",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If I ___ rich, I would travel more.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "would be"
+    ],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_mc_002",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "She would call you if she ___ your number.",
+    "options": [
+      "would have",
+      "has",
+      "have",
+      "had"
+    ],
+    "correct_answers": [
+      "had"
+    ],
+    "accepted_answers": [
+      "had"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_mc_003",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If we lived near the sea, we ___ every day.",
+    "options": [
+      "would swam",
+      "would swim",
+      "will swim",
+      "swam"
+    ],
+    "correct_answers": [
+      "would swim"
+    ],
+    "accepted_answers": [
+      "would swim"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_mc_004",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "He ___ happier if he worked less.",
+    "options": [
+      "would is",
+      "would be",
+      "is",
+      "will be"
+    ],
+    "correct_answers": [
+      "would be"
+    ],
+    "accepted_answers": [
+      "would be"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_mc_005",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If they ___ more time, they would join us.",
+    "options": [
+      "had",
+      "would have",
+      "has",
+      "have"
+    ],
+    "correct_answers": [
+      "had"
+    ],
+    "accepted_answers": [
+      "had"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_mc_006",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "I would buy it if it ___ cheaper.",
+    "options": [
+      "was",
+      "were",
+      "would be",
+      "is"
+    ],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_mc_007",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If you studied harder, you ___ better marks.",
+    "options": [
+      "would got",
+      "would get",
+      "will get",
+      "got"
+    ],
+    "correct_answers": [
+      "would get"
+    ],
+    "accepted_answers": [
+      "would get"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_mc_008",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "We would stay outside if it ___ warmer.",
+    "options": [
+      "was",
+      "would be",
+      "were",
+      "is"
+    ],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_gap_001",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If I ___ rich, I would travel more.",
+    "options": [],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_gap_002",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "She would call you if she ___ your number.",
+    "options": [],
+    "correct_answers": [
+      "had"
+    ],
+    "accepted_answers": [
+      "had"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_gap_003",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If we lived near the sea, we ___ every day.",
+    "options": [],
+    "correct_answers": [
+      "would swim"
+    ],
+    "accepted_answers": [
+      "would swim"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_gap_004",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ happier if he worked less.",
+    "options": [],
+    "correct_answers": [
+      "would be"
+    ],
+    "accepted_answers": [
+      "would be"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_gap_005",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If they ___ more time, they would join us.",
+    "options": [],
+    "correct_answers": [
+      "had"
+    ],
+    "accepted_answers": [
+      "had"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_gap_006",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "I would buy it if it ___ cheaper.",
+    "options": [],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_gap_007",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If you studied harder, you ___ better marks.",
+    "options": [],
+    "correct_answers": [
+      "would get"
+    ],
+    "accepted_answers": [
+      "would get"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_gap_008",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "We would stay outside if it ___ warmer.",
+    "options": [],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_trans_001",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I do not have time, so I do not travel.",
+    "options": [],
+    "source_sentence": "I do not have time, so I do not travel.",
+    "instruction": "Rewrite using the second conditional.",
+    "correct_answers": [
+      "If I had time, I would travel."
+    ],
+    "accepted_answers": [
+      "If I had time, I would travel.",
+      "If I had time, I would travel"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_trans_002",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She does not know the answer, so she does not help.",
+    "options": [],
+    "source_sentence": "She does not know the answer, so she does not help.",
+    "instruction": "Rewrite using the second conditional.",
+    "correct_answers": [
+      "If she knew the answer, she would help."
+    ],
+    "accepted_answers": [
+      "If she knew the answer, she would help.",
+      "If she knew the answer, she would help"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_trans_003",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: We are not rich, so we do not buy a boat.",
+    "options": [],
+    "source_sentence": "We are not rich, so we do not buy a boat.",
+    "instruction": "Rewrite using the second conditional.",
+    "correct_answers": [
+      "If we were rich, we would buy a boat."
+    ],
+    "accepted_answers": [
+      "If we were rich, we would buy a boat.",
+      "If we were rich, we would buy a boat"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "second_conditional_trans_004",
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He does not live here, so he does not see us often.",
+    "options": [],
+    "source_sentence": "He does not live here, so he does not see us often.",
+    "instruction": "Rewrite using the second conditional.",
+    "correct_answers": [
+      "If he lived here, he would see us often."
+    ],
+    "accepted_answers": [
+      "If he lived here, he would see us often.",
+      "If he lived here, he would see us often"
+    ],
+    "explanation_template": "Use the second conditional for unreal or unlikely present and future situations.",
+    "mistake_type": "second_conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

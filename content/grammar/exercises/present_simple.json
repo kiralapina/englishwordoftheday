@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "present_simple_mc_001",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "She ___ to school every day.",
+    "options": [
+      "gone",
+      "goes",
+      "go",
+      "going"
+    ],
+    "correct_answers": [
+      "goes"
+    ],
+    "accepted_answers": [
+      "goes"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_mc_002",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "They ___ coffee in the morning.",
+    "options": [
+      "drinking",
+      "drinks",
+      "drink",
+      "drank"
+    ],
+    "correct_answers": [
+      "drink"
+    ],
+    "accepted_answers": [
+      "drink"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_mc_003",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "He ___ tennis on Sundays.",
+    "options": [
+      "playing",
+      "plays",
+      "played",
+      "play"
+    ],
+    "correct_answers": [
+      "plays"
+    ],
+    "accepted_answers": [
+      "plays"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_mc_004",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "I ___ my homework after dinner.",
+    "options": [
+      "does",
+      "did",
+      "do",
+      "doing"
+    ],
+    "correct_answers": [
+      "do"
+    ],
+    "accepted_answers": [
+      "do"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_mc_005",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "My brother ___ in London.",
+    "options": [
+      "lived",
+      "living",
+      "live",
+      "lives"
+    ],
+    "correct_answers": [
+      "lives"
+    ],
+    "accepted_answers": [
+      "lives"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_mc_006",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "We ___ English at school.",
+    "options": [
+      "studies",
+      "studying",
+      "studied",
+      "study"
+    ],
+    "correct_answers": [
+      "study"
+    ],
+    "accepted_answers": [
+      "study"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_mc_007",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "Anna ___ TV in the evening.",
+    "options": [
+      "watch",
+      "watched",
+      "watches",
+      "watching"
+    ],
+    "correct_answers": [
+      "watches"
+    ],
+    "accepted_answers": [
+      "watches"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_mc_008",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "You ___ very fast.",
+    "options": [
+      "runs",
+      "run",
+      "running",
+      "ran"
+    ],
+    "correct_answers": [
+      "run"
+    ],
+    "accepted_answers": [
+      "run"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_gap_001",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ to school every day.",
+    "options": [],
+    "correct_answers": [
+      "goes"
+    ],
+    "accepted_answers": [
+      "goes"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_gap_002",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "They ___ coffee in the morning.",
+    "options": [],
+    "correct_answers": [
+      "drink"
+    ],
+    "accepted_answers": [
+      "drink"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_gap_003",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ tennis on Sundays.",
+    "options": [],
+    "correct_answers": [
+      "plays"
+    ],
+    "accepted_answers": [
+      "plays"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_gap_004",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ my homework after dinner.",
+    "options": [],
+    "correct_answers": [
+      "do"
+    ],
+    "accepted_answers": [
+      "do"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_gap_005",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "My brother ___ in London.",
+    "options": [],
+    "correct_answers": [
+      "lives"
+    ],
+    "accepted_answers": [
+      "lives"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_gap_006",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ English at school.",
+    "options": [],
+    "correct_answers": [
+      "study"
+    ],
+    "accepted_answers": [
+      "study"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_gap_007",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "Anna ___ TV in the evening.",
+    "options": [],
+    "correct_answers": [
+      "watches"
+    ],
+    "accepted_answers": [
+      "watches"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_gap_008",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ very fast.",
+    "options": [],
+    "correct_answers": [
+      "run"
+    ],
+    "accepted_answers": [
+      "run"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_trans_001",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She goes to work by bus.",
+    "options": [],
+    "source_sentence": "She goes to work by bus.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "She does not go to work by bus."
+    ],
+    "accepted_answers": [
+      "She does not go to work by bus.",
+      "She does not go to work by bus"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_trans_002",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They play football on Fridays.",
+    "options": [],
+    "source_sentence": "They play football on Fridays.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "They do not play football on Fridays."
+    ],
+    "accepted_answers": [
+      "They do not play football on Fridays.",
+      "They do not play football on Fridays"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_trans_003",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He works at home.",
+    "options": [],
+    "source_sentence": "He works at home.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Does he work at home?"
+    ],
+    "accepted_answers": [
+      "Does he work at home?",
+      "Does he work at home?"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_simple_trans_004",
+    "topic_id": "present_simple",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: You like coffee.",
+    "options": [],
+    "source_sentence": "You like coffee.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Do you like coffee?"
+    ],
+    "accepted_answers": [
+      "Do you like coffee?",
+      "Do you like coffee?"
+    ],
+    "explanation_template": "Use Present Simple for routines, repeated actions, and general facts.",
+    "mistake_type": "subject_verb_agreement",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

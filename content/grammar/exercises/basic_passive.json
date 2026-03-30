@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "basic_passive_mc_001",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "English ___ here.",
+    "options": [
+      "is spoken",
+      "speaks",
+      "is speak",
+      "spoken"
+    ],
+    "correct_answers": [
+      "is spoken"
+    ],
+    "accepted_answers": [
+      "is spoken"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_mc_002",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The cake ___ yesterday.",
+    "options": [
+      "is made",
+      "was made",
+      "made",
+      "was make"
+    ],
+    "correct_answers": [
+      "was made"
+    ],
+    "accepted_answers": [
+      "was made"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_mc_003",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The room ___ every day.",
+    "options": [
+      "cleaned",
+      "is cleaned",
+      "cleans",
+      "is clean"
+    ],
+    "correct_answers": [
+      "is cleaned"
+    ],
+    "accepted_answers": [
+      "is cleaned"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_mc_004",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "Cars ___ in this factory.",
+    "options": [
+      "produced",
+      "are produce",
+      "are produced",
+      "produce"
+    ],
+    "correct_answers": [
+      "are produced"
+    ],
+    "accepted_answers": [
+      "are produced"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_mc_005",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The letters ___ this morning.",
+    "options": [
+      "were send",
+      "are sent",
+      "were sent",
+      "sent"
+    ],
+    "correct_answers": [
+      "were sent"
+    ],
+    "accepted_answers": [
+      "were sent"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_mc_006",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "Rice ___ in many countries.",
+    "options": [
+      "is grow",
+      "grows",
+      "grown",
+      "is grown"
+    ],
+    "correct_answers": [
+      "is grown"
+    ],
+    "accepted_answers": [
+      "is grown"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_mc_007",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The house ___ in 1990.",
+    "options": [
+      "is built",
+      "was built",
+      "built",
+      "was build"
+    ],
+    "correct_answers": [
+      "was built"
+    ],
+    "accepted_answers": [
+      "was built"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_mc_008",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "The windows ___ once a week.",
+    "options": [
+      "wash",
+      "washed",
+      "are washed",
+      "are wash"
+    ],
+    "correct_answers": [
+      "are washed"
+    ],
+    "accepted_answers": [
+      "are washed"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_gap_001",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "English ___ here.",
+    "options": [],
+    "correct_answers": [
+      "is spoken"
+    ],
+    "accepted_answers": [
+      "is spoken"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_gap_002",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The cake ___ yesterday.",
+    "options": [],
+    "correct_answers": [
+      "was made"
+    ],
+    "accepted_answers": [
+      "was made"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_gap_003",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The room ___ every day.",
+    "options": [],
+    "correct_answers": [
+      "is cleaned"
+    ],
+    "accepted_answers": [
+      "is cleaned"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_gap_004",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "Cars ___ in this factory.",
+    "options": [],
+    "correct_answers": [
+      "are produced"
+    ],
+    "accepted_answers": [
+      "are produced"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_gap_005",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The letters ___ this morning.",
+    "options": [],
+    "correct_answers": [
+      "were sent"
+    ],
+    "accepted_answers": [
+      "were sent"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_gap_006",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "Rice ___ in many countries.",
+    "options": [],
+    "correct_answers": [
+      "is grown"
+    ],
+    "accepted_answers": [
+      "is grown"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_gap_007",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The house ___ in 1990.",
+    "options": [],
+    "correct_answers": [
+      "was built"
+    ],
+    "accepted_answers": [
+      "was built"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_gap_008",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "The windows ___ once a week.",
+    "options": [],
+    "correct_answers": [
+      "are washed"
+    ],
+    "accepted_answers": [
+      "are washed"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_trans_001",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: People speak English here.",
+    "options": [],
+    "source_sentence": "People speak English here.",
+    "instruction": "Rewrite in the passive.",
+    "correct_answers": [
+      "English is spoken here."
+    ],
+    "accepted_answers": [
+      "English is spoken here.",
+      "English is spoken here"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_trans_002",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They built the house in 1990.",
+    "options": [],
+    "source_sentence": "They built the house in 1990.",
+    "instruction": "Rewrite in the passive.",
+    "correct_answers": [
+      "The house was built in 1990."
+    ],
+    "accepted_answers": [
+      "The house was built in 1990.",
+      "The house was built in 1990"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_trans_003",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Someone cleaned the room.",
+    "options": [],
+    "source_sentence": "Someone cleaned the room.",
+    "instruction": "Rewrite in the passive.",
+    "correct_answers": [
+      "The room was cleaned."
+    ],
+    "accepted_answers": [
+      "The room was cleaned.",
+      "The room was cleaned"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_passive_trans_004",
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They send the emails every day.",
+    "options": [],
+    "source_sentence": "They send the emails every day.",
+    "instruction": "Rewrite in the passive.",
+    "correct_answers": [
+      "The emails are sent every day."
+    ],
+    "accepted_answers": [
+      "The emails are sent every day.",
+      "The emails are sent every day"
+    ],
+    "explanation_template": "Use the passive when the action is more important than the doer.",
+    "mistake_type": "passive_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "topic_id": "relative_clauses",
+  "title": "Relative Clauses",
+  "summary": "Use who, which, that, and where to add information about a person, thing, or place.",
+  "structure": [
+    "the man who...",
+    "the book that...",
+    "the place where..."
+  ],
+  "examples": [
+    "The woman who lives next door is a doctor.",
+    "This is the book that I bought.",
+    "That is the cafe where we met."
+  ],
+  "common_mistakes": [
+    "Using which for people.",
+    "Forgetting the relative pronoun.",
+    "Using where for things."
+  ]
+}

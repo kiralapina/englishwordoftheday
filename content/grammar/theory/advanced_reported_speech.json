@@ -1,0 +1,20 @@
+{
+  "topic_id": "advanced_reported_speech",
+  "title": "Advanced Reported Speech",
+  "summary": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+  "structure": [
+    "told me to...",
+    "asked if...",
+    "explained that..."
+  ],
+  "examples": [
+    "She told me to wait.",
+    "He asked if I was ready.",
+    "They warned us not to be late."
+  ],
+  "common_mistakes": [
+    "Using normal question order after asked.",
+    "Forgetting to-infinitive after tell or ask for commands.",
+    "Using say with an object in the wrong way."
+  ]
+}

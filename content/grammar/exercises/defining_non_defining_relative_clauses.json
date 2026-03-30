@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_mc_001",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "My sister, ___ lives in Rome, is visiting us.",
+    "options": [
+      "that",
+      "who",
+      "whose place",
+      "where"
+    ],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_mc_002",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The book ___ you gave me is excellent.",
+    "options": [
+      "that",
+      "where",
+      "which one there",
+      "who"
+    ],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_mc_003",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "Paris, ___ is very beautiful, is expensive.",
+    "options": [
+      "whose",
+      "that",
+      "where",
+      "which"
+    ],
+    "correct_answers": [
+      "which"
+    ],
+    "accepted_answers": [
+      "which"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_mc_004",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The students ___ arrive late must wait outside.",
+    "options": [
+      "where",
+      "whose",
+      "which",
+      "who"
+    ],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_mc_005",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "My laptop, ___ I bought last year, still works well.",
+    "options": [
+      "that",
+      "whose",
+      "which",
+      "where"
+    ],
+    "correct_answers": [
+      "which"
+    ],
+    "accepted_answers": [
+      "which"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_mc_006",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The cafe ___ serves vegan food is near here.",
+    "options": [
+      "which one",
+      "that",
+      "where there",
+      "who"
+    ],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_mc_007",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "My friend, ___ father is a pilot, travels a lot.",
+    "options": [
+      "who",
+      "where",
+      "whose",
+      "that"
+    ],
+    "correct_answers": [
+      "whose"
+    ],
+    "accepted_answers": [
+      "whose"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_mc_008",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The office ___ we work is on the fifth floor.",
+    "options": [
+      "where",
+      "who",
+      "that person",
+      "whose"
+    ],
+    "correct_answers": [
+      "where"
+    ],
+    "accepted_answers": [
+      "where"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_gap_001",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "My sister, ___ lives in Rome, is visiting us.",
+    "options": [],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_gap_002",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The book ___ you gave me is excellent.",
+    "options": [],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_gap_003",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "Paris, ___ is very beautiful, is expensive.",
+    "options": [],
+    "correct_answers": [
+      "which"
+    ],
+    "accepted_answers": [
+      "which"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_gap_004",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The students ___ arrive late must wait outside.",
+    "options": [],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_gap_005",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "My laptop, ___ I bought last year, still works well.",
+    "options": [],
+    "correct_answers": [
+      "which"
+    ],
+    "accepted_answers": [
+      "which"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_gap_006",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The cafe ___ serves vegan food is near here.",
+    "options": [],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_gap_007",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "My friend, ___ father is a pilot, travels a lot.",
+    "options": [],
+    "correct_answers": [
+      "whose"
+    ],
+    "accepted_answers": [
+      "whose"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_gap_008",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The office ___ we work is on the fifth floor.",
+    "options": [],
+    "correct_answers": [
+      "where"
+    ],
+    "accepted_answers": [
+      "where"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_trans_001",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: My sister lives in Rome. She is visiting us.",
+    "options": [],
+    "source_sentence": "My sister lives in Rome. She is visiting us.",
+    "instruction": "Join with a non-defining relative clause.",
+    "correct_answers": [
+      "My sister, who lives in Rome, is visiting us."
+    ],
+    "accepted_answers": [
+      "My sister, who lives in Rome, is visiting us.",
+      "My sister, who lives in Rome, is visiting us"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_trans_002",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The book is excellent. You gave it to me.",
+    "options": [],
+    "source_sentence": "The book is excellent. You gave it to me.",
+    "instruction": "Join with a defining relative clause.",
+    "correct_answers": [
+      "The book that you gave me is excellent."
+    ],
+    "accepted_answers": [
+      "The book that you gave me is excellent.",
+      "The book that you gave me is excellent"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_trans_003",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: My friend has a father. His father is a pilot.",
+    "options": [],
+    "source_sentence": "My friend has a father. His father is a pilot.",
+    "instruction": "Rewrite with whose.",
+    "correct_answers": [
+      "My friend, whose father is a pilot, travels a lot."
+    ],
+    "accepted_answers": [
+      "My friend, whose father is a pilot, travels a lot.",
+      "My friend, whose father is a pilot, travels a lot"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "defining_non_defining_relative_clauses_trans_004",
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The cafe is near here. It serves vegan food.",
+    "options": [],
+    "source_sentence": "The cafe is near here. It serves vegan food.",
+    "instruction": "Join with a defining relative clause.",
+    "correct_answers": [
+      "The cafe that serves vegan food is near here."
+    ],
+    "accepted_answers": [
+      "The cafe that serves vegan food is near here.",
+      "The cafe that serves vegan food is near here"
+    ],
+    "explanation_template": "Use defining clauses for essential information and non-defining clauses for extra information, usually with commas.",
+    "mistake_type": "relative_clause_type",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

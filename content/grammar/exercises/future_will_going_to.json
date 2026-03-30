@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "future_will_going_to_mc_001",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Look at the clouds. It ___ rain.",
+    "options": [
+      "will",
+      "is going to",
+      "is",
+      "going"
+    ],
+    "correct_answers": [
+      "is going to"
+    ],
+    "accepted_answers": [
+      "is going to"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_mc_002",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I forgot my bag. I ___ go back.",
+    "options": [
+      "am going to",
+      "will to",
+      "going",
+      "will"
+    ],
+    "correct_answers": [
+      "will"
+    ],
+    "accepted_answers": [
+      "will"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_mc_003",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "She ___ visit her aunt next weekend.",
+    "options": [
+      "going",
+      "is",
+      "is going to",
+      "will"
+    ],
+    "correct_answers": [
+      "is going to"
+    ],
+    "accepted_answers": [
+      "is going to"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_mc_004",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Don’t worry. I ___ help you.",
+    "options": [
+      "will",
+      "am going to",
+      "will to",
+      "going"
+    ],
+    "correct_answers": [
+      "will"
+    ],
+    "accepted_answers": [
+      "will"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_mc_005",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "They bought tickets. They ___ travel tomorrow.",
+    "options": [
+      "are going to",
+      "going",
+      "will",
+      "are"
+    ],
+    "correct_answers": [
+      "are going to"
+    ],
+    "accepted_answers": [
+      "are going to"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_mc_006",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I think you ___ like this film.",
+    "options": [
+      "will to",
+      "going",
+      "are going to",
+      "will"
+    ],
+    "correct_answers": [
+      "will"
+    ],
+    "accepted_answers": [
+      "will"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_mc_007",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "We ___ move house next month.",
+    "options": [
+      "going",
+      "are going to",
+      "will",
+      "are"
+    ],
+    "correct_answers": [
+      "are going to"
+    ],
+    "accepted_answers": [
+      "are going to"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_mc_008",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "The phone is ringing. I ___ answer it.",
+    "options": [
+      "am going to",
+      "going",
+      "will",
+      "will to"
+    ],
+    "correct_answers": [
+      "will"
+    ],
+    "accepted_answers": [
+      "will"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_gap_001",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Look at the clouds. It ___ rain.",
+    "options": [],
+    "correct_answers": [
+      "is going to"
+    ],
+    "accepted_answers": [
+      "is going to"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_gap_002",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I forgot my bag. I ___ go back.",
+    "options": [],
+    "correct_answers": [
+      "will"
+    ],
+    "accepted_answers": [
+      "will"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_gap_003",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ visit her aunt next weekend.",
+    "options": [],
+    "correct_answers": [
+      "is going to"
+    ],
+    "accepted_answers": [
+      "is going to"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_gap_004",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Don’t worry. I ___ help you.",
+    "options": [],
+    "correct_answers": [
+      "will"
+    ],
+    "accepted_answers": [
+      "will"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_gap_005",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "They bought tickets. They ___ travel tomorrow.",
+    "options": [],
+    "correct_answers": [
+      "are going to"
+    ],
+    "accepted_answers": [
+      "are going to"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_gap_006",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I think you ___ like this film.",
+    "options": [],
+    "correct_answers": [
+      "will"
+    ],
+    "accepted_answers": [
+      "will"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_gap_007",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ move house next month.",
+    "options": [],
+    "correct_answers": [
+      "are going to"
+    ],
+    "accepted_answers": [
+      "are going to"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_gap_008",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "The phone is ringing. I ___ answer it.",
+    "options": [],
+    "correct_answers": [
+      "will"
+    ],
+    "accepted_answers": [
+      "will"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_trans_001",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She plans to study tonight.",
+    "options": [],
+    "source_sentence": "She plans to study tonight.",
+    "instruction": "Rewrite using going to.",
+    "correct_answers": [
+      "She is going to study tonight."
+    ],
+    "accepted_answers": [
+      "She is going to study tonight.",
+      "She is going to study tonight"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_trans_002",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I decided now to call him.",
+    "options": [],
+    "source_sentence": "I decided now to call him.",
+    "instruction": "Rewrite using will.",
+    "correct_answers": [
+      "I will call him."
+    ],
+    "accepted_answers": [
+      "I will call him.",
+      "I will call him"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_trans_003",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They are going to buy a car.",
+    "options": [],
+    "source_sentence": "They are going to buy a car.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "They are not going to buy a car."
+    ],
+    "accepted_answers": [
+      "They are not going to buy a car.",
+      "They are not going to buy a car"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "future_will_going_to_trans_004",
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He will help us.",
+    "options": [],
+    "source_sentence": "He will help us.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Will he help us?"
+    ],
+    "accepted_answers": [
+      "Will he help us?",
+      "Will he help us?"
+    ],
+    "explanation_template": "Use will for spontaneous decisions and predictions, and be going to for plans or evidence-based predictions.",
+    "mistake_type": "future_form_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

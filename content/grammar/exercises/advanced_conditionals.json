@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "advanced_conditionals_mc_001",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "If I had studied medicine, I ___ a doctor now.",
+    "options": [
+      "would have been",
+      "am",
+      "would be",
+      "was"
+    ],
+    "correct_answers": [
+      "would be"
+    ],
+    "accepted_answers": [
+      "would be"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_mc_002",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "If he were more careful, he ___ that mistake yesterday.",
+    "options": [
+      "would not make",
+      "would not have made",
+      "had not made",
+      "did not make"
+    ],
+    "correct_answers": [
+      "would not have made"
+    ],
+    "accepted_answers": [
+      "would not have made"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_mc_003",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Had I known, I ___ differently.",
+    "options": [
+      "had acted",
+      "would act",
+      "would have acted",
+      "acted"
+    ],
+    "correct_answers": [
+      "would have acted"
+    ],
+    "accepted_answers": [
+      "would have acted"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_mc_004",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "If they had left earlier, they ___ here by now.",
+    "options": [
+      "would have been",
+      "are",
+      "would be",
+      "were"
+    ],
+    "correct_answers": [
+      "would be"
+    ],
+    "accepted_answers": [
+      "would be"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_mc_005",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "If she were more confident, she ___ the job last week.",
+    "options": [
+      "accepted",
+      "would accept",
+      "had accepted",
+      "would have accepted"
+    ],
+    "correct_answers": [
+      "would have accepted"
+    ],
+    "accepted_answers": [
+      "would have accepted"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_mc_006",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Had we prepared better, we ___ calmer now.",
+    "options": [
+      "would have felt",
+      "would feel",
+      "feel",
+      "felt"
+    ],
+    "correct_answers": [
+      "would feel"
+    ],
+    "accepted_answers": [
+      "would feel"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_mc_007",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "If I had listened to you, I ___ in trouble now.",
+    "options": [
+      "was not",
+      "am not",
+      "would not have been",
+      "would not be"
+    ],
+    "correct_answers": [
+      "would not be"
+    ],
+    "accepted_answers": [
+      "would not be"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_mc_008",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "If he were less stubborn, he ___ earlier yesterday.",
+    "options": [
+      "had apologised",
+      "would apologise",
+      "apologised",
+      "would have apologised"
+    ],
+    "correct_answers": [
+      "would have apologised"
+    ],
+    "accepted_answers": [
+      "would have apologised"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_gap_001",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "If I had studied medicine, I ___ a doctor now.",
+    "options": [],
+    "correct_answers": [
+      "would be"
+    ],
+    "accepted_answers": [
+      "would be"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_gap_002",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "If he were more careful, he ___ that mistake yesterday.",
+    "options": [],
+    "correct_answers": [
+      "would not have made"
+    ],
+    "accepted_answers": [
+      "would not have made"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_gap_003",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Had I known, I ___ differently.",
+    "options": [],
+    "correct_answers": [
+      "would have acted"
+    ],
+    "accepted_answers": [
+      "would have acted"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_gap_004",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "If they had left earlier, they ___ here by now.",
+    "options": [],
+    "correct_answers": [
+      "would be"
+    ],
+    "accepted_answers": [
+      "would be"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_gap_005",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "If she were more confident, she ___ the job last week.",
+    "options": [],
+    "correct_answers": [
+      "would have accepted"
+    ],
+    "accepted_answers": [
+      "would have accepted"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_gap_006",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Had we prepared better, we ___ calmer now.",
+    "options": [],
+    "correct_answers": [
+      "would feel"
+    ],
+    "accepted_answers": [
+      "would feel"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_gap_007",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "If I had listened to you, I ___ in trouble now.",
+    "options": [],
+    "correct_answers": [
+      "would not be"
+    ],
+    "accepted_answers": [
+      "would not be"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_gap_008",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "If he were less stubborn, he ___ earlier yesterday.",
+    "options": [],
+    "correct_answers": [
+      "would have apologised"
+    ],
+    "accepted_answers": [
+      "would have apologised"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_trans_001",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I did not study medicine, so I am not a doctor now.",
+    "options": [],
+    "source_sentence": "I did not study medicine, so I am not a doctor now.",
+    "instruction": "Rewrite using a mixed conditional.",
+    "correct_answers": [
+      "If I had studied medicine, I would be a doctor now."
+    ],
+    "accepted_answers": [
+      "If I had studied medicine, I would be a doctor now.",
+      "If I had studied medicine, I would be a doctor now"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_trans_002",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He is careless, so he made that mistake.",
+    "options": [],
+    "source_sentence": "He is careless, so he made that mistake.",
+    "instruction": "Rewrite using a mixed conditional.",
+    "correct_answers": [
+      "If he were more careful, he would not have made that mistake."
+    ],
+    "accepted_answers": [
+      "If he were more careful, he would not have made that mistake.",
+      "If he were more careful, he would not have made that mistake"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_trans_003",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: We did not prepare well, so we feel nervous now.",
+    "options": [],
+    "source_sentence": "We did not prepare well, so we feel nervous now.",
+    "instruction": "Rewrite using a mixed conditional.",
+    "correct_answers": [
+      "If we had prepared better, we would feel calmer now."
+    ],
+    "accepted_answers": [
+      "If we had prepared better, we would feel calmer now.",
+      "If we had prepared better, we would feel calmer now"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_conditionals_trans_004",
+    "topic_id": "advanced_conditionals",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She is shy, so she did not accept the job.",
+    "options": [],
+    "source_sentence": "She is shy, so she did not accept the job.",
+    "instruction": "Rewrite using a mixed conditional.",
+    "correct_answers": [
+      "If she were more confident, she would have accepted the job."
+    ],
+    "accepted_answers": [
+      "If she were more confident, she would have accepted the job.",
+      "If she were more confident, she would have accepted the job"
+    ],
+    "explanation_template": "Use mixed and advanced conditionals to connect unreal past and present situations.",
+    "mistake_type": "mixed_conditional",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

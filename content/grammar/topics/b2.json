@@ -1,0 +1,58 @@
+[
+  {
+    "topic_id": "second_conditional",
+    "level": "B2",
+    "title": "Second Conditional",
+    "order": 1,
+    "is_active": true
+  },
+  {
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "title": "Third Conditional",
+    "order": 2,
+    "is_active": true
+  },
+  {
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "title": "Wish / If Only",
+    "order": 3,
+    "is_active": true
+  },
+  {
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "title": "Advanced Passive",
+    "order": 4,
+    "is_active": true
+  },
+  {
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "title": "Advanced Reported Speech",
+    "order": 5,
+    "is_active": true
+  },
+  {
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "title": "Modal Deduction",
+    "order": 6,
+    "is_active": true
+  },
+  {
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "title": "Discourse Markers",
+    "order": 7,
+    "is_active": true
+  },
+  {
+    "topic_id": "defining_non_defining_relative_clauses",
+    "level": "B2",
+    "title": "Defining and Non-defining Relative Clauses",
+    "order": 8,
+    "is_active": true
+  }
+]

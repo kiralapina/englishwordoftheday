@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "discourse_markers_mc_001",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "It was raining. ___, we went for a walk.",
+    "options": [
+      "However",
+      "In addition",
+      "Therefore",
+      "For example"
+    ],
+    "correct_answers": [
+      "However"
+    ],
+    "accepted_answers": [
+      "However"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_mc_002",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "She studied hard. ___, she passed the exam.",
+    "options": [
+      "However",
+      "Therefore",
+      "Besides of",
+      "Although"
+    ],
+    "correct_answers": [
+      "Therefore"
+    ],
+    "accepted_answers": [
+      "Therefore"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_mc_003",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "___ he was tired, he finished the work.",
+    "options": [
+      "In addition",
+      "However",
+      "Although",
+      "Therefore"
+    ],
+    "correct_answers": [
+      "Although"
+    ],
+    "accepted_answers": [
+      "Although"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_mc_004",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The hotel was cheap. ___, it was clean.",
+    "options": [
+      "Although",
+      "However",
+      "In addition",
+      "Therefore"
+    ],
+    "correct_answers": [
+      "In addition"
+    ],
+    "accepted_answers": [
+      "In addition"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_mc_005",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "I love travelling. ___, I do not have much time.",
+    "options": [
+      "However",
+      "In addition",
+      "For this reason",
+      "Therefore"
+    ],
+    "correct_answers": [
+      "However"
+    ],
+    "accepted_answers": [
+      "However"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_mc_006",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "He missed the bus. ___, he was late.",
+    "options": [
+      "However",
+      "In addition",
+      "Although",
+      "Therefore"
+    ],
+    "correct_answers": [
+      "Therefore"
+    ],
+    "accepted_answers": [
+      "Therefore"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_mc_007",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "___ it was expensive, we bought it.",
+    "options": [
+      "In addition",
+      "However",
+      "Although",
+      "Therefore"
+    ],
+    "correct_answers": [
+      "Although"
+    ],
+    "accepted_answers": [
+      "Although"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_mc_008",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The course is useful. ___, it is well organised.",
+    "options": [
+      "Although",
+      "Therefore",
+      "In addition",
+      "However"
+    ],
+    "correct_answers": [
+      "In addition"
+    ],
+    "accepted_answers": [
+      "In addition"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_gap_001",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "It was raining. ___, we went for a walk.",
+    "options": [],
+    "correct_answers": [
+      "However"
+    ],
+    "accepted_answers": [
+      "However"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_gap_002",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "She studied hard. ___, she passed the exam.",
+    "options": [],
+    "correct_answers": [
+      "Therefore"
+    ],
+    "accepted_answers": [
+      "Therefore"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_gap_003",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "___ he was tired, he finished the work.",
+    "options": [],
+    "correct_answers": [
+      "Although"
+    ],
+    "accepted_answers": [
+      "Although"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_gap_004",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The hotel was cheap. ___, it was clean.",
+    "options": [],
+    "correct_answers": [
+      "In addition"
+    ],
+    "accepted_answers": [
+      "In addition"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_gap_005",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "I love travelling. ___, I do not have much time.",
+    "options": [],
+    "correct_answers": [
+      "However"
+    ],
+    "accepted_answers": [
+      "However"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_gap_006",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "He missed the bus. ___, he was late.",
+    "options": [],
+    "correct_answers": [
+      "Therefore"
+    ],
+    "accepted_answers": [
+      "Therefore"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_gap_007",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "___ it was expensive, we bought it.",
+    "options": [],
+    "correct_answers": [
+      "Although"
+    ],
+    "accepted_answers": [
+      "Although"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_gap_008",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The course is useful. ___, it is well organised.",
+    "options": [],
+    "correct_answers": [
+      "In addition"
+    ],
+    "accepted_answers": [
+      "In addition"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_trans_001",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It was raining, but we went out.",
+    "options": [],
+    "source_sentence": "It was raining, but we went out.",
+    "instruction": "Rewrite using however.",
+    "correct_answers": [
+      "It was raining. However, we went out."
+    ],
+    "accepted_answers": [
+      "It was raining. However, we went out.",
+      "It was raining. However, we went out"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_trans_002",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She studied hard, so she passed.",
+    "options": [],
+    "source_sentence": "She studied hard, so she passed.",
+    "instruction": "Rewrite using therefore.",
+    "correct_answers": [
+      "She studied hard. Therefore, she passed."
+    ],
+    "accepted_answers": [
+      "She studied hard. Therefore, she passed.",
+      "She studied hard. Therefore, she passed"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_trans_003",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It was expensive, but we bought it.",
+    "options": [],
+    "source_sentence": "It was expensive, but we bought it.",
+    "instruction": "Rewrite using although.",
+    "correct_answers": [
+      "Although it was expensive, we bought it."
+    ],
+    "accepted_answers": [
+      "Although it was expensive, we bought it.",
+      "Although it was expensive, we bought it"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "discourse_markers_trans_004",
+    "topic_id": "discourse_markers",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The app is useful and easy to use.",
+    "options": [],
+    "source_sentence": "The app is useful and easy to use.",
+    "instruction": "Rewrite using in addition.",
+    "correct_answers": [
+      "The app is useful. In addition, it is easy to use."
+    ],
+    "accepted_answers": [
+      "The app is useful. In addition, it is easy to use.",
+      "The app is useful. In addition, it is easy to use"
+    ],
+    "explanation_template": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+    "mistake_type": "discourse_marker_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

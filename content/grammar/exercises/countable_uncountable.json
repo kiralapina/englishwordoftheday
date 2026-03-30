@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "countable_uncountable_mc_001",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I need some ___.",
+    "options": [
+      "water",
+      "waters",
+      "a water",
+      "many water"
+    ],
+    "correct_answers": [
+      "water"
+    ],
+    "accepted_answers": [
+      "water"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_mc_002",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "There are three ___ on the table.",
+    "options": [
+      "apple",
+      "rice",
+      "apples",
+      "water"
+    ],
+    "correct_answers": [
+      "apples"
+    ],
+    "accepted_answers": [
+      "apples"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_mc_003",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "She bought a ___ of bread.",
+    "options": [
+      "loaf",
+      "many bread",
+      "bread",
+      "breads"
+    ],
+    "correct_answers": [
+      "loaf"
+    ],
+    "accepted_answers": [
+      "loaf"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_mc_004",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "We do not have much ___.",
+    "options": [
+      "time",
+      "a time",
+      "many times",
+      "times"
+    ],
+    "correct_answers": [
+      "time"
+    ],
+    "accepted_answers": [
+      "time"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_mc_005",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "How many ___ do you have?",
+    "options": [
+      "book",
+      "bread",
+      "books",
+      "milk"
+    ],
+    "correct_answers": [
+      "books"
+    ],
+    "accepted_answers": [
+      "books"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_mc_006",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "There is some ___ in the fridge.",
+    "options": [
+      "a milk",
+      "milks",
+      "milk",
+      "many milk"
+    ],
+    "correct_answers": [
+      "milk"
+    ],
+    "accepted_answers": [
+      "milk"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_mc_007",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I ate two ___.",
+    "options": [
+      "sandwiches",
+      "sandwich",
+      "bread",
+      "rice"
+    ],
+    "correct_answers": [
+      "sandwiches"
+    ],
+    "accepted_answers": [
+      "sandwiches"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_mc_008",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "He gave me useful ___.",
+    "options": [
+      "an advice",
+      "advice",
+      "advices",
+      "many advice"
+    ],
+    "correct_answers": [
+      "advice"
+    ],
+    "accepted_answers": [
+      "advice"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_gap_001",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I need some ___.",
+    "options": [],
+    "correct_answers": [
+      "water"
+    ],
+    "accepted_answers": [
+      "water"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_gap_002",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "There are three ___ on the table.",
+    "options": [],
+    "correct_answers": [
+      "apples"
+    ],
+    "accepted_answers": [
+      "apples"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_gap_003",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "She bought a ___ of bread.",
+    "options": [],
+    "correct_answers": [
+      "loaf"
+    ],
+    "accepted_answers": [
+      "loaf"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_gap_004",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "We do not have much ___.",
+    "options": [],
+    "correct_answers": [
+      "time"
+    ],
+    "accepted_answers": [
+      "time"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_gap_005",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "How many ___ do you have?",
+    "options": [],
+    "correct_answers": [
+      "books"
+    ],
+    "accepted_answers": [
+      "books"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_gap_006",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "There is some ___ in the fridge.",
+    "options": [],
+    "correct_answers": [
+      "milk"
+    ],
+    "accepted_answers": [
+      "milk"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_gap_007",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I ate two ___.",
+    "options": [],
+    "correct_answers": [
+      "sandwiches"
+    ],
+    "accepted_answers": [
+      "sandwiches"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_gap_008",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "He gave me useful ___.",
+    "options": [],
+    "correct_answers": [
+      "advice"
+    ],
+    "accepted_answers": [
+      "advice"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_trans_001",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: many water",
+    "options": [],
+    "source_sentence": "many water",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "much water"
+    ],
+    "accepted_answers": [
+      "much water",
+      "much water"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_trans_002",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: an advice",
+    "options": [],
+    "source_sentence": "an advice",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "some advice"
+    ],
+    "accepted_answers": [
+      "some advice",
+      "some advice"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_trans_003",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: two bread",
+    "options": [],
+    "source_sentence": "two bread",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "two loaves of bread"
+    ],
+    "accepted_answers": [
+      "two loaves of bread",
+      "two loaves of bread"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "countable_uncountable_trans_004",
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: three apple",
+    "options": [],
+    "source_sentence": "three apple",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "three apples"
+    ],
+    "accepted_answers": [
+      "three apples",
+      "three apples"
+    ],
+    "explanation_template": "Countable nouns can be counted, while uncountable nouns usually use singular forms and quantity words.",
+    "mistake_type": "countable_uncountable",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

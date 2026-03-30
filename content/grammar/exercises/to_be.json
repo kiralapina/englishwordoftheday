@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "to_be_mc_001",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "I ___ happy today.",
+    "options": [
+      "is",
+      "are",
+      "be",
+      "am"
+    ],
+    "correct_answers": [
+      "am"
+    ],
+    "accepted_answers": [
+      "am"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_mc_002",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "She ___ my sister.",
+    "options": [
+      "be",
+      "am",
+      "is",
+      "are"
+    ],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_mc_003",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "They ___ at school.",
+    "options": [
+      "is",
+      "be",
+      "am",
+      "are"
+    ],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_mc_004",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "We ___ ready now.",
+    "options": [
+      "be",
+      "are",
+      "is",
+      "am"
+    ],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_mc_005",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "He ___ from Spain.",
+    "options": [
+      "are",
+      "is",
+      "am",
+      "be"
+    ],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_mc_006",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "You ___ very kind.",
+    "options": [
+      "be",
+      "is",
+      "am",
+      "are"
+    ],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_mc_007",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "The cat ___ under the table.",
+    "options": [
+      "are",
+      "is",
+      "am",
+      "be"
+    ],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_mc_008",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "I ___ not late.",
+    "options": [
+      "be",
+      "am",
+      "is",
+      "are"
+    ],
+    "correct_answers": [
+      "am"
+    ],
+    "accepted_answers": [
+      "am"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_gap_001",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ happy today.",
+    "options": [],
+    "correct_answers": [
+      "am"
+    ],
+    "accepted_answers": [
+      "am"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_gap_002",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ my sister.",
+    "options": [],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_gap_003",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "They ___ at school.",
+    "options": [],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_gap_004",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ ready now.",
+    "options": [],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_gap_005",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ from Spain.",
+    "options": [],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_gap_006",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ very kind.",
+    "options": [],
+    "correct_answers": [
+      "are"
+    ],
+    "accepted_answers": [
+      "are"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_gap_007",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "The cat ___ under the table.",
+    "options": [],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_gap_008",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ not late.",
+    "options": [],
+    "correct_answers": [
+      "am"
+    ],
+    "accepted_answers": [
+      "am"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_trans_001",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He is my friend.",
+    "options": [],
+    "source_sentence": "He is my friend.",
+    "instruction": "Rewrite using 'is not'.",
+    "correct_answers": [
+      "He is not my friend."
+    ],
+    "accepted_answers": [
+      "He is not my friend.",
+      "He is not my friend"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_trans_002",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They are in the office.",
+    "options": [],
+    "source_sentence": "They are in the office.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "They are not in the office."
+    ],
+    "accepted_answers": [
+      "They are not in the office.",
+      "They are not in the office"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_trans_003",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She is tired.",
+    "options": [],
+    "source_sentence": "She is tired.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Is she tired?"
+    ],
+    "accepted_answers": [
+      "Is she tired?",
+      "Is she tired?"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "to_be_trans_004",
+    "topic_id": "to_be",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: You are ready.",
+    "options": [],
+    "source_sentence": "You are ready.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Are you ready?"
+    ],
+    "accepted_answers": [
+      "Are you ready?",
+      "Are you ready?"
+    ],
+    "explanation_template": "Use am, is, are to describe identity, age, location, and basic states.",
+    "mistake_type": "to_be_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "topic_id": "discourse_markers",
+  "title": "Discourse Markers",
+  "summary": "Use discourse markers like however, therefore, although, and in addition to connect ideas clearly.",
+  "structure": [
+    "However, ...",
+    "Therefore, ...",
+    "In addition, ...",
+    "Although ..."
+  ],
+  "examples": [
+    "It was late. However, we kept working.",
+    "She was tired; therefore, she went home."
+  ],
+  "common_mistakes": [
+    "Choosing a marker with the wrong meaning.",
+    "Using however like and.",
+    "Mixing although and therefore."
+  ]
+}

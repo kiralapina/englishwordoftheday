@@ -1,0 +1,19 @@
+{
+  "topic_id": "inversion",
+  "title": "Inversion",
+  "summary": "Use inversion after negative or limiting adverbials for emphasis in formal English.",
+  "structure": [
+    "Never have I seen...",
+    "Rarely does he..."
+  ],
+  "examples": [
+    "Never have I seen such a mess.",
+    "Rarely does he complain.",
+    "Only then did I understand."
+  ],
+  "common_mistakes": [
+    "Keeping normal word order after negative adverbials.",
+    "Forgetting auxiliary do/did/has.",
+    "Using inversion in informal contexts where it sounds unnatural."
+  ]
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "advanced_reported_speech_mc_001",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "She told me ___ there.",
+    "options": [
+      "waiting",
+      "that wait",
+      "to wait",
+      "wait"
+    ],
+    "correct_answers": [
+      "to wait"
+    ],
+    "accepted_answers": [
+      "to wait"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_mc_002",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "He asked if I ___ ready.",
+    "options": [
+      "have been",
+      "was",
+      "am",
+      "be"
+    ],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_mc_003",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "They warned us ___ late.",
+    "options": [
+      "to not be",
+      "not be",
+      "don't be",
+      "not to be"
+    ],
+    "correct_answers": [
+      "not to be"
+    ],
+    "accepted_answers": [
+      "not to be"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_mc_004",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "Anna asked me where I ___ .",
+    "options": [
+      "do I live",
+      "live",
+      "am living",
+      "lived"
+    ],
+    "correct_answers": [
+      "lived"
+    ],
+    "accepted_answers": [
+      "lived"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_mc_005",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "He advised us ___ early.",
+    "options": [
+      "to leave",
+      "that leave",
+      "leave",
+      "leaving"
+    ],
+    "correct_answers": [
+      "to leave"
+    ],
+    "accepted_answers": [
+      "to leave"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_mc_006",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "She asked whether I ___ help.",
+    "options": [
+      "have need",
+      "needed",
+      "do I need",
+      "need"
+    ],
+    "correct_answers": [
+      "needed"
+    ],
+    "accepted_answers": [
+      "needed"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_mc_007",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "Tom told me ___ the door.",
+    "options": [
+      "close",
+      "that close",
+      "closing",
+      "to close"
+    ],
+    "correct_answers": [
+      "to close"
+    ],
+    "accepted_answers": [
+      "to close"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_mc_008",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "They asked what time the train ___.",
+    "options": [
+      "does it leave",
+      "is leaving",
+      "leave",
+      "left"
+    ],
+    "correct_answers": [
+      "left"
+    ],
+    "accepted_answers": [
+      "left"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_gap_001",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "She told me ___ there.",
+    "options": [],
+    "correct_answers": [
+      "to wait"
+    ],
+    "accepted_answers": [
+      "to wait"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_gap_002",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "He asked if I ___ ready.",
+    "options": [],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_gap_003",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "They warned us ___ late.",
+    "options": [],
+    "correct_answers": [
+      "not to be"
+    ],
+    "accepted_answers": [
+      "not to be"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_gap_004",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "Anna asked me where I ___ .",
+    "options": [],
+    "correct_answers": [
+      "lived"
+    ],
+    "accepted_answers": [
+      "lived"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_gap_005",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "He advised us ___ early.",
+    "options": [],
+    "correct_answers": [
+      "to leave"
+    ],
+    "accepted_answers": [
+      "to leave"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_gap_006",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "She asked whether I ___ help.",
+    "options": [],
+    "correct_answers": [
+      "needed"
+    ],
+    "accepted_answers": [
+      "needed"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_gap_007",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "Tom told me ___ the door.",
+    "options": [],
+    "correct_answers": [
+      "to close"
+    ],
+    "accepted_answers": [
+      "to close"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_gap_008",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "They asked what time the train ___.",
+    "options": [],
+    "correct_answers": [
+      "left"
+    ],
+    "accepted_answers": [
+      "left"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_trans_001",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She said to me, 'Wait here.'",
+    "options": [],
+    "source_sentence": "She said to me, 'Wait here.'",
+    "instruction": "Rewrite in reported speech.",
+    "correct_answers": [
+      "She told me to wait there."
+    ],
+    "accepted_answers": [
+      "She told me to wait there.",
+      "She told me to wait there"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_trans_002",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He asked, 'Are you ready?'",
+    "options": [],
+    "source_sentence": "He asked, 'Are you ready?'",
+    "instruction": "Rewrite in reported speech.",
+    "correct_answers": [
+      "He asked if I was ready."
+    ],
+    "accepted_answers": [
+      "He asked if I was ready.",
+      "He asked if I was ready"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_trans_003",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They said, 'Don't be late.'",
+    "options": [],
+    "source_sentence": "They said, 'Don't be late.'",
+    "instruction": "Rewrite in reported speech.",
+    "correct_answers": [
+      "They warned us not to be late."
+    ],
+    "accepted_answers": [
+      "They warned us not to be late.",
+      "They warned us not to be late"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_reported_speech_trans_004",
+    "topic_id": "advanced_reported_speech",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Anna asked, 'Where do you live?'",
+    "options": [],
+    "source_sentence": "Anna asked, 'Where do you live?'",
+    "instruction": "Rewrite in reported speech.",
+    "correct_answers": [
+      "Anna asked where I lived."
+    ],
+    "accepted_answers": [
+      "Anna asked where I lived.",
+      "Anna asked where I lived"
+    ],
+    "explanation_template": "Use advanced reported speech for commands, requests, questions, and reporting verbs.",
+    "mistake_type": "advanced_reported_speech",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

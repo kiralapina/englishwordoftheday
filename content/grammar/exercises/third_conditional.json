@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "third_conditional_mc_001",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If I had left earlier, I ___ the bus.",
+    "options": [
+      "would catch",
+      "caught",
+      "had caught",
+      "would have caught"
+    ],
+    "correct_answers": [
+      "would have caught"
+    ],
+    "accepted_answers": [
+      "would have caught"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_mc_002",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "She would have helped if she ___ there.",
+    "options": [
+      "had been",
+      "was",
+      "has been",
+      "would be"
+    ],
+    "correct_answers": [
+      "had been"
+    ],
+    "accepted_answers": [
+      "had been"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_mc_003",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If we had known, we ___ you.",
+    "options": [
+      "would have told",
+      "had told",
+      "would tell",
+      "told"
+    ],
+    "correct_answers": [
+      "would have told"
+    ],
+    "accepted_answers": [
+      "would have told"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_mc_004",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "He ___ happier if he had taken the job.",
+    "options": [
+      "had been",
+      "was",
+      "would be",
+      "would have been"
+    ],
+    "correct_answers": [
+      "would have been"
+    ],
+    "accepted_answers": [
+      "would have been"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_mc_005",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If they had studied, they ___ the test.",
+    "options": [
+      "had passed",
+      "would pass",
+      "passed",
+      "would have passed"
+    ],
+    "correct_answers": [
+      "would have passed"
+    ],
+    "accepted_answers": [
+      "would have passed"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_mc_006",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "I would have bought it if it ___ cheaper.",
+    "options": [
+      "would be",
+      "was",
+      "has been",
+      "had been"
+    ],
+    "correct_answers": [
+      "had been"
+    ],
+    "accepted_answers": [
+      "had been"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_mc_007",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If you had called, I ___ home.",
+    "options": [
+      "would have stayed",
+      "would stay",
+      "stayed",
+      "had stayed"
+    ],
+    "correct_answers": [
+      "would have stayed"
+    ],
+    "accepted_answers": [
+      "would have stayed"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_mc_008",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "We would have arrived on time if the traffic ___ lighter.",
+    "options": [
+      "has been",
+      "would be",
+      "had been",
+      "was"
+    ],
+    "correct_answers": [
+      "had been"
+    ],
+    "accepted_answers": [
+      "had been"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_gap_001",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If I had left earlier, I ___ the bus.",
+    "options": [],
+    "correct_answers": [
+      "would have caught"
+    ],
+    "accepted_answers": [
+      "would have caught"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_gap_002",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "She would have helped if she ___ there.",
+    "options": [],
+    "correct_answers": [
+      "had been"
+    ],
+    "accepted_answers": [
+      "had been"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_gap_003",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If we had known, we ___ you.",
+    "options": [],
+    "correct_answers": [
+      "would have told"
+    ],
+    "accepted_answers": [
+      "would have told"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_gap_004",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ happier if he had taken the job.",
+    "options": [],
+    "correct_answers": [
+      "would have been"
+    ],
+    "accepted_answers": [
+      "would have been"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_gap_005",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If they had studied, they ___ the test.",
+    "options": [],
+    "correct_answers": [
+      "would have passed"
+    ],
+    "accepted_answers": [
+      "would have passed"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_gap_006",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "I would have bought it if it ___ cheaper.",
+    "options": [],
+    "correct_answers": [
+      "had been"
+    ],
+    "accepted_answers": [
+      "had been"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_gap_007",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If you had called, I ___ home.",
+    "options": [],
+    "correct_answers": [
+      "would have stayed"
+    ],
+    "accepted_answers": [
+      "would have stayed"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_gap_008",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "We would have arrived on time if the traffic ___ lighter.",
+    "options": [],
+    "correct_answers": [
+      "had been"
+    ],
+    "accepted_answers": [
+      "had been"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_trans_001",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I missed the bus, so I was late.",
+    "options": [],
+    "source_sentence": "I missed the bus, so I was late.",
+    "instruction": "Rewrite using the third conditional.",
+    "correct_answers": [
+      "If I had caught the bus, I would not have been late."
+    ],
+    "accepted_answers": [
+      "If I had caught the bus, I would not have been late.",
+      "If I had caught the bus, I would not have been late"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_trans_002",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She did not study, so she failed.",
+    "options": [],
+    "source_sentence": "She did not study, so she failed.",
+    "instruction": "Rewrite using the third conditional.",
+    "correct_answers": [
+      "If she had studied, she would have passed."
+    ],
+    "accepted_answers": [
+      "If she had studied, she would have passed.",
+      "If she had studied, she would have passed"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_trans_003",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: We left late, so we missed the train.",
+    "options": [],
+    "source_sentence": "We left late, so we missed the train.",
+    "instruction": "Rewrite using the third conditional.",
+    "correct_answers": [
+      "If we had left earlier, we would have caught the train."
+    ],
+    "accepted_answers": [
+      "If we had left earlier, we would have caught the train.",
+      "If we had left earlier, we would have caught the train"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "third_conditional_trans_004",
+    "topic_id": "third_conditional",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He did not call me, so I did not know.",
+    "options": [],
+    "source_sentence": "He did not call me, so I did not know.",
+    "instruction": "Rewrite using the third conditional.",
+    "correct_answers": [
+      "If he had called me, I would have known."
+    ],
+    "accepted_answers": [
+      "If he had called me, I would have known.",
+      "If he had called me, I would have known"
+    ],
+    "explanation_template": "Use the third conditional for unreal past situations and regrets.",
+    "mistake_type": "third_conditional_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

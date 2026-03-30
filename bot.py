@@ -1,9 +1,11 @@
 import asyncio
+import concurrent.futures
 import logging
 import os
 import random
 import re
 from datetime import datetime, time, timedelta
+from functools import partial
 from typing import Set
 from dotenv import load_dotenv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup
@@ -12,6 +14,13 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 import database
 import usage_metrics
 import word_api
+from grammar import config as grammar_config
+from grammar.content_loader import get_all_exercises, get_all_topics
+from grammar.dto import GrammarEventDTO, GrammarResponseDTO
+from grammar.entrypoint import handle_grammar_event
+from grammar.enums import ExerciseType, GrammarAction
+from grammar.services.exercise_service import get_current_exercise
+from grammar import repositories as grammar_repositories
 
 # Загрузка переменных окружения
 load_dotenv()
@@ -62,6 +71,16 @@ logger.info("=" * 50)
 # Токен бота из переменных окружения
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 
+# Thread pool for offloading synchronous DB / grammar calls
+_executor = concurrent.futures.ThreadPoolExecutor(max_workers=4, thread_name_prefix="bot_io")
+
+
+async def _run_sync(func, *args, **kwargs):
+    """Run a synchronous function in the thread pool without blocking the event loop."""
+    loop = asyncio.get_running_loop()
+    return await loop.run_in_executor(_executor, partial(func, *args, **kwargs))
+
+
 # Большие базы слов и идиом (подгружаются из data/)
 from data.words_base import WORDS_OF_THE_DAY
 from data.idioms_base import IDIOMS_BY_LEVEL
@@ -77,12 +96,16 @@ def get_idiom_of_day(level: str) -> dict:
 
 def main_menu_keyboard() -> ReplyKeyboardMarkup:
     """Главное меню — кнопки под полем ввода."""
+    keyboard_rows = [
+        [KeyboardButton("📚 Слово дня"), KeyboardButton("💬 Идиома дня")],
+        [KeyboardButton("📖 Мои слова"), KeyboardButton("➕ Добавить слово")],
+    ]
+    if grammar_config.grammar_module_enabled():
+        keyboard_rows.append([KeyboardButton("📘 Грамматика"), KeyboardButton("⚙️ Настройки")])
+    else:
+        keyboard_rows.append([KeyboardButton("⚙️ Настройки")])
     return ReplyKeyboardMarkup(
-        [
-            [KeyboardButton("📚 Слово дня"), KeyboardButton("💬 Идиома дня")],
-            [KeyboardButton("📖 Мои слова"), KeyboardButton("➕ Добавить слово")],
-            [KeyboardButton("⚙️ Настройки")],
-        ],
+        keyboard_rows,
         resize_keyboard=True,
     )
 
@@ -98,6 +121,7 @@ def level_keyboard() -> InlineKeyboardMarkup:
 
 # Множество для хранения ID пользователей, подписанных на слова дня
 subscribed_users: Set[int] = set()
+GRAMMAR_RUNTIME_READY = False
 
 def get_word_of_day() -> dict:
     """Получает слово дня на основе текущей даты"""
@@ -106,6 +130,204 @@ def get_word_of_day() -> dict:
     word_data = WORDS_OF_THE_DAY[word_index]
     logger.info(f"Получено слово дня: {word_data['word']} (день года: {day_of_year}, индекс: {word_index})")
     return word_data
+
+
+def _grammar_reply_markup(response: GrammarResponseDTO) -> InlineKeyboardMarkup | None:
+    if not response.buttons:
+        return None
+    rows = []
+    for row in response.buttons:
+        rows.append([
+            InlineKeyboardButton(button.text, callback_data=button.callback_data or "grammar:home")
+            for button in row
+        ])
+    return InlineKeyboardMarkup(rows)
+
+
+def _apply_grammar_state(context: ContextTypes.DEFAULT_TYPE, response: GrammarResponseDTO) -> None:
+    state_update = response.state_update or {}
+    if not state_update:
+        return
+    context.user_data["grammar_module"] = state_update.get("module", "grammar")
+    context.user_data["grammar_state"] = state_update.get("state")
+    context.user_data["grammar_topic_id"] = state_update.get("topic_id")
+    context.user_data["grammar_session_id"] = state_update.get("session_id")
+    context.user_data["grammar_exercise_id"] = state_update.get("exercise_id")
+    context.user_data["grammar_exercise_index"] = state_update.get("exercise_index")
+    context.user_data["grammar_expects_text_reply"] = response.expects_text_reply
+
+
+def _clear_grammar_state(context: ContextTypes.DEFAULT_TYPE) -> None:
+    for key in (
+        "grammar_module",
+        "grammar_state",
+        "grammar_topic_id",
+        "grammar_session_id",
+        "grammar_exercise_id",
+        "grammar_exercise_index",
+        "grammar_expects_text_reply",
+    ):
+        context.user_data.pop(key, None)
+
+
+def _grammar_level(user_id: int) -> str:
+    level = database.get_user_level(user_id).upper()
+    if level == "C2":
+        return "C1"
+    return level if level in {"A1", "A2", "B1", "B2", "C1"} else "B1"
+
+
+def _grammar_response_unavailable() -> GrammarResponseDTO:
+    return GrammarResponseDTO(message_text="Раздел грамматики сейчас недоступен.")
+
+
+def _expects_text_grammar_answer(context: ContextTypes.DEFAULT_TYPE) -> bool:
+    if context.user_data.get("grammar_expects_text_reply"):
+        return True
+    session_id = context.user_data.get("grammar_session_id")
+    if not session_id:
+        return False
+    exercise = get_current_exercise(session_id)
+    return bool(exercise and exercise.type != ExerciseType.MULTIPLE_CHOICE)
+
+
+async def _send_grammar_response(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE,
+    response: GrammarResponseDTO,
+    *,
+    edit_message: bool = False,
+) -> None:
+    _apply_grammar_state(context, response)
+    markup = _grammar_reply_markup(response)
+    if edit_message and update.callback_query:
+        await update.callback_query.edit_message_text(
+            response.message_text,
+            parse_mode=response.parse_mode,
+            reply_markup=markup,
+        )
+        return
+    if update.message:
+        await update.message.reply_text(
+            response.message_text,
+            parse_mode=response.parse_mode,
+            reply_markup=markup,
+        )
+        return
+    if update.callback_query:
+        await context.bot.send_message(
+            chat_id=update.effective_chat.id,
+            text=response.message_text,
+            parse_mode=response.parse_mode,
+            reply_markup=markup,
+        )
+
+
+def _build_grammar_event(
+    user_id: int,
+    chat_id: int,
+    action: GrammarAction,
+    *,
+    topic_id: str | None = None,
+    session_id: str | None = None,
+    payload: dict | None = None,
+) -> GrammarEventDTO:
+    return GrammarEventDTO(
+        user_id=str(user_id),
+        chat_id=str(chat_id),
+        level=_grammar_level(user_id),
+        ui_language="ru",
+        action=action,
+        topic_id=topic_id,
+        session_id=session_id,
+        payload=payload or {},
+    )
+
+
+def _build_and_handle_grammar(user_id, chat_id, action, *, topic_id=None, session_id=None, payload=None):
+    """Build event + call grammar entrypoint in one sync step (for executor offloading)."""
+    event = _build_grammar_event(user_id, chat_id, action, topic_id=topic_id, session_id=session_id, payload=payload)
+    return handle_grammar_event(event)
+
+
+async def grammar_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Открыть grammar-модуль."""
+    if not grammar_config.grammar_module_enabled() or not GRAMMAR_RUNTIME_READY:
+        await update.message.reply_text(_grammar_response_unavailable().message_text)
+        return
+    response = await _run_sync(
+        _build_and_handle_grammar, update.effective_user.id, update.effective_chat.id, GrammarAction.OPEN_HOME,
+    )
+    await _send_grammar_response(update, context, response)
+    asyncio.get_running_loop().run_in_executor(_executor, track_activity, update.effective_user.id, "open_grammar")
+
+
+async def callback_grammar(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Обработка inline-кнопок grammar-модуля."""
+    query = update.callback_query
+    await query.answer()
+    if not grammar_config.grammar_module_enabled() or not GRAMMAR_RUNTIME_READY:
+        await query.edit_message_text(_grammar_response_unavailable().message_text)
+        return
+
+    data = query.data or ""
+    parts = data.split(":")
+    action = None
+    topic_id = None
+    session_id = None
+    payload: dict = {}
+
+    if len(parts) >= 2 and parts[1] == "home":
+        action = GrammarAction.OPEN_HOME
+    elif len(parts) >= 2 and parts[1] == "list_topics":
+        action = GrammarAction.LIST_TOPICS
+    elif len(parts) >= 2 and parts[1] == "choose_level":
+        level = await _run_sync(database.get_user_level, update.effective_user.id)
+        await context.bot.send_message(
+            chat_id=update.effective_chat.id,
+            text=(
+                f"⚙️ Твой уровень: <b>{level}</b>.\n\n"
+                "Выбери уровень для грамматики и идиом:"
+            ),
+            reply_markup=level_keyboard(),
+            parse_mode="HTML",
+        )
+        return
+    elif len(parts) >= 2 and parts[1] == "toggle_push":
+        action = GrammarAction.TOGGLE_NOTIFICATIONS
+    elif len(parts) >= 3 and parts[1] == "topic":
+        action = GrammarAction.OPEN_TOPIC
+        topic_id = parts[2]
+    elif len(parts) >= 3 and parts[1] == "practice":
+        action = GrammarAction.START_TOPIC_PRACTICE
+        topic_id = parts[2]
+    elif len(parts) >= 2 and parts[1] == "weak":
+        action = GrammarAction.START_WEAK_TOPICS_REVIEW
+    elif len(parts) >= 2 and parts[1] == "mistakes":
+        action = GrammarAction.START_MISTAKES_REVIEW
+    elif len(parts) >= 2 and parts[1] == "exit":
+        action = GrammarAction.EXIT_GRAMMAR
+    elif len(parts) >= 4 and parts[1] == "skip":
+        action = GrammarAction.SUBMIT_ANSWER
+        session_id = parts[2]
+        payload["exercise_index"] = int(parts[3])
+        payload["skip"] = True
+    elif len(parts) >= 5 and parts[1] == "answer":
+        action = GrammarAction.SUBMIT_ANSWER
+        session_id = parts[2]
+        payload["exercise_index"] = int(parts[3])
+        payload["option_index"] = int(parts[4])
+
+    if action is None:
+        return
+
+    response = await _run_sync(
+        _build_and_handle_grammar,
+        update.effective_user.id, update.effective_chat.id, action,
+        topic_id=topic_id, session_id=session_id, payload=payload,
+    )
+    await _send_grammar_response(update, context, response, edit_message=True)
+    asyncio.get_running_loop().run_in_executor(_executor, track_activity, update.effective_user.id, f"grammar_{action.value}")
 
 
 def track_activity(user_id: int, event_type: str) -> None:
@@ -132,13 +354,27 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     
     message = (
         f"Привет, {user.first_name}! 👋\n\n"
-        f"Я бот для изучения английского языка. Каждый день — новое слово и идиома!\n\n"
+        f"Я бот для изучения английского языка.\n\n"
         f"📚 <b>Слово дня сегодня:</b>\n"
         f"<b>{word_data['word']}</b>\n"
         f"🔊 <i>{word_data['transcription']}</i>\n"
         f"{word_data['translation']}\n"
         f"<i>Пример: {word_data['example']}</i>\n\n"
-        f"Используй меню внизу или /help."
+        "🔥 <b>Что умеет бот:</b>\n"
+        "• Слово дня и идиома дня — каждый день, под твой уровень\n"
+        "• 📘 Грамматика — теория, упражнения и повтор слабых тем\n"
+        "• Личный словарь с интервальным повторением (SRS)\n"
+        "• ИИ проверяет письменные задания и объясняет ошибки\n\n"
+        "⚡ <b>Что нового:</b>\n"
+        "• Раздел грамматики: 14 тем (A1–C1), теория + практика\n"
+        "• Для B2/C1 — больше заданий на перефразирование\n"
+        "• Умная проверка ответов через ИИ (с пояснениями на русском)\n"
+        "• Весь контент подстраивается под выбранный уровень\n\n"
+        "🚀 <b>Как начать:</b>\n"
+        "1. Открой «⚙️ Настройки» и выбери свой уровень.\n"
+        "2. Для грамматики открой «📘 Грамматика».\n"
+        "3. В заданиях с кнопками нажимай ответ, без кнопок — пиши сообщением.\n\n"
+        "Используй меню внизу или /help."
     )
     
     await update.message.reply_text(message, parse_mode='HTML', reply_markup=main_menu_keyboard())
@@ -148,14 +384,23 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Обработчик команды /help"""
     user = update.effective_user
+    grammar_section = "📘 <b>Грамматика</b> — теория, упражнения и повтор слабых тем\n" if grammar_config.grammar_module_enabled() else ""
+    grammar_command_hint = " | /grammar — раздел грамматики" if grammar_config.grammar_module_enabled() else ""
     message = (
         "📋 <b>Меню и команды:</b>\n\n"
         "📚 <b>Слово дня</b> — ежедневное слово с транскрипцией\n"
-        "💬 <b>Идиома дня</b> — идиома под твой уровень (A1–C2)\n"
+        "💬 <b>Идиома дня</b> — идиома по твоему уровню (A1–C2)\n"
         "📖 <b>Мои слова</b> — твоя лексика и повторения (SRS)\n"
         "➕ <b>Добавить слово</b> — формат: <code>слово — перевод</code>\n"
+        f"{grammar_section}"
         "⚙️ <b>Настройки</b> — смена уровня\n\n"
+        "<b>Как пользоваться грамматикой:</b>\n"
+        "1. Выбери уровень в настройках.\n"
+        "2. Открой тему и прочитай короткую теорию.\n"
+        "3. Если в упражнении есть кнопки, нажми нужный вариант.\n"
+        "4. Если кнопок нет, напиши ответ сообщением в чат.\n\n"
         "/start — главное меню | /word — слово дня | /help — эта справка | /test — проверка бота | /stats — статистика"
+        f"{grammar_command_hint}"
     )
     await update.message.reply_text(message, parse_mode='HTML', reply_markup=main_menu_keyboard())
     track_activity(user.id, "command_help")
@@ -263,7 +508,12 @@ async def settings_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -
     user_id = update.effective_user.id
     level = database.get_user_level(user_id)
     await update.message.reply_text(
-        f"⚙️ Твой уровень: <b>{level}</b>. Выбери новый уровень:",
+        (
+            f"⚙️ Твой уровень: <b>{level}</b>.\n\n"
+            "Этот уровень сейчас влияет на весь учебный контент бота.\n"
+            "Для грамматики доступны уровни A1-C1. Если у тебя выбран C2, в грамматике пока будет использоваться C1.\n\n"
+            "Выбери новый уровень:"
+        ),
         reply_markup=level_keyboard(),
         parse_mode='HTML'
     )
@@ -278,7 +528,10 @@ async def callback_level(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         return
     level = query.data.replace("level_", "")
     database.set_user_level(update.effective_user.id, level)
-    await query.edit_message_text(f"✅ Уровень изменён на <b>{level}</b>. Идиомы дня теперь под твой уровень.", parse_mode='HTML')
+    await query.edit_message_text(
+        f"✅ Уровень изменён на <b>{level}</b>. Теперь под него подстраивается учебный контент бота.",
+        parse_mode='HTML',
+    )
     track_activity(update.effective_user.id, "set_level")
     logger.info(f"User {update.effective_user.id} set level to {level}")
 
@@ -420,8 +673,31 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         await update.message.reply_text(card, parse_mode='HTML')
         logger.info(f"User {user.id} added word: {word_part}")
         return
+
+    if (
+        grammar_config.grammar_module_enabled()
+        and GRAMMAR_RUNTIME_READY
+        and context.user_data.get("grammar_state") == "awaiting_answer"
+        and _expects_text_grammar_answer(context)
+    ):
+        response = await _run_sync(
+            _build_and_handle_grammar,
+            user.id, update.effective_chat.id, GrammarAction.SUBMIT_ANSWER,
+            session_id=context.user_data.get("grammar_session_id"),
+            payload={
+                "answer": message_text,
+                "exercise_id": context.user_data.get("grammar_exercise_id"),
+                "exercise_index": context.user_data.get("grammar_exercise_index"),
+            },
+        )
+        await _send_grammar_response(update, context, response)
+        asyncio.get_running_loop().run_in_executor(_executor, track_activity, user.id, "grammar_submit_answer")
+        return
     
     # Кнопки главного меню
+    if message_text == "📘 Грамматика":
+        await grammar_command(update, context)
+        return
     if message_text == "📚 Слово дня":
         word_data = get_word_of_day()
         msg = (
@@ -514,8 +790,53 @@ async def send_daily_idiom(context: ContextTypes.DEFAULT_TYPE) -> None:
             logger.error(f"Failed to send idiom to user {user_id}: {e}")
 
 
+def _get_daily_grammar_topic(user_id: int) -> dict | None:
+    level = _grammar_level(user_id)
+    level_topics = [topic for topic in get_all_topics() if topic.level == level]
+    if not level_topics:
+        return None
+    progress_map = grammar_repositories.list_topic_progress(str(user_id))
+    level_topics.sort(
+        key=lambda topic: (
+            progress_map.get(topic.topic_id).mastery_score if progress_map.get(topic.topic_id) else 0,
+            topic.order,
+        )
+    )
+    topic = level_topics[0]
+    progress = progress_map.get(topic.topic_id)
+    return {
+        "level": level,
+        "title": topic.title,
+        "topic_id": topic.topic_id,
+        "mastery_score": progress.mastery_score if progress else 0,
+    }
+
+
+async def send_daily_grammar_push(context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Отправляет opt-in напоминание по grammar."""
+    if not grammar_config.grammar_module_enabled():
+        return
+    for user_id in database.get_users_with_grammar_notifications():
+        try:
+            topic = _get_daily_grammar_topic(user_id)
+            if not topic:
+                continue
+            text = (
+                "📘 <b>Напоминание по грамматике</b>\n\n"
+                f"Сегодня советую потренировать тему: <b>{topic['title']}</b>\n"
+                f"Уровень: {topic['level']}\n"
+                f"Текущее освоение: {topic['mastery_score']}\n\n"
+                "Открой /grammar и продолжи практику."
+            )
+            await context.bot.send_message(chat_id=user_id, text=text, parse_mode="HTML")
+            logger.info("Sent daily grammar push to user %s", user_id)
+        except Exception as e:
+            logger.error("Failed to send grammar push to user %s: %s", user_id, e)
+
+
 def main() -> None:
     """Основная функция запуска бота"""
+    global GRAMMAR_RUNTIME_READY
     try:
         if not BOT_TOKEN:
             logger.error("BOT_TOKEN не найден в переменных окружения!")
@@ -526,12 +847,25 @@ def main() -> None:
         # Проверка подключения к PostgreSQL (alwaysdata и др.)
         try:
             database.init_db()
+            database.init_grammar_db()
             usage_metrics.init_usage_metrics()
             subscribed_users.update(database.get_all_user_ids())
             logger.info("Подключение к БД успешно, таблицы проверены")
         except Exception as e:
+            GRAMMAR_RUNTIME_READY = False
             logger.error("Ошибка подключения к БД: %s. Проверьте DATABASE_URL или PGHOST/PGUSER/PGPASSWORD в .env", e)
             raise
+
+        if grammar_config.grammar_module_enabled():
+            try:
+                grammar_repositories.sync_catalog(get_all_topics(), get_all_exercises())
+                GRAMMAR_RUNTIME_READY = True
+                logger.info("Grammar catalog синхронизирован")
+            except Exception as e:
+                GRAMMAR_RUNTIME_READY = False
+                logger.error("Grammar module init failed: %s", e)
+        else:
+            GRAMMAR_RUNTIME_READY = False
         
         # Создаем приложение
         logger.info("Создание приложения бота...")
@@ -545,9 +879,11 @@ def main() -> None:
         application.add_handler(CommandHandler("word", word_command))
         application.add_handler(CommandHandler("test", test_command))
         application.add_handler(CommandHandler("stats", stats_command))
+        application.add_handler(CommandHandler("grammar", grammar_command))
         application.add_handler(CallbackQueryHandler(callback_level, pattern="^level_"))
         application.add_handler(CallbackQueryHandler(callback_review, pattern="^review"))
-        logger.info("Обработчики команд зарегистрированы: /start, /help, /word, /test, /stats + меню и SRS")
+        application.add_handler(CallbackQueryHandler(callback_grammar, pattern="^grammar:"))
+        logger.info("Обработчики команд зарегистрированы: /start, /help, /word, /test, /stats, /grammar + меню и SRS")
         
         # Регистрируем обработчик текстовых сообщений (в конце, чтобы не перехватывать команды)
         application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
@@ -556,6 +892,7 @@ def main() -> None:
         now = datetime.now()
         target_time_word = time(9, 0)
         target_time_idiom = time(10, 0)
+        target_time_grammar = time(18, 0)
         next_run = now  # для лога
         
         if application.job_queue is None:
@@ -577,6 +914,15 @@ def main() -> None:
             application.job_queue.run_once(send_daily_idiom, when=delay_idiom, name="daily_idiom")
             application.job_queue.run_daily(send_daily_idiom, time=target_time_idiom, name="daily_idiom_recurring")
             logger.info(f"Запланирована отправка идиомы дня в 10:00 (первый раз: {next_idiom.strftime('%d.%m.%Y %H:%M')})")
+            if grammar_config.grammar_module_enabled():
+                if now.time() > target_time_grammar:
+                    next_grammar = datetime.combine(now.date() + timedelta(days=1), target_time_grammar)
+                else:
+                    next_grammar = datetime.combine(now.date(), target_time_grammar)
+                delay_grammar = (next_grammar - now).total_seconds()
+                application.job_queue.run_once(send_daily_grammar_push, when=delay_grammar, name="daily_grammar_push")
+                application.job_queue.run_daily(send_daily_grammar_push, time=target_time_grammar, name="daily_grammar_push_recurring")
+                logger.info(f"Запланирован grammar push в 18:00 (первый раз: {next_grammar.strftime('%d.%m.%Y %H:%M')})")
         
         logger.info("=" * 50)
         logger.info("Бот успешно запущен!")

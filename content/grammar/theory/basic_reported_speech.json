@@ -1,0 +1,20 @@
+{
+  "topic_id": "basic_reported_speech",
+  "title": "Basic Reported Speech",
+  "summary": "Use reported speech to tell someone what another person said, often with backshift in tense.",
+  "structure": [
+    "say that...",
+    "tell someone that...",
+    "present -> past"
+  ],
+  "examples": [
+    "She said that she was tired.",
+    "He told me that he had a car.",
+    "They said that they were busy."
+  ],
+  "common_mistakes": [
+    "Keeping the original tense when backshift is needed.",
+    "Using tell without an object.",
+    "Forgetting that word order changes in questions."
+  ]
+}

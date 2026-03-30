@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "gerund_vs_infinitive_mc_001",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "I enjoy ___ books.",
+    "options": [
+      "reads",
+      "reading",
+      "to read",
+      "read"
+    ],
+    "correct_answers": [
+      "reading"
+    ],
+    "accepted_answers": [
+      "reading"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_mc_002",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "She wants ___ early.",
+    "options": [
+      "leave",
+      "leaving",
+      "to leave",
+      "left"
+    ],
+    "correct_answers": [
+      "to leave"
+    ],
+    "accepted_answers": [
+      "to leave"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_mc_003",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "They decided ___ at home.",
+    "options": [
+      "stay",
+      "to stay",
+      "stayed",
+      "staying"
+    ],
+    "correct_answers": [
+      "to stay"
+    ],
+    "accepted_answers": [
+      "to stay"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_mc_004",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "He hates ___ late.",
+    "options": [
+      "being",
+      "be",
+      "is",
+      "to be"
+    ],
+    "correct_answers": [
+      "being"
+    ],
+    "accepted_answers": [
+      "being"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_mc_005",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "We hope ___ you soon.",
+    "options": [
+      "saw",
+      "to see",
+      "seeing",
+      "see"
+    ],
+    "correct_answers": [
+      "to see"
+    ],
+    "accepted_answers": [
+      "to see"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_mc_006",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "Anna loves ___ in the sea.",
+    "options": [
+      "swam",
+      "swim",
+      "to swim",
+      "swimming"
+    ],
+    "correct_answers": [
+      "swimming"
+    ],
+    "accepted_answers": [
+      "swimming"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_mc_007",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "I need ___ my room.",
+    "options": [
+      "clean",
+      "cleaning",
+      "cleaned",
+      "to clean"
+    ],
+    "correct_answers": [
+      "to clean"
+    ],
+    "accepted_answers": [
+      "to clean"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_mc_008",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "He finished ___ the report.",
+    "options": [
+      "writing",
+      "to write",
+      "write",
+      "wrote"
+    ],
+    "correct_answers": [
+      "writing"
+    ],
+    "accepted_answers": [
+      "writing"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_gap_001",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "I enjoy ___ books.",
+    "options": [],
+    "correct_answers": [
+      "reading"
+    ],
+    "accepted_answers": [
+      "reading"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_gap_002",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "She wants ___ early.",
+    "options": [],
+    "correct_answers": [
+      "to leave"
+    ],
+    "accepted_answers": [
+      "to leave"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_gap_003",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "They decided ___ at home.",
+    "options": [],
+    "correct_answers": [
+      "to stay"
+    ],
+    "accepted_answers": [
+      "to stay"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_gap_004",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "He hates ___ late.",
+    "options": [],
+    "correct_answers": [
+      "being"
+    ],
+    "accepted_answers": [
+      "being"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_gap_005",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "We hope ___ you soon.",
+    "options": [],
+    "correct_answers": [
+      "to see"
+    ],
+    "accepted_answers": [
+      "to see"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_gap_006",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "Anna loves ___ in the sea.",
+    "options": [],
+    "correct_answers": [
+      "swimming"
+    ],
+    "accepted_answers": [
+      "swimming"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_gap_007",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "I need ___ my room.",
+    "options": [],
+    "correct_answers": [
+      "to clean"
+    ],
+    "accepted_answers": [
+      "to clean"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_gap_008",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "He finished ___ the report.",
+    "options": [],
+    "correct_answers": [
+      "writing"
+    ],
+    "accepted_answers": [
+      "writing"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_trans_001",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I enjoy to read novels.",
+    "options": [],
+    "source_sentence": "I enjoy to read novels.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "I enjoy reading novels."
+    ],
+    "accepted_answers": [
+      "I enjoy reading novels.",
+      "I enjoy reading novels"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_trans_002",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She wants going home.",
+    "options": [],
+    "source_sentence": "She wants going home.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "She wants to go home."
+    ],
+    "accepted_answers": [
+      "She wants to go home.",
+      "She wants to go home"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_trans_003",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They decided staying here.",
+    "options": [],
+    "source_sentence": "They decided staying here.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "They decided to stay here."
+    ],
+    "accepted_answers": [
+      "They decided to stay here.",
+      "They decided to stay here"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "gerund_vs_infinitive_trans_004",
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He finished to write the email.",
+    "options": [],
+    "source_sentence": "He finished to write the email.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "He finished writing the email."
+    ],
+    "accepted_answers": [
+      "He finished writing the email.",
+      "He finished writing the email"
+    ],
+    "explanation_template": "Some verbs are followed by gerunds, some by infinitives, and some can take both with a change in meaning.",
+    "mistake_type": "verb_pattern",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

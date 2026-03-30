@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "modal_deduction_mc_001",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "She worked all night. She ___ tired.",
+    "options": [
+      "must be",
+      "might being",
+      "can't to be",
+      "must to be"
+    ],
+    "correct_answers": [
+      "must be"
+    ],
+    "accepted_answers": [
+      "must be"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_mc_002",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "I am not sure. It ___ rain later.",
+    "options": [
+      "mights",
+      "must to",
+      "might",
+      "can't to"
+    ],
+    "correct_answers": [
+      "might"
+    ],
+    "accepted_answers": [
+      "might"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_mc_003",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "That answer is impossible. It ___ right.",
+    "options": [
+      "can't be",
+      "must be",
+      "mustn't be",
+      "can't to be"
+    ],
+    "correct_answers": [
+      "can't be"
+    ],
+    "accepted_answers": [
+      "can't be"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_mc_004",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The lights are off. They ___ at home.",
+    "options": [
+      "mustn't be",
+      "might to be",
+      "can't be",
+      "must to be"
+    ],
+    "correct_answers": [
+      "can't be"
+    ],
+    "accepted_answers": [
+      "can't be"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_mc_005",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "He has the keys. He ___ the car.",
+    "options": [
+      "must has taken",
+      "can't have taking",
+      "must took",
+      "must have taken"
+    ],
+    "correct_answers": [
+      "must have taken"
+    ],
+    "accepted_answers": [
+      "must have taken"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_mc_006",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "I do not know where she is. She ___ at work.",
+    "options": [
+      "must to be",
+      "may to be",
+      "may be",
+      "can't being"
+    ],
+    "correct_answers": [
+      "may be"
+    ],
+    "accepted_answers": [
+      "may be"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_mc_007",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The ground is wet. It ___ last night.",
+    "options": [
+      "must have rain",
+      "can't have raining",
+      "must rained",
+      "must have rained"
+    ],
+    "correct_answers": [
+      "must have rained"
+    ],
+    "accepted_answers": [
+      "must have rained"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_mc_008",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "He looks familiar. I ___ him before.",
+    "options": [
+      "must have met",
+      "must have meet",
+      "must met",
+      "might to met"
+    ],
+    "correct_answers": [
+      "must have met"
+    ],
+    "accepted_answers": [
+      "must have met"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_gap_001",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "She worked all night. She ___ tired.",
+    "options": [],
+    "correct_answers": [
+      "must be"
+    ],
+    "accepted_answers": [
+      "must be"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_gap_002",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "I am not sure. It ___ rain later.",
+    "options": [],
+    "correct_answers": [
+      "might"
+    ],
+    "accepted_answers": [
+      "might"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_gap_003",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "That answer is impossible. It ___ right.",
+    "options": [],
+    "correct_answers": [
+      "can't be"
+    ],
+    "accepted_answers": [
+      "can't be"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_gap_004",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The lights are off. They ___ at home.",
+    "options": [],
+    "correct_answers": [
+      "can't be"
+    ],
+    "accepted_answers": [
+      "can't be"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_gap_005",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "He has the keys. He ___ the car.",
+    "options": [],
+    "correct_answers": [
+      "must have taken"
+    ],
+    "accepted_answers": [
+      "must have taken"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_gap_006",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "I do not know where she is. She ___ at work.",
+    "options": [],
+    "correct_answers": [
+      "may be"
+    ],
+    "accepted_answers": [
+      "may be"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_gap_007",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The ground is wet. It ___ last night.",
+    "options": [],
+    "correct_answers": [
+      "must have rained"
+    ],
+    "accepted_answers": [
+      "must have rained"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_gap_008",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "He looks familiar. I ___ him before.",
+    "options": [],
+    "correct_answers": [
+      "must have met"
+    ],
+    "accepted_answers": [
+      "must have met"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_trans_001",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I am sure she is tired.",
+    "options": [],
+    "source_sentence": "I am sure she is tired.",
+    "instruction": "Rewrite with a modal of deduction.",
+    "correct_answers": [
+      "She must be tired."
+    ],
+    "accepted_answers": [
+      "She must be tired.",
+      "She must be tired"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_trans_002",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It is possible that he is at home.",
+    "options": [],
+    "source_sentence": "It is possible that he is at home.",
+    "instruction": "Rewrite with a modal of deduction.",
+    "correct_answers": [
+      "He might be at home."
+    ],
+    "accepted_answers": [
+      "He might be at home.",
+      "He might be at home"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_trans_003",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I am sure that is not true.",
+    "options": [],
+    "source_sentence": "I am sure that is not true.",
+    "instruction": "Rewrite with a modal of deduction.",
+    "correct_answers": [
+      "That can't be true."
+    ],
+    "accepted_answers": [
+      "That can't be true.",
+      "That can't be true"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modal_deduction_trans_004",
+    "topic_id": "modal_deduction",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I am sure it rained last night.",
+    "options": [],
+    "source_sentence": "I am sure it rained last night.",
+    "instruction": "Rewrite with a modal of past deduction.",
+    "correct_answers": [
+      "It must have rained last night."
+    ],
+    "accepted_answers": [
+      "It must have rained last night.",
+      "It must have rained last night"
+    ],
+    "explanation_template": "Use must, might, may, and can't to guess or deduce how likely something is.",
+    "mistake_type": "modal_deduction_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

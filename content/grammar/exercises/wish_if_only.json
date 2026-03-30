@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "wish_if_only_mc_001",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "I wish I ___ more time.",
+    "options": [
+      "would have",
+      "has",
+      "have",
+      "had"
+    ],
+    "correct_answers": [
+      "had"
+    ],
+    "accepted_answers": [
+      "had"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_mc_002",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If only it ___ warmer today.",
+    "options": [
+      "would be",
+      "were",
+      "was",
+      "is"
+    ],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_mc_003",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "She wishes she ___ harder last year.",
+    "options": [
+      "has studied",
+      "studied",
+      "had studied",
+      "would study"
+    ],
+    "correct_answers": [
+      "had studied"
+    ],
+    "accepted_answers": [
+      "had studied"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_mc_004",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "We wish we ___ closer to the city.",
+    "options": [
+      "live",
+      "would live",
+      "had lived",
+      "lived"
+    ],
+    "correct_answers": [
+      "lived"
+    ],
+    "accepted_answers": [
+      "lived"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_mc_005",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "He wishes he ___ the truth.",
+    "options": [
+      "would tell",
+      "told",
+      "has told",
+      "had told"
+    ],
+    "correct_answers": [
+      "had told"
+    ],
+    "accepted_answers": [
+      "had told"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_mc_006",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "If only I ___ better at maths.",
+    "options": [
+      "was",
+      "am",
+      "were",
+      "would be"
+    ],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_mc_007",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "They wish they ___ earlier yesterday.",
+    "options": [
+      "had left",
+      "would leave",
+      "have left",
+      "left"
+    ],
+    "correct_answers": [
+      "had left"
+    ],
+    "accepted_answers": [
+      "had left"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_mc_008",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "I wish my phone ___ faster.",
+    "options": [
+      "had worked",
+      "worked",
+      "works",
+      "would work"
+    ],
+    "correct_answers": [
+      "worked"
+    ],
+    "accepted_answers": [
+      "worked"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_gap_001",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "I wish I ___ more time.",
+    "options": [],
+    "correct_answers": [
+      "had"
+    ],
+    "accepted_answers": [
+      "had"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_gap_002",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If only it ___ warmer today.",
+    "options": [],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_gap_003",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "She wishes she ___ harder last year.",
+    "options": [],
+    "correct_answers": [
+      "had studied"
+    ],
+    "accepted_answers": [
+      "had studied"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_gap_004",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "We wish we ___ closer to the city.",
+    "options": [],
+    "correct_answers": [
+      "lived"
+    ],
+    "accepted_answers": [
+      "lived"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_gap_005",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "He wishes he ___ the truth.",
+    "options": [],
+    "correct_answers": [
+      "had told"
+    ],
+    "accepted_answers": [
+      "had told"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_gap_006",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "If only I ___ better at maths.",
+    "options": [],
+    "correct_answers": [
+      "were"
+    ],
+    "accepted_answers": [
+      "were"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_gap_007",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "They wish they ___ earlier yesterday.",
+    "options": [],
+    "correct_answers": [
+      "had left"
+    ],
+    "accepted_answers": [
+      "had left"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_gap_008",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "I wish my phone ___ faster.",
+    "options": [],
+    "correct_answers": [
+      "worked"
+    ],
+    "accepted_answers": [
+      "worked"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_trans_001",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I am not rich.",
+    "options": [],
+    "source_sentence": "I am not rich.",
+    "instruction": "Rewrite using wish.",
+    "correct_answers": [
+      "I wish I were rich."
+    ],
+    "accepted_answers": [
+      "I wish I were rich.",
+      "I wish I were rich"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_trans_002",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She did not study enough.",
+    "options": [],
+    "source_sentence": "She did not study enough.",
+    "instruction": "Rewrite using wishes.",
+    "correct_answers": [
+      "She wishes she had studied enough."
+    ],
+    "accepted_answers": [
+      "She wishes she had studied enough.",
+      "She wishes she had studied enough"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_trans_003",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It is very cold today.",
+    "options": [],
+    "source_sentence": "It is very cold today.",
+    "instruction": "Rewrite using if only.",
+    "correct_answers": [
+      "If only it were warmer today."
+    ],
+    "accepted_answers": [
+      "If only it were warmer today.",
+      "If only it were warmer today"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "wish_if_only_trans_004",
+    "topic_id": "wish_if_only",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: We arrived late yesterday.",
+    "options": [],
+    "source_sentence": "We arrived late yesterday.",
+    "instruction": "Rewrite using wish.",
+    "correct_answers": [
+      "We wish we had arrived earlier yesterday."
+    ],
+    "accepted_answers": [
+      "We wish we had arrived earlier yesterday.",
+      "We wish we had arrived earlier yesterday"
+    ],
+    "explanation_template": "Use wish and if only to express regret about present or past situations.",
+    "mistake_type": "wish_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

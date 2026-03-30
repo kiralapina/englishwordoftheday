@@ -1,0 +1,20 @@
+{
+  "topic_id": "articles_a_an_the",
+  "title": "Articles A/An/The",
+  "summary": "Use a/an for singular non-specific nouns and the for specific things already known.",
+  "structure": [
+    "a + consonant sound",
+    "an + vowel sound",
+    "the + specific noun"
+  ],
+  "examples": [
+    "I saw a dog.",
+    "She bought an apple.",
+    "The book on the table is mine."
+  ],
+  "common_mistakes": [
+    "Using a before a vowel sound.",
+    "Missing the with specific nouns.",
+    "Using the for general plural nouns."
+  ]
+}

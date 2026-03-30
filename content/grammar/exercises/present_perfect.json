@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "present_perfect_mc_001",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "She ___ finished her work.",
+    "options": [
+      "had",
+      "have",
+      "is",
+      "has"
+    ],
+    "correct_answers": [
+      "has"
+    ],
+    "accepted_answers": [
+      "has"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_mc_002",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "I ___ never seen this film.",
+    "options": [
+      "had",
+      "am",
+      "have",
+      "has"
+    ],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_mc_003",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "They ___ lived here for years.",
+    "options": [
+      "have",
+      "are",
+      "had",
+      "has"
+    ],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_mc_004",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "He ___ already done it.",
+    "options": [
+      "had",
+      "has",
+      "is",
+      "have"
+    ],
+    "correct_answers": [
+      "has"
+    ],
+    "accepted_answers": [
+      "has"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_mc_005",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "We ___ just arrived.",
+    "options": [
+      "are",
+      "had",
+      "have",
+      "has"
+    ],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_mc_006",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "Anna ___ broken her phone.",
+    "options": [
+      "have",
+      "has",
+      "had",
+      "is"
+    ],
+    "correct_answers": [
+      "has"
+    ],
+    "accepted_answers": [
+      "has"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_mc_007",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "You ___ met him before.",
+    "options": [
+      "has",
+      "are",
+      "have",
+      "had"
+    ],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_mc_008",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "My parents ___ gone out.",
+    "options": [
+      "are",
+      "had",
+      "has",
+      "have"
+    ],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_gap_001",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ finished her work.",
+    "options": [],
+    "correct_answers": [
+      "has"
+    ],
+    "accepted_answers": [
+      "has"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_gap_002",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ never seen this film.",
+    "options": [],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_gap_003",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "They ___ lived here for years.",
+    "options": [],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_gap_004",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ already done it.",
+    "options": [],
+    "correct_answers": [
+      "has"
+    ],
+    "accepted_answers": [
+      "has"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_gap_005",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ just arrived.",
+    "options": [],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_gap_006",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "Anna ___ broken her phone.",
+    "options": [],
+    "correct_answers": [
+      "has"
+    ],
+    "accepted_answers": [
+      "has"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_gap_007",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ met him before.",
+    "options": [],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_gap_008",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "My parents ___ gone out.",
+    "options": [],
+    "correct_answers": [
+      "have"
+    ],
+    "accepted_answers": [
+      "have"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_trans_001",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I visited London before.",
+    "options": [],
+    "source_sentence": "I visited London before.",
+    "instruction": "Rewrite in Present Perfect.",
+    "correct_answers": [
+      "I have visited London before."
+    ],
+    "accepted_answers": [
+      "I have visited London before.",
+      "I have visited London before"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_trans_002",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She finished her homework.",
+    "options": [],
+    "source_sentence": "She finished her homework.",
+    "instruction": "Rewrite in Present Perfect.",
+    "correct_answers": [
+      "She has finished her homework."
+    ],
+    "accepted_answers": [
+      "She has finished her homework.",
+      "She has finished her homework"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_trans_003",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They have seen this film.",
+    "options": [],
+    "source_sentence": "They have seen this film.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "They have not seen this film."
+    ],
+    "accepted_answers": [
+      "They have not seen this film.",
+      "They have not seen this film"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_perfect_trans_004",
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He has called you.",
+    "options": [],
+    "source_sentence": "He has called you.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Has he called you?"
+    ],
+    "accepted_answers": [
+      "Has he called you?",
+      "Has he called you?"
+    ],
+    "explanation_template": "Use Present Perfect for life experience and actions connected to the present.",
+    "mistake_type": "present_perfect_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

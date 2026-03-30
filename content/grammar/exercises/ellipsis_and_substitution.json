@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "ellipsis_and_substitution_mc_001",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "I want the blue ___, not the red one.",
+    "options": [
+      "one",
+      "ones",
+      "that one piece",
+      "it"
+    ],
+    "correct_answers": [
+      "one"
+    ],
+    "accepted_answers": [
+      "one"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_mc_002",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "She said she would call, and she ___.",
+    "options": [
+      "was",
+      "done",
+      "did",
+      "made"
+    ],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_mc_003",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "I can swim, and so ___ my sister.",
+    "options": [
+      "can",
+      "did",
+      "does",
+      "is"
+    ],
+    "correct_answers": [
+      "can"
+    ],
+    "accepted_answers": [
+      "can"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_mc_004",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "These shoes are nicer than the old ___.",
+    "options": [
+      "ones",
+      "it",
+      "one",
+      "that"
+    ],
+    "correct_answers": [
+      "ones"
+    ],
+    "accepted_answers": [
+      "ones"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_mc_005",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "He promised to help, and he actually ___.",
+    "options": [
+      "was",
+      "did",
+      "made",
+      "done"
+    ],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_mc_006",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "She likes tea, and so ___ I.",
+    "options": [
+      "did",
+      "do",
+      "can",
+      "am"
+    ],
+    "correct_answers": [
+      "do"
+    ],
+    "accepted_answers": [
+      "do"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_mc_007",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "I need a pen. Do you have ___?",
+    "options": [
+      "ones",
+      "one",
+      "some one things",
+      "it"
+    ],
+    "correct_answers": [
+      "one"
+    ],
+    "accepted_answers": [
+      "one"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_mc_008",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "They said they would come, but they did not ___.",
+    "options": [
+      "be so",
+      "come so",
+      "do so",
+      "did"
+    ],
+    "correct_answers": [
+      "do so"
+    ],
+    "accepted_answers": [
+      "do so"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_gap_001",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "I want the blue ___, not the red one.",
+    "options": [],
+    "correct_answers": [
+      "one"
+    ],
+    "accepted_answers": [
+      "one"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_gap_002",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "She said she would call, and she ___.",
+    "options": [],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_gap_003",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "I can swim, and so ___ my sister.",
+    "options": [],
+    "correct_answers": [
+      "can"
+    ],
+    "accepted_answers": [
+      "can"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_gap_004",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "These shoes are nicer than the old ___.",
+    "options": [],
+    "correct_answers": [
+      "ones"
+    ],
+    "accepted_answers": [
+      "ones"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_gap_005",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "He promised to help, and he actually ___.",
+    "options": [],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_gap_006",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "She likes tea, and so ___ I.",
+    "options": [],
+    "correct_answers": [
+      "do"
+    ],
+    "accepted_answers": [
+      "do"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_gap_007",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "I need a pen. Do you have ___?",
+    "options": [],
+    "correct_answers": [
+      "one"
+    ],
+    "accepted_answers": [
+      "one"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_gap_008",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "They said they would come, but they did not ___.",
+    "options": [],
+    "correct_answers": [
+      "do so"
+    ],
+    "accepted_answers": [
+      "do so"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_trans_001",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I want the blue shirt, not the red shirt.",
+    "options": [],
+    "source_sentence": "I want the blue shirt, not the red shirt.",
+    "instruction": "Rewrite using substitution.",
+    "correct_answers": [
+      "I want the blue one, not the red one."
+    ],
+    "accepted_answers": [
+      "I want the blue one, not the red one.",
+      "I want the blue one, not the red one"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_trans_002",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She said she would help, and she helped.",
+    "options": [],
+    "source_sentence": "She said she would help, and she helped.",
+    "instruction": "Rewrite using substitution.",
+    "correct_answers": [
+      "She said she would help, and she did."
+    ],
+    "accepted_answers": [
+      "She said she would help, and she did.",
+      "She said she would help, and she did"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_trans_003",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I can swim and my sister can swim too.",
+    "options": [],
+    "source_sentence": "I can swim and my sister can swim too.",
+    "instruction": "Rewrite with so.",
+    "correct_answers": [
+      "I can swim, and so can my sister."
+    ],
+    "accepted_answers": [
+      "I can swim, and so can my sister.",
+      "I can swim, and so can my sister"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "ellipsis_and_substitution_trans_004",
+    "topic_id": "ellipsis_and_substitution",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They said they would come, but they did not come.",
+    "options": [],
+    "source_sentence": "They said they would come, but they did not come.",
+    "instruction": "Rewrite using do so.",
+    "correct_answers": [
+      "They said they would come, but they did not do so."
+    ],
+    "accepted_answers": [
+      "They said they would come, but they did not do so.",
+      "They said they would come, but they did not do so"
+    ],
+    "explanation_template": "Use ellipsis and substitution to avoid repetition in advanced English.",
+    "mistake_type": "ellipsis_substitution",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

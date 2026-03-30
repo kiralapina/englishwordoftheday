@@ -1,0 +1,21 @@
+{
+  "topic_id": "some_any_much_many",
+  "title": "Some / Any / Much / Many",
+  "summary": "Use some in positive statements, any in questions and negatives, many with countable nouns, and much with uncountable nouns.",
+  "structure": [
+    "some apples",
+    "any milk",
+    "many books",
+    "much time"
+  ],
+  "examples": [
+    "I have some friends.",
+    "Do you have any money?",
+    "There are many cars outside."
+  ],
+  "common_mistakes": [
+    "Using some in negatives.",
+    "Using much with countable nouns.",
+    "Using many with uncountable nouns."
+  ]
+}

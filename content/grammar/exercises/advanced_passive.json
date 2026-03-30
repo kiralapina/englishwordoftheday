@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "advanced_passive_mc_001",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The road ___ right now.",
+    "options": [
+      "has repaired",
+      "is repaired",
+      "is being repaired",
+      "repairs"
+    ],
+    "correct_answers": [
+      "is being repaired"
+    ],
+    "accepted_answers": [
+      "is being repaired"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_mc_002",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The report ___ already.",
+    "options": [
+      "has finished",
+      "has being finished",
+      "has been finished",
+      "was finishing"
+    ],
+    "correct_answers": [
+      "has been finished"
+    ],
+    "accepted_answers": [
+      "has been finished"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_mc_003",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "English ___ in many countries.",
+    "options": [
+      "speaks",
+      "has spoken",
+      "is speaking",
+      "is spoken"
+    ],
+    "correct_answers": [
+      "is spoken"
+    ],
+    "accepted_answers": [
+      "is spoken"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_mc_004",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The suspect ___ to the station yesterday.",
+    "options": [
+      "was taking",
+      "was taken",
+      "has taken",
+      "took"
+    ],
+    "correct_answers": [
+      "was taken"
+    ],
+    "accepted_answers": [
+      "was taken"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_mc_005",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The dinner ___ by 8 p.m.",
+    "options": [
+      "will serve",
+      "will be served",
+      "serves",
+      "will served"
+    ],
+    "correct_answers": [
+      "will be served"
+    ],
+    "accepted_answers": [
+      "will be served"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_mc_006",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "She ___ to be an excellent surgeon.",
+    "options": [
+      "has said",
+      "is said",
+      "says",
+      "was saying"
+    ],
+    "correct_answers": [
+      "is said"
+    ],
+    "accepted_answers": [
+      "is said"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_mc_007",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "The problem ___ yet.",
+    "options": [
+      "did not solve",
+      "has not solved",
+      "was not solving",
+      "has not been solved"
+    ],
+    "correct_answers": [
+      "has not been solved"
+    ],
+    "accepted_answers": [
+      "has not been solved"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_mc_008",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "multiple_choice",
+    "prompt": "New houses ___ here next year.",
+    "options": [
+      "will build",
+      "are built",
+      "will be built",
+      "build"
+    ],
+    "correct_answers": [
+      "will be built"
+    ],
+    "accepted_answers": [
+      "will be built"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_gap_001",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The road ___ right now.",
+    "options": [],
+    "correct_answers": [
+      "is being repaired"
+    ],
+    "accepted_answers": [
+      "is being repaired"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_gap_002",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The report ___ already.",
+    "options": [],
+    "correct_answers": [
+      "has been finished"
+    ],
+    "accepted_answers": [
+      "has been finished"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_gap_003",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "English ___ in many countries.",
+    "options": [],
+    "correct_answers": [
+      "is spoken"
+    ],
+    "accepted_answers": [
+      "is spoken"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_gap_004",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The suspect ___ to the station yesterday.",
+    "options": [],
+    "correct_answers": [
+      "was taken"
+    ],
+    "accepted_answers": [
+      "was taken"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_gap_005",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The dinner ___ by 8 p.m.",
+    "options": [],
+    "correct_answers": [
+      "will be served"
+    ],
+    "accepted_answers": [
+      "will be served"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_gap_006",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ to be an excellent surgeon.",
+    "options": [],
+    "correct_answers": [
+      "is said"
+    ],
+    "accepted_answers": [
+      "is said"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_gap_007",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "The problem ___ yet.",
+    "options": [],
+    "correct_answers": [
+      "has not been solved"
+    ],
+    "accepted_answers": [
+      "has not been solved"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_gap_008",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "fill_in_the_gap",
+    "prompt": "New houses ___ here next year.",
+    "options": [],
+    "correct_answers": [
+      "will be built"
+    ],
+    "accepted_answers": [
+      "will be built"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_trans_001",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They are repairing the road.",
+    "options": [],
+    "source_sentence": "They are repairing the road.",
+    "instruction": "Rewrite in the passive.",
+    "correct_answers": [
+      "The road is being repaired."
+    ],
+    "accepted_answers": [
+      "The road is being repaired.",
+      "The road is being repaired"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_trans_002",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Someone has finished the report.",
+    "options": [],
+    "source_sentence": "Someone has finished the report.",
+    "instruction": "Rewrite in the passive.",
+    "correct_answers": [
+      "The report has been finished."
+    ],
+    "accepted_answers": [
+      "The report has been finished.",
+      "The report has been finished"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_trans_003",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: People say she is very talented.",
+    "options": [],
+    "source_sentence": "People say she is very talented.",
+    "instruction": "Rewrite with a reporting passive.",
+    "correct_answers": [
+      "She is said to be very talented."
+    ],
+    "accepted_answers": [
+      "She is said to be very talented.",
+      "She is said to be very talented"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_passive_trans_004",
+    "topic_id": "advanced_passive",
+    "level": "B2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They will build new houses here.",
+    "options": [],
+    "source_sentence": "They will build new houses here.",
+    "instruction": "Rewrite in the passive.",
+    "correct_answers": [
+      "New houses will be built here."
+    ],
+    "accepted_answers": [
+      "New houses will be built here.",
+      "New houses will be built here"
+    ],
+    "explanation_template": "Use advanced passive structures in different tenses and with reporting verbs.",
+    "mistake_type": "advanced_passive_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "advanced_modality_mc_001",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "You ___ me earlier.",
+    "options": [
+      "should called",
+      "should have call",
+      "must to call",
+      "should have called"
+    ],
+    "correct_answers": [
+      "should have called"
+    ],
+    "accepted_answers": [
+      "should have called"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_mc_002",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "They ___ the train; traffic was awful.",
+    "options": [
+      "might have miss",
+      "must to miss",
+      "might have missed",
+      "might missed"
+    ],
+    "correct_answers": [
+      "might have missed"
+    ],
+    "accepted_answers": [
+      "might have missed"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_mc_003",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "You ___ any food; we already had plenty.",
+    "options": [
+      "needn't bought",
+      "needn't have bought",
+      "needn't have buy",
+      "didn't need bought"
+    ],
+    "correct_answers": [
+      "needn't have bought"
+    ],
+    "accepted_answers": [
+      "needn't have bought"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_mc_004",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "She ___ at home; the lights are on.",
+    "options": [
+      "must have be",
+      "must to be",
+      "must be",
+      "must being"
+    ],
+    "correct_answers": [
+      "must be"
+    ],
+    "accepted_answers": [
+      "must be"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_mc_005",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "He ___ so much money on that.",
+    "options": [
+      "shouldn't have spend",
+      "shouldn't spent",
+      "shouldn't have spent",
+      "mustn't to spend"
+    ],
+    "correct_answers": [
+      "shouldn't have spent"
+    ],
+    "accepted_answers": [
+      "shouldn't have spent"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_mc_006",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "I ___ the wrong date in my diary.",
+    "options": [
+      "may have written",
+      "may wrote",
+      "may to write",
+      "may have write"
+    ],
+    "correct_answers": [
+      "may have written"
+    ],
+    "accepted_answers": [
+      "may have written"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_mc_007",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "We ___ so early; the meeting was delayed.",
+    "options": [
+      "needn't have arrive",
+      "needn't have arrived",
+      "needn't arrived",
+      "didn't need arrived"
+    ],
+    "correct_answers": [
+      "needn't have arrived"
+    ],
+    "accepted_answers": [
+      "needn't have arrived"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_mc_008",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "They ___ by now; the flight landed an hour ago.",
+    "options": [
+      "should have here",
+      "should be here",
+      "must to be here",
+      "should been here"
+    ],
+    "correct_answers": [
+      "should be here"
+    ],
+    "accepted_answers": [
+      "should be here"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_gap_001",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ me earlier.",
+    "options": [],
+    "correct_answers": [
+      "should have called"
+    ],
+    "accepted_answers": [
+      "should have called"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_gap_002",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "They ___ the train; traffic was awful.",
+    "options": [],
+    "correct_answers": [
+      "might have missed"
+    ],
+    "accepted_answers": [
+      "might have missed"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_gap_003",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ any food; we already had plenty.",
+    "options": [],
+    "correct_answers": [
+      "needn't have bought"
+    ],
+    "accepted_answers": [
+      "needn't have bought"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_gap_004",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ at home; the lights are on.",
+    "options": [],
+    "correct_answers": [
+      "must be"
+    ],
+    "accepted_answers": [
+      "must be"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_gap_005",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ so much money on that.",
+    "options": [],
+    "correct_answers": [
+      "shouldn't have spent"
+    ],
+    "accepted_answers": [
+      "shouldn't have spent"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_gap_006",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ the wrong date in my diary.",
+    "options": [],
+    "correct_answers": [
+      "may have written"
+    ],
+    "accepted_answers": [
+      "may have written"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_gap_007",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ so early; the meeting was delayed.",
+    "options": [],
+    "correct_answers": [
+      "needn't have arrived"
+    ],
+    "accepted_answers": [
+      "needn't have arrived"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_gap_008",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "They ___ by now; the flight landed an hour ago.",
+    "options": [],
+    "correct_answers": [
+      "should be here"
+    ],
+    "accepted_answers": [
+      "should be here"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_trans_001",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It was a mistake not to call me earlier.",
+    "options": [],
+    "source_sentence": "It was a mistake not to call me earlier.",
+    "instruction": "Rewrite with should have.",
+    "correct_answers": [
+      "You should have called me earlier."
+    ],
+    "accepted_answers": [
+      "You should have called me earlier.",
+      "You should have called me earlier"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_trans_002",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Perhaps they missed the train.",
+    "options": [],
+    "source_sentence": "Perhaps they missed the train.",
+    "instruction": "Rewrite with might have.",
+    "correct_answers": [
+      "They might have missed the train."
+    ],
+    "accepted_answers": [
+      "They might have missed the train.",
+      "They might have missed the train"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_trans_003",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It was unnecessary for you to buy food.",
+    "options": [],
+    "source_sentence": "It was unnecessary for you to buy food.",
+    "instruction": "Rewrite with needn't have.",
+    "correct_answers": [
+      "You needn't have bought any food."
+    ],
+    "accepted_answers": [
+      "You needn't have bought any food.",
+      "You needn't have bought any food"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "advanced_modality_trans_004",
+    "topic_id": "advanced_modality",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I am almost certain she is at home.",
+    "options": [],
+    "source_sentence": "I am almost certain she is at home.",
+    "instruction": "Rewrite with must be.",
+    "correct_answers": [
+      "She must be at home."
+    ],
+    "accepted_answers": [
+      "She must be at home.",
+      "She must be at home"
+    ],
+    "explanation_template": "Use advanced modals to express nuance, speculation, criticism, and degrees of certainty.",
+    "mistake_type": "advanced_modality_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

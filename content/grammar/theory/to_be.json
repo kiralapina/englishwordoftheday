@@ -1,0 +1,20 @@
+{
+  "topic_id": "to_be",
+  "title": "To Be",
+  "summary": "Use am, is, are to describe identity, age, location, and basic states.",
+  "structure": [
+    "I am",
+    "You/We/They are",
+    "He/She/It is"
+  ],
+  "examples": [
+    "I am happy.",
+    "She is a teacher.",
+    "They are at home."
+  ],
+  "common_mistakes": [
+    "Using is with I.",
+    "Omitting the verb in short sentences.",
+    "Confusing are and is."
+  ]
+}

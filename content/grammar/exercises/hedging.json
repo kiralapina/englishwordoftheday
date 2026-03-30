@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "hedging_mc_001",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "It ___ that the plan is working.",
+    "options": [
+      "seems",
+      "proves",
+      "absolutely",
+      "must"
+    ],
+    "correct_answers": [
+      "seems"
+    ],
+    "accepted_answers": [
+      "seems"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_mc_002",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "This ___ not be entirely accurate.",
+    "options": [
+      "definitely",
+      "is",
+      "must to",
+      "may"
+    ],
+    "correct_answers": [
+      "may"
+    ],
+    "accepted_answers": [
+      "may"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_mc_003",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Students ___ struggle with this topic at first.",
+    "options": [
+      "tend to",
+      "are always",
+      "prove to",
+      "must"
+    ],
+    "correct_answers": [
+      "tend to"
+    ],
+    "accepted_answers": [
+      "tend to"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_mc_004",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "The results ___ suggest a slight improvement.",
+    "options": [
+      "are surely",
+      "appear to",
+      "do to",
+      "must"
+    ],
+    "correct_answers": [
+      "appear to"
+    ],
+    "accepted_answers": [
+      "appear to"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_mc_005",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "It is ___ possible that we need more time.",
+    "options": [
+      "perhaps",
+      "definitely",
+      "absolutely",
+      "totally"
+    ],
+    "correct_answers": [
+      "perhaps"
+    ],
+    "accepted_answers": [
+      "perhaps"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_mc_006",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "The change is ___ to affect small businesses more.",
+    "options": [
+      "must",
+      "certainly always",
+      "likely",
+      "surely to"
+    ],
+    "correct_answers": [
+      "likely"
+    ],
+    "accepted_answers": [
+      "likely"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_mc_007",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "This could ___ interpreted in two ways.",
+    "options": [
+      "being",
+      "to be",
+      "been",
+      "be"
+    ],
+    "correct_answers": [
+      "be"
+    ],
+    "accepted_answers": [
+      "be"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_mc_008",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "It would ___ be fair to say that progress is slow.",
+    "options": [
+      "definitely",
+      "absolutely",
+      "surely always",
+      "probably"
+    ],
+    "correct_answers": [
+      "probably"
+    ],
+    "accepted_answers": [
+      "probably"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_gap_001",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "It ___ that the plan is working.",
+    "options": [],
+    "correct_answers": [
+      "seems"
+    ],
+    "accepted_answers": [
+      "seems"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_gap_002",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "This ___ not be entirely accurate.",
+    "options": [],
+    "correct_answers": [
+      "may"
+    ],
+    "accepted_answers": [
+      "may"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_gap_003",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Students ___ struggle with this topic at first.",
+    "options": [],
+    "correct_answers": [
+      "tend to"
+    ],
+    "accepted_answers": [
+      "tend to"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_gap_004",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "The results ___ suggest a slight improvement.",
+    "options": [],
+    "correct_answers": [
+      "appear to"
+    ],
+    "accepted_answers": [
+      "appear to"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_gap_005",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "It is ___ possible that we need more time.",
+    "options": [],
+    "correct_answers": [
+      "perhaps"
+    ],
+    "accepted_answers": [
+      "perhaps"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_gap_006",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "The change is ___ to affect small businesses more.",
+    "options": [],
+    "correct_answers": [
+      "likely"
+    ],
+    "accepted_answers": [
+      "likely"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_gap_007",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "This could ___ interpreted in two ways.",
+    "options": [],
+    "correct_answers": [
+      "be"
+    ],
+    "accepted_answers": [
+      "be"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_gap_008",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "It would ___ be fair to say that progress is slow.",
+    "options": [],
+    "correct_answers": [
+      "probably"
+    ],
+    "accepted_answers": [
+      "probably"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_trans_001",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The plan is working.",
+    "options": [],
+    "source_sentence": "The plan is working.",
+    "instruction": "Rewrite with hedging.",
+    "correct_answers": [
+      "It seems that the plan is working."
+    ],
+    "accepted_answers": [
+      "It seems that the plan is working.",
+      "It seems that the plan is working"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_trans_002",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: This is wrong.",
+    "options": [],
+    "source_sentence": "This is wrong.",
+    "instruction": "Rewrite with hedging.",
+    "correct_answers": [
+      "This may not be entirely accurate."
+    ],
+    "accepted_answers": [
+      "This may not be entirely accurate.",
+      "This may not be entirely accurate"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_trans_003",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Students struggle with this topic.",
+    "options": [],
+    "source_sentence": "Students struggle with this topic.",
+    "instruction": "Rewrite with hedging.",
+    "correct_answers": [
+      "Students tend to struggle with this topic."
+    ],
+    "accepted_answers": [
+      "Students tend to struggle with this topic.",
+      "Students tend to struggle with this topic"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "hedging_trans_004",
+    "topic_id": "hedging",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The results show improvement.",
+    "options": [],
+    "source_sentence": "The results show improvement.",
+    "instruction": "Rewrite with hedging.",
+    "correct_answers": [
+      "The results appear to suggest improvement."
+    ],
+    "accepted_answers": [
+      "The results appear to suggest improvement.",
+      "The results appear to suggest improvement"
+    ],
+    "explanation_template": "Use hedging language to sound cautious, polite, or less absolute.",
+    "mistake_type": "hedging_language",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

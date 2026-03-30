@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "modals_advice_obligation_mc_001",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "You ___ see a doctor.",
+    "options": [
+      "should to",
+      "must to",
+      "should",
+      "shoulds"
+    ],
+    "correct_answers": [
+      "should"
+    ],
+    "accepted_answers": [
+      "should"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_mc_002",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "I ___ finish this report today.",
+    "options": [
+      "has to",
+      "must to",
+      "have to",
+      "having to"
+    ],
+    "correct_answers": [
+      "have to"
+    ],
+    "accepted_answers": [
+      "have to"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_mc_003",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "Students ___ wear uniforms at this school.",
+    "options": [
+      "have to",
+      "must to",
+      "should to",
+      "musts"
+    ],
+    "correct_answers": [
+      "have to"
+    ],
+    "accepted_answers": [
+      "have to"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_mc_004",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "You ___ eat so much sugar.",
+    "options": [
+      "mustn't to",
+      "shouldn't",
+      "should not to",
+      "don't should"
+    ],
+    "correct_answers": [
+      "shouldn't"
+    ],
+    "accepted_answers": [
+      "shouldn't"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_mc_005",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "He ___ be at the office by 9.",
+    "options": [
+      "must to",
+      "have to",
+      "should to",
+      "has to"
+    ],
+    "correct_answers": [
+      "has to"
+    ],
+    "accepted_answers": [
+      "has to"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_mc_006",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "We ___ tell her the truth.",
+    "options": [
+      "shoulds",
+      "should to",
+      "must to",
+      "should"
+    ],
+    "correct_answers": [
+      "should"
+    ],
+    "accepted_answers": [
+      "should"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_mc_007",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "You ___ park here.",
+    "options": [
+      "shouldn't to",
+      "don't must",
+      "mustn't to",
+      "mustn't"
+    ],
+    "correct_answers": [
+      "mustn't"
+    ],
+    "accepted_answers": [
+      "mustn't"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_mc_008",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "multiple_choice",
+    "prompt": "She ___ take an umbrella; it looks rainy.",
+    "options": [
+      "has to",
+      "must to",
+      "should",
+      "should to"
+    ],
+    "correct_answers": [
+      "should"
+    ],
+    "accepted_answers": [
+      "should"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_gap_001",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ see a doctor.",
+    "options": [],
+    "correct_answers": [
+      "should"
+    ],
+    "accepted_answers": [
+      "should"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_gap_002",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ finish this report today.",
+    "options": [],
+    "correct_answers": [
+      "have to"
+    ],
+    "accepted_answers": [
+      "have to"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_gap_003",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "Students ___ wear uniforms at this school.",
+    "options": [],
+    "correct_answers": [
+      "have to"
+    ],
+    "accepted_answers": [
+      "have to"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_gap_004",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ eat so much sugar.",
+    "options": [],
+    "correct_answers": [
+      "shouldn't"
+    ],
+    "accepted_answers": [
+      "shouldn't"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_gap_005",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ be at the office by 9.",
+    "options": [],
+    "correct_answers": [
+      "has to"
+    ],
+    "accepted_answers": [
+      "has to"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_gap_006",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ tell her the truth.",
+    "options": [],
+    "correct_answers": [
+      "should"
+    ],
+    "accepted_answers": [
+      "should"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_gap_007",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ park here.",
+    "options": [],
+    "correct_answers": [
+      "mustn't"
+    ],
+    "accepted_answers": [
+      "mustn't"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_gap_008",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ take an umbrella; it looks rainy.",
+    "options": [],
+    "correct_answers": [
+      "should"
+    ],
+    "accepted_answers": [
+      "should"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_trans_001",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It is a good idea to rest more.",
+    "options": [],
+    "source_sentence": "It is a good idea to rest more.",
+    "instruction": "Rewrite with should.",
+    "correct_answers": [
+      "You should rest more."
+    ],
+    "accepted_answers": [
+      "You should rest more.",
+      "You should rest more"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_trans_002",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It is necessary for her to wear a uniform.",
+    "options": [],
+    "source_sentence": "It is necessary for her to wear a uniform.",
+    "instruction": "Rewrite with have to.",
+    "correct_answers": [
+      "She has to wear a uniform."
+    ],
+    "accepted_answers": [
+      "She has to wear a uniform.",
+      "She has to wear a uniform"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_trans_003",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It is not allowed to park here.",
+    "options": [],
+    "source_sentence": "It is not allowed to park here.",
+    "instruction": "Rewrite with mustn't.",
+    "correct_answers": [
+      "You mustn't park here."
+    ],
+    "accepted_answers": [
+      "You mustn't park here.",
+      "You mustn't park here"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "modals_advice_obligation_trans_004",
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: You should call him.",
+    "options": [],
+    "source_sentence": "You should call him.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "You shouldn't call him."
+    ],
+    "accepted_answers": [
+      "You shouldn't call him.",
+      "You shouldn't call him"
+    ],
+    "explanation_template": "Use should for advice and must / have to for obligation.",
+    "mistake_type": "advice_obligation_modal",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

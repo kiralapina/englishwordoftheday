@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "past_simple_mc_001",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "We ___ a film last night.",
+    "options": [
+      "watch",
+      "watched",
+      "watching",
+      "watches"
+    ],
+    "correct_answers": [
+      "watched"
+    ],
+    "accepted_answers": [
+      "watched"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_mc_002",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "She ___ to Paris in June.",
+    "options": [
+      "travelling",
+      "travelled",
+      "travel",
+      "travels"
+    ],
+    "correct_answers": [
+      "travelled"
+    ],
+    "accepted_answers": [
+      "travelled"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_mc_003",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I ___ my keys yesterday.",
+    "options": [
+      "lost",
+      "loses",
+      "lose",
+      "losing"
+    ],
+    "correct_answers": [
+      "lost"
+    ],
+    "accepted_answers": [
+      "lost"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_mc_004",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "They ___ tennis after school.",
+    "options": [
+      "play",
+      "playing",
+      "played",
+      "plays"
+    ],
+    "correct_answers": [
+      "played"
+    ],
+    "accepted_answers": [
+      "played"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_mc_005",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "He ___ dinner at 7 p.m.",
+    "options": [
+      "cooking",
+      "cooked",
+      "cooks",
+      "cook"
+    ],
+    "correct_answers": [
+      "cooked"
+    ],
+    "accepted_answers": [
+      "cooked"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_mc_006",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "You ___ me last week.",
+    "options": [
+      "helping",
+      "help",
+      "helps",
+      "helped"
+    ],
+    "correct_answers": [
+      "helped"
+    ],
+    "accepted_answers": [
+      "helped"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_mc_007",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Anna ___ her homework at home.",
+    "options": [
+      "did",
+      "doing",
+      "does",
+      "do"
+    ],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_mc_008",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "My dad ___ the car on Sunday.",
+    "options": [
+      "washing",
+      "washed",
+      "washes",
+      "wash"
+    ],
+    "correct_answers": [
+      "washed"
+    ],
+    "accepted_answers": [
+      "washed"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_gap_001",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ a film last night.",
+    "options": [],
+    "correct_answers": [
+      "watched"
+    ],
+    "accepted_answers": [
+      "watched"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_gap_002",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ to Paris in June.",
+    "options": [],
+    "correct_answers": [
+      "travelled"
+    ],
+    "accepted_answers": [
+      "travelled"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_gap_003",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ my keys yesterday.",
+    "options": [],
+    "correct_answers": [
+      "lost"
+    ],
+    "accepted_answers": [
+      "lost"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_gap_004",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "They ___ tennis after school.",
+    "options": [],
+    "correct_answers": [
+      "played"
+    ],
+    "accepted_answers": [
+      "played"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_gap_005",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ dinner at 7 p.m.",
+    "options": [],
+    "correct_answers": [
+      "cooked"
+    ],
+    "accepted_answers": [
+      "cooked"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_gap_006",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ me last week.",
+    "options": [],
+    "correct_answers": [
+      "helped"
+    ],
+    "accepted_answers": [
+      "helped"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_gap_007",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Anna ___ her homework at home.",
+    "options": [],
+    "correct_answers": [
+      "did"
+    ],
+    "accepted_answers": [
+      "did"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_gap_008",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "My dad ___ the car on Sunday.",
+    "options": [],
+    "correct_answers": [
+      "washed"
+    ],
+    "accepted_answers": [
+      "washed"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_trans_001",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She watched TV yesterday.",
+    "options": [],
+    "source_sentence": "She watched TV yesterday.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "She did not watch TV yesterday."
+    ],
+    "accepted_answers": [
+      "She did not watch TV yesterday.",
+      "She did not watch TV yesterday"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_trans_002",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They played basketball last Friday.",
+    "options": [],
+    "source_sentence": "They played basketball last Friday.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Did they play basketball last Friday?"
+    ],
+    "accepted_answers": [
+      "Did they play basketball last Friday?",
+      "Did they play basketball last Friday?"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_trans_003",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He visited his aunt.",
+    "options": [],
+    "source_sentence": "He visited his aunt.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "He did not visit his aunt."
+    ],
+    "accepted_answers": [
+      "He did not visit his aunt.",
+      "He did not visit his aunt"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "past_simple_trans_004",
+    "topic_id": "past_simple",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: You cleaned the room.",
+    "options": [],
+    "source_sentence": "You cleaned the room.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Did you clean the room?"
+    ],
+    "accepted_answers": [
+      "Did you clean the room?",
+      "Did you clean the room?"
+    ],
+    "explanation_template": "Use Past Simple for completed actions in the past.",
+    "mistake_type": "past_simple_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

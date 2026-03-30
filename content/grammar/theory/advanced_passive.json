@@ -1,0 +1,20 @@
+{
+  "topic_id": "advanced_passive",
+  "title": "Advanced Passive",
+  "summary": "Use advanced passive structures in different tenses and with reporting verbs.",
+  "structure": [
+    "is being done",
+    "has been done",
+    "is said to..."
+  ],
+  "examples": [
+    "The bridge is being repaired.",
+    "The work has been finished.",
+    "He is said to be very rich."
+  ],
+  "common_mistakes": [
+    "Using the wrong form of be.",
+    "Forgetting been in perfect passive.",
+    "Keeping active word order."
+  ]
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "basic_modals_mc_001",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "She ___ swim very well.",
+    "options": [
+      "must to",
+      "to can",
+      "can",
+      "cans"
+    ],
+    "correct_answers": [
+      "can"
+    ],
+    "accepted_answers": [
+      "can"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_mc_002",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "You ___ wear a seat belt.",
+    "options": [
+      "must to",
+      "must",
+      "can to",
+      "musts"
+    ],
+    "correct_answers": [
+      "must"
+    ],
+    "accepted_answers": [
+      "must"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_mc_003",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "We ___ smoke here.",
+    "options": [
+      "must not to",
+      "mustn't",
+      "can't to",
+      "don't must"
+    ],
+    "correct_answers": [
+      "mustn't"
+    ],
+    "accepted_answers": [
+      "mustn't"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_mc_004",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I ___ speak Spanish a little.",
+    "options": [
+      "am can",
+      "can",
+      "cans",
+      "to can"
+    ],
+    "correct_answers": [
+      "can"
+    ],
+    "accepted_answers": [
+      "can"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_mc_005",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Students ___ run in the corridor.",
+    "options": [
+      "musts",
+      "don't can",
+      "mustn't",
+      "must not to"
+    ],
+    "correct_answers": [
+      "mustn't"
+    ],
+    "accepted_answers": [
+      "mustn't"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_mc_006",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "You ___ finish your homework today.",
+    "options": [
+      "must to",
+      "musts",
+      "must",
+      "to must"
+    ],
+    "correct_answers": [
+      "must"
+    ],
+    "accepted_answers": [
+      "must"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_mc_007",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "He ___ play the piano.",
+    "options": [
+      "can",
+      "plays",
+      "can to",
+      "cans"
+    ],
+    "correct_answers": [
+      "can"
+    ],
+    "accepted_answers": [
+      "can"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_mc_008",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "You ___ touch that button.",
+    "options": [
+      "must not to",
+      "mustn't",
+      "can't to",
+      "musts"
+    ],
+    "correct_answers": [
+      "mustn't"
+    ],
+    "accepted_answers": [
+      "mustn't"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_gap_001",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ swim very well.",
+    "options": [],
+    "correct_answers": [
+      "can"
+    ],
+    "accepted_answers": [
+      "can"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_gap_002",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ wear a seat belt.",
+    "options": [],
+    "correct_answers": [
+      "must"
+    ],
+    "accepted_answers": [
+      "must"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_gap_003",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ smoke here.",
+    "options": [],
+    "correct_answers": [
+      "mustn't"
+    ],
+    "accepted_answers": [
+      "mustn't"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_gap_004",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ speak Spanish a little.",
+    "options": [],
+    "correct_answers": [
+      "can"
+    ],
+    "accepted_answers": [
+      "can"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_gap_005",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Students ___ run in the corridor.",
+    "options": [],
+    "correct_answers": [
+      "mustn't"
+    ],
+    "accepted_answers": [
+      "mustn't"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_gap_006",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ finish your homework today.",
+    "options": [],
+    "correct_answers": [
+      "must"
+    ],
+    "accepted_answers": [
+      "must"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_gap_007",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ play the piano.",
+    "options": [],
+    "correct_answers": [
+      "can"
+    ],
+    "accepted_answers": [
+      "can"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_gap_008",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ touch that button.",
+    "options": [],
+    "correct_answers": [
+      "mustn't"
+    ],
+    "accepted_answers": [
+      "mustn't"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_trans_001",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She is able to swim.",
+    "options": [],
+    "source_sentence": "She is able to swim.",
+    "instruction": "Rewrite with can.",
+    "correct_answers": [
+      "She can swim."
+    ],
+    "accepted_answers": [
+      "She can swim.",
+      "She can swim"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_trans_002",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It is necessary to stop here.",
+    "options": [],
+    "source_sentence": "It is necessary to stop here.",
+    "instruction": "Rewrite with must.",
+    "correct_answers": [
+      "You must stop here."
+    ],
+    "accepted_answers": [
+      "You must stop here.",
+      "You must stop here"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_trans_003",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: It is not allowed to smoke here.",
+    "options": [],
+    "source_sentence": "It is not allowed to smoke here.",
+    "instruction": "Rewrite with mustn't.",
+    "correct_answers": [
+      "You mustn't smoke here."
+    ],
+    "accepted_answers": [
+      "You mustn't smoke here.",
+      "You mustn't smoke here"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "basic_modals_trans_004",
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He can drive.",
+    "options": [],
+    "source_sentence": "He can drive.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Can he drive?"
+    ],
+    "accepted_answers": [
+      "Can he drive?",
+      "Can he drive?"
+    ],
+    "explanation_template": "Use can, can't, must, and mustn't for ability, permission, and basic rules.",
+    "mistake_type": "basic_modal_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

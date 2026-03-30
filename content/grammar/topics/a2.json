@@ -1,0 +1,58 @@
+[
+  {
+    "topic_id": "past_simple",
+    "level": "A2",
+    "title": "Past Simple",
+    "order": 1,
+    "is_active": true
+  },
+  {
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "title": "Present Continuous",
+    "order": 2,
+    "is_active": true
+  },
+  {
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "title": "Comparatives and Superlatives",
+    "order": 3,
+    "is_active": true
+  },
+  {
+    "topic_id": "future_will_going_to",
+    "level": "A2",
+    "title": "Future with Will / Going To",
+    "order": 4,
+    "is_active": true
+  },
+  {
+    "topic_id": "countable_uncountable",
+    "level": "A2",
+    "title": "Countable and Uncountable Nouns",
+    "order": 5,
+    "is_active": true
+  },
+  {
+    "topic_id": "some_any_much_many",
+    "level": "A2",
+    "title": "Some / Any / Much / Many",
+    "order": 6,
+    "is_active": true
+  },
+  {
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "title": "Adverbs of Frequency",
+    "order": 7,
+    "is_active": true
+  },
+  {
+    "topic_id": "basic_modals",
+    "level": "A2",
+    "title": "Basic Modals",
+    "order": 8,
+    "is_active": true
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "topic_id": "present_perfect",
+    "level": "B1",
+    "title": "Present Perfect",
+    "order": 1,
+    "is_active": true
+  },
+  {
+    "topic_id": "first_conditional",
+    "level": "B1",
+    "title": "First Conditional",
+    "order": 2,
+    "is_active": true
+  },
+  {
+    "topic_id": "gerund_vs_infinitive",
+    "level": "B1",
+    "title": "Gerund vs Infinitive",
+    "order": 3,
+    "is_active": true
+  },
+  {
+    "topic_id": "basic_passive",
+    "level": "B1",
+    "title": "Basic Passive",
+    "order": 4,
+    "is_active": true
+  },
+  {
+    "topic_id": "present_perfect_vs_past_simple",
+    "level": "B1",
+    "title": "Present Perfect vs Past Simple",
+    "order": 5,
+    "is_active": true
+  },
+  {
+    "topic_id": "modals_advice_obligation",
+    "level": "B1",
+    "title": "Modals of Advice and Obligation",
+    "order": 6,
+    "is_active": true
+  },
+  {
+    "topic_id": "relative_clauses",
+    "level": "B1",
+    "title": "Relative Clauses",
+    "order": 7,
+    "is_active": true
+  },
+  {
+    "topic_id": "basic_reported_speech",
+    "level": "B1",
+    "title": "Basic Reported Speech",
+    "order": 8,
+    "is_active": true
+  }
+]

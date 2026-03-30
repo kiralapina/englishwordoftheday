@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "singular_and_plural_mc_001",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "I have two ___.",
+    "options": [
+      "books",
+      "bookes",
+      "booking",
+      "book"
+    ],
+    "correct_answers": [
+      "books"
+    ],
+    "accepted_answers": [
+      "books"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_mc_002",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There is one ___ on the desk.",
+    "options": [
+      "pens",
+      "penes",
+      "pen",
+      "pens"
+    ],
+    "correct_answers": [
+      "pen"
+    ],
+    "accepted_answers": [
+      "pen"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_mc_003",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "Three ___ are in the room.",
+    "options": [
+      "child",
+      "childes",
+      "children",
+      "childs"
+    ],
+    "correct_answers": [
+      "children"
+    ],
+    "accepted_answers": [
+      "children"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_mc_004",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "My friend has four ___.",
+    "options": [
+      "boxen",
+      "boxes",
+      "boxs",
+      "box"
+    ],
+    "correct_answers": [
+      "boxes"
+    ],
+    "accepted_answers": [
+      "boxes"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_mc_005",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "One ___ is open.",
+    "options": [
+      "windows",
+      "window",
+      "windoes",
+      "windows"
+    ],
+    "correct_answers": [
+      "window"
+    ],
+    "accepted_answers": [
+      "window"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_mc_006",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "Two ___ are sleeping.",
+    "options": [
+      "babyes",
+      "babys",
+      "babies",
+      "baby"
+    ],
+    "correct_answers": [
+      "babies"
+    ],
+    "accepted_answers": [
+      "babies"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_mc_007",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "Five ___ are playing outside.",
+    "options": [
+      "boies",
+      "boys",
+      "boy",
+      "boyes"
+    ],
+    "correct_answers": [
+      "boys"
+    ],
+    "accepted_answers": [
+      "boys"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_mc_008",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "There is one ___ in the garden.",
+    "options": [
+      "womanes",
+      "woman",
+      "women",
+      "womans"
+    ],
+    "correct_answers": [
+      "woman"
+    ],
+    "accepted_answers": [
+      "woman"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_gap_001",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "I have two ___.",
+    "options": [],
+    "correct_answers": [
+      "books"
+    ],
+    "accepted_answers": [
+      "books"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_gap_002",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There is one ___ on the desk.",
+    "options": [],
+    "correct_answers": [
+      "pen"
+    ],
+    "accepted_answers": [
+      "pen"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_gap_003",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "Three ___ are in the room.",
+    "options": [],
+    "correct_answers": [
+      "children"
+    ],
+    "accepted_answers": [
+      "children"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_gap_004",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "My friend has four ___.",
+    "options": [],
+    "correct_answers": [
+      "boxes"
+    ],
+    "accepted_answers": [
+      "boxes"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_gap_005",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "One ___ is open.",
+    "options": [],
+    "correct_answers": [
+      "window"
+    ],
+    "accepted_answers": [
+      "window"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_gap_006",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "Two ___ are sleeping.",
+    "options": [],
+    "correct_answers": [
+      "babies"
+    ],
+    "accepted_answers": [
+      "babies"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_gap_007",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "Five ___ are playing outside.",
+    "options": [],
+    "correct_answers": [
+      "boys"
+    ],
+    "accepted_answers": [
+      "boys"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_gap_008",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "There is one ___ in the garden.",
+    "options": [],
+    "correct_answers": [
+      "woman"
+    ],
+    "accepted_answers": [
+      "woman"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_trans_001",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: one apple",
+    "options": [],
+    "source_sentence": "one apple",
+    "instruction": "Rewrite in the plural.",
+    "correct_answers": [
+      "two apples"
+    ],
+    "accepted_answers": [
+      "two apples",
+      "two apples"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_trans_002",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: three child",
+    "options": [],
+    "source_sentence": "three child",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "three children"
+    ],
+    "accepted_answers": [
+      "three children",
+      "three children"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_trans_003",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: one boxes",
+    "options": [],
+    "source_sentence": "one boxes",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "one box"
+    ],
+    "accepted_answers": [
+      "one box",
+      "one box"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "singular_and_plural_trans_004",
+    "topic_id": "singular_and_plural",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: two woman",
+    "options": [],
+    "source_sentence": "two woman",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "two women"
+    ],
+    "accepted_answers": [
+      "two women",
+      "two women"
+    ],
+    "explanation_template": "Use singular nouns for one thing and plural nouns for two or more things.",
+    "mistake_type": "plural_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

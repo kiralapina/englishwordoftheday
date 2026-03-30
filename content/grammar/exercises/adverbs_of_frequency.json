@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "adverbs_of_frequency_mc_001",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I ___ drink coffee in the morning.",
+    "options": [
+      "never not",
+      "usually",
+      "drink",
+      "am"
+    ],
+    "correct_answers": [
+      "usually"
+    ],
+    "accepted_answers": [
+      "usually"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_mc_002",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "She is ___ happy after class.",
+    "options": [
+      "goes",
+      "usually goes",
+      "eat",
+      "always"
+    ],
+    "correct_answers": [
+      "always"
+    ],
+    "accepted_answers": [
+      "always"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_mc_003",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "They ___ go to the cinema on Fridays.",
+    "options": [
+      "is",
+      "often",
+      "never not",
+      "are"
+    ],
+    "correct_answers": [
+      "often"
+    ],
+    "accepted_answers": [
+      "often"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_mc_004",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "He is ___ late for work.",
+    "options": [
+      "drives",
+      "sometimes",
+      "never not",
+      "go"
+    ],
+    "correct_answers": [
+      "sometimes"
+    ],
+    "accepted_answers": [
+      "sometimes"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_mc_005",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "We ___ eat fast food.",
+    "options": [
+      "never",
+      "are",
+      "is",
+      "always are"
+    ],
+    "correct_answers": [
+      "never"
+    ],
+    "accepted_answers": [
+      "never"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_mc_006",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "My dad ___ watches TV after dinner.",
+    "options": [
+      "is",
+      "never not",
+      "are",
+      "often"
+    ],
+    "correct_answers": [
+      "often"
+    ],
+    "accepted_answers": [
+      "often"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_mc_007",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I am ___ tired after the gym.",
+    "options": [
+      "go",
+      "drink",
+      "plays",
+      "usually"
+    ],
+    "correct_answers": [
+      "usually"
+    ],
+    "accepted_answers": [
+      "usually"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_mc_008",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "She ___ walks to school.",
+    "options": [
+      "is",
+      "never not",
+      "always",
+      "are"
+    ],
+    "correct_answers": [
+      "always"
+    ],
+    "accepted_answers": [
+      "always"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_gap_001",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ drink coffee in the morning.",
+    "options": [],
+    "correct_answers": [
+      "usually"
+    ],
+    "accepted_answers": [
+      "usually"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_gap_002",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "She is ___ happy after class.",
+    "options": [],
+    "correct_answers": [
+      "always"
+    ],
+    "accepted_answers": [
+      "always"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_gap_003",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "They ___ go to the cinema on Fridays.",
+    "options": [],
+    "correct_answers": [
+      "often"
+    ],
+    "accepted_answers": [
+      "often"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_gap_004",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "He is ___ late for work.",
+    "options": [],
+    "correct_answers": [
+      "sometimes"
+    ],
+    "accepted_answers": [
+      "sometimes"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_gap_005",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ eat fast food.",
+    "options": [],
+    "correct_answers": [
+      "never"
+    ],
+    "accepted_answers": [
+      "never"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_gap_006",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "My dad ___ watches TV after dinner.",
+    "options": [],
+    "correct_answers": [
+      "often"
+    ],
+    "accepted_answers": [
+      "often"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_gap_007",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I am ___ tired after the gym.",
+    "options": [],
+    "correct_answers": [
+      "usually"
+    ],
+    "accepted_answers": [
+      "usually"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_gap_008",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ walks to school.",
+    "options": [],
+    "correct_answers": [
+      "always"
+    ],
+    "accepted_answers": [
+      "always"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_trans_001",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I go to bed late. usually",
+    "options": [],
+    "source_sentence": "I go to bed late. usually",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "I usually go to bed late."
+    ],
+    "accepted_answers": [
+      "I usually go to bed late.",
+      "I usually go to bed late"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_trans_002",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She late is always.",
+    "options": [],
+    "source_sentence": "She late is always.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "She is always late."
+    ],
+    "accepted_answers": [
+      "She is always late.",
+      "She is always late"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_trans_003",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They do not never eat fish.",
+    "options": [],
+    "source_sentence": "They do not never eat fish.",
+    "instruction": "Rewrite correctly.",
+    "correct_answers": [
+      "They never eat fish."
+    ],
+    "accepted_answers": [
+      "They never eat fish.",
+      "They never eat fish"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "adverbs_of_frequency_trans_004",
+    "topic_id": "adverbs_of_frequency",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He is sometimes tired after work.",
+    "options": [],
+    "source_sentence": "He is sometimes tired after work.",
+    "instruction": "Rewrite with the same meaning.",
+    "correct_answers": [
+      "He is sometimes tired after work."
+    ],
+    "accepted_answers": [
+      "He is sometimes tired after work.",
+      "He is sometimes tired after work"
+    ],
+    "explanation_template": "Use adverbs like always, usually, often, sometimes, and never to show how often something happens.",
+    "mistake_type": "adverb_position",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

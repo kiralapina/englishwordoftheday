@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "comparatives_superlatives_mc_001",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "This book is ___ than that one.",
+    "options": [
+      "best",
+      "good",
+      "more good",
+      "better"
+    ],
+    "correct_answers": [
+      "better"
+    ],
+    "accepted_answers": [
+      "better"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_mc_002",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Anna is the ___ student in the class.",
+    "options": [
+      "tall",
+      "tallest",
+      "more tall",
+      "taller"
+    ],
+    "correct_answers": [
+      "tallest"
+    ],
+    "accepted_answers": [
+      "tallest"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_mc_003",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "My bag is ___ than yours.",
+    "options": [
+      "heavy",
+      "heavier",
+      "more heavy",
+      "heaviest"
+    ],
+    "correct_answers": [
+      "heavier"
+    ],
+    "accepted_answers": [
+      "heavier"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_mc_004",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "It is the ___ film I know.",
+    "options": [
+      "interestinger",
+      "more interesting",
+      "most interesting",
+      "interesting"
+    ],
+    "correct_answers": [
+      "most interesting"
+    ],
+    "accepted_answers": [
+      "most interesting"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_mc_005",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Today is ___ than yesterday.",
+    "options": [
+      "colder",
+      "coldest",
+      "more cold",
+      "cold"
+    ],
+    "correct_answers": [
+      "colder"
+    ],
+    "accepted_answers": [
+      "colder"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_mc_006",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "This exercise is the ___ one.",
+    "options": [
+      "more easy",
+      "easier",
+      "easy",
+      "easiest"
+    ],
+    "correct_answers": [
+      "easiest"
+    ],
+    "accepted_answers": [
+      "easiest"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_mc_007",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "Your idea is ___ than mine.",
+    "options": [
+      "practicaler",
+      "most practical",
+      "practical",
+      "more practical"
+    ],
+    "correct_answers": [
+      "more practical"
+    ],
+    "accepted_answers": [
+      "more practical"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_mc_008",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "That was the ___ day of my week.",
+    "options": [
+      "worst",
+      "bad",
+      "worse",
+      "more bad"
+    ],
+    "correct_answers": [
+      "worst"
+    ],
+    "accepted_answers": [
+      "worst"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_gap_001",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "This book is ___ than that one.",
+    "options": [],
+    "correct_answers": [
+      "better"
+    ],
+    "accepted_answers": [
+      "better"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_gap_002",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Anna is the ___ student in the class.",
+    "options": [],
+    "correct_answers": [
+      "tallest"
+    ],
+    "accepted_answers": [
+      "tallest"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_gap_003",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "My bag is ___ than yours.",
+    "options": [],
+    "correct_answers": [
+      "heavier"
+    ],
+    "accepted_answers": [
+      "heavier"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_gap_004",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "It is the ___ film I know.",
+    "options": [],
+    "correct_answers": [
+      "most interesting"
+    ],
+    "accepted_answers": [
+      "most interesting"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_gap_005",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Today is ___ than yesterday.",
+    "options": [],
+    "correct_answers": [
+      "colder"
+    ],
+    "accepted_answers": [
+      "colder"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_gap_006",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "This exercise is the ___ one.",
+    "options": [],
+    "correct_answers": [
+      "easiest"
+    ],
+    "accepted_answers": [
+      "easiest"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_gap_007",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "Your idea is ___ than mine.",
+    "options": [],
+    "correct_answers": [
+      "more practical"
+    ],
+    "accepted_answers": [
+      "more practical"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_gap_008",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "That was the ___ day of my week.",
+    "options": [],
+    "correct_answers": [
+      "worst"
+    ],
+    "accepted_answers": [
+      "worst"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_trans_001",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: My house is big. Your house is bigger.",
+    "options": [],
+    "source_sentence": "My house is big. Your house is bigger.",
+    "instruction": "Rewrite as one sentence with than.",
+    "correct_answers": [
+      "Your house is bigger than my house."
+    ],
+    "accepted_answers": [
+      "Your house is bigger than my house.",
+      "Your house is bigger than my house"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_trans_002",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: This test is easy. That test is easier.",
+    "options": [],
+    "source_sentence": "This test is easy. That test is easier.",
+    "instruction": "Rewrite as one sentence with than.",
+    "correct_answers": [
+      "That test is easier than this test."
+    ],
+    "accepted_answers": [
+      "That test is easier than this test.",
+      "That test is easier than this test"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_trans_003",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Mount Everest is high.",
+    "options": [],
+    "source_sentence": "Mount Everest is high.",
+    "instruction": "Rewrite using the superlative form.",
+    "correct_answers": [
+      "Mount Everest is the highest."
+    ],
+    "accepted_answers": [
+      "Mount Everest is the highest.",
+      "Mount Everest is the highest"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "comparatives_superlatives_trans_004",
+    "topic_id": "comparatives_superlatives",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: This is a useful app.",
+    "options": [],
+    "source_sentence": "This is a useful app.",
+    "instruction": "Rewrite using the superlative form.",
+    "correct_answers": [
+      "This is the most useful app."
+    ],
+    "accepted_answers": [
+      "This is the most useful app.",
+      "This is the most useful app"
+    ],
+    "explanation_template": "Use comparatives to compare two things and superlatives for the extreme in a group.",
+    "mistake_type": "comparison_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

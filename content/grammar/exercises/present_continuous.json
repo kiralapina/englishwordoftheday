@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "present_continuous_mc_001",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "He ___ a book now.",
+    "options": [
+      "reading",
+      "read",
+      "reads",
+      "is reading"
+    ],
+    "correct_answers": [
+      "is reading"
+    ],
+    "accepted_answers": [
+      "is reading"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_mc_002",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "They ___ dinner at the moment.",
+    "options": [
+      "cook",
+      "cooking",
+      "are cooking",
+      "cooks"
+    ],
+    "correct_answers": [
+      "are cooking"
+    ],
+    "accepted_answers": [
+      "are cooking"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_mc_003",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "I ___ to music right now.",
+    "options": [
+      "listens",
+      "am listening",
+      "listening",
+      "listen"
+    ],
+    "correct_answers": [
+      "am listening"
+    ],
+    "accepted_answers": [
+      "am listening"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_mc_004",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "She ___ on the phone.",
+    "options": [
+      "talk",
+      "is talking",
+      "talks",
+      "talking"
+    ],
+    "correct_answers": [
+      "is talking"
+    ],
+    "accepted_answers": [
+      "is talking"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_mc_005",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "We ___ for the test today.",
+    "options": [
+      "studying",
+      "are studying",
+      "study",
+      "studies"
+    ],
+    "correct_answers": [
+      "are studying"
+    ],
+    "accepted_answers": [
+      "are studying"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_mc_006",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "My dog ___ on the sofa.",
+    "options": [
+      "sleeping",
+      "is sleeping",
+      "sleep",
+      "sleeps"
+    ],
+    "correct_answers": [
+      "is sleeping"
+    ],
+    "accepted_answers": [
+      "is sleeping"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_mc_007",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "You ___ very fast today.",
+    "options": [
+      "working",
+      "work",
+      "are working",
+      "works"
+    ],
+    "correct_answers": [
+      "are working"
+    ],
+    "accepted_answers": [
+      "are working"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_mc_008",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "multiple_choice",
+    "prompt": "The children ___ in the garden.",
+    "options": [
+      "playing",
+      "play",
+      "plays",
+      "are playing"
+    ],
+    "correct_answers": [
+      "are playing"
+    ],
+    "accepted_answers": [
+      "are playing"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_gap_001",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "He ___ a book now.",
+    "options": [],
+    "correct_answers": [
+      "is reading"
+    ],
+    "accepted_answers": [
+      "is reading"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_gap_002",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "They ___ dinner at the moment.",
+    "options": [],
+    "correct_answers": [
+      "are cooking"
+    ],
+    "accepted_answers": [
+      "are cooking"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_gap_003",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "I ___ to music right now.",
+    "options": [],
+    "correct_answers": [
+      "am listening"
+    ],
+    "accepted_answers": [
+      "am listening"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_gap_004",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "She ___ on the phone.",
+    "options": [],
+    "correct_answers": [
+      "is talking"
+    ],
+    "accepted_answers": [
+      "is talking"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_gap_005",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "We ___ for the test today.",
+    "options": [],
+    "correct_answers": [
+      "are studying"
+    ],
+    "accepted_answers": [
+      "are studying"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_gap_006",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "My dog ___ on the sofa.",
+    "options": [],
+    "correct_answers": [
+      "is sleeping"
+    ],
+    "accepted_answers": [
+      "is sleeping"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_gap_007",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "You ___ very fast today.",
+    "options": [],
+    "correct_answers": [
+      "are working"
+    ],
+    "accepted_answers": [
+      "are working"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_gap_008",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "fill_in_the_gap",
+    "prompt": "The children ___ in the garden.",
+    "options": [],
+    "correct_answers": [
+      "are playing"
+    ],
+    "accepted_answers": [
+      "are playing"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_trans_001",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She is watching TV.",
+    "options": [],
+    "source_sentence": "She is watching TV.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "She is not watching TV."
+    ],
+    "accepted_answers": [
+      "She is not watching TV.",
+      "She is not watching TV"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_trans_002",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: They are studying now.",
+    "options": [],
+    "source_sentence": "They are studying now.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Are they studying now?"
+    ],
+    "accepted_answers": [
+      "Are they studying now?",
+      "Are they studying now?"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_trans_003",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I am cooking dinner.",
+    "options": [],
+    "source_sentence": "I am cooking dinner.",
+    "instruction": "Rewrite as a negative sentence.",
+    "correct_answers": [
+      "I am not cooking dinner."
+    ],
+    "accepted_answers": [
+      "I am not cooking dinner.",
+      "I am not cooking dinner"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "present_continuous_trans_004",
+    "topic_id": "present_continuous",
+    "level": "A2",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He is running in the park.",
+    "options": [],
+    "source_sentence": "He is running in the park.",
+    "instruction": "Rewrite as a question.",
+    "correct_answers": [
+      "Is he running in the park?"
+    ],
+    "accepted_answers": [
+      "Is he running in the park?",
+      "Is he running in the park?"
+    ],
+    "explanation_template": "Use Present Continuous for actions happening now or around now.",
+    "mistake_type": "present_continuous_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

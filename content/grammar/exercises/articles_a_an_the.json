@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "articles_a_an_the_mc_001",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "I have ___ car.",
+    "options": [
+      "an",
+      "the",
+      "-",
+      "a"
+    ],
+    "correct_answers": [
+      "a"
+    ],
+    "accepted_answers": [
+      "a"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_mc_002",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "She ate ___ orange.",
+    "options": [
+      "an",
+      "the",
+      "-",
+      "a"
+    ],
+    "correct_answers": [
+      "an"
+    ],
+    "accepted_answers": [
+      "an"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_mc_003",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "___ sun is hot.",
+    "options": [
+      "an",
+      "the",
+      "a",
+      "-"
+    ],
+    "correct_answers": [
+      "the"
+    ],
+    "accepted_answers": [
+      "the"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_mc_004",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "He is ___ doctor.",
+    "options": [
+      "a",
+      "the",
+      "-",
+      "an"
+    ],
+    "correct_answers": [
+      "a"
+    ],
+    "accepted_answers": [
+      "a"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_mc_005",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "We need ___ umbrella.",
+    "options": [
+      "the",
+      "an",
+      "a",
+      "-"
+    ],
+    "correct_answers": [
+      "an"
+    ],
+    "accepted_answers": [
+      "an"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_mc_006",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "Please close ___ door.",
+    "options": [
+      "the",
+      "-",
+      "a",
+      "an"
+    ],
+    "correct_answers": [
+      "the"
+    ],
+    "accepted_answers": [
+      "the"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_mc_007",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "It is ___ useful idea.",
+    "options": [
+      "a",
+      "-",
+      "an",
+      "the"
+    ],
+    "correct_answers": [
+      "a"
+    ],
+    "accepted_answers": [
+      "a"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_mc_008",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "multiple_choice",
+    "prompt": "Can you pass me ___ salt?",
+    "options": [
+      "the",
+      "an",
+      "a",
+      "-"
+    ],
+    "correct_answers": [
+      "the"
+    ],
+    "accepted_answers": [
+      "the"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_gap_001",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "I have ___ car.",
+    "options": [],
+    "correct_answers": [
+      "a"
+    ],
+    "accepted_answers": [
+      "a"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_gap_002",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "She ate ___ orange.",
+    "options": [],
+    "correct_answers": [
+      "an"
+    ],
+    "accepted_answers": [
+      "an"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_gap_003",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "___ sun is hot.",
+    "options": [],
+    "correct_answers": [
+      "the"
+    ],
+    "accepted_answers": [
+      "the"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_gap_004",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "He is ___ doctor.",
+    "options": [],
+    "correct_answers": [
+      "a"
+    ],
+    "accepted_answers": [
+      "a"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_gap_005",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "We need ___ umbrella.",
+    "options": [],
+    "correct_answers": [
+      "an"
+    ],
+    "accepted_answers": [
+      "an"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_gap_006",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "Please close ___ door.",
+    "options": [],
+    "correct_answers": [
+      "the"
+    ],
+    "accepted_answers": [
+      "the"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_gap_007",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "It is ___ useful idea.",
+    "options": [],
+    "correct_answers": [
+      "a"
+    ],
+    "accepted_answers": [
+      "a"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_gap_008",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "fill_in_the_gap",
+    "prompt": "Can you pass me ___ salt?",
+    "options": [],
+    "correct_answers": [
+      "the"
+    ],
+    "accepted_answers": [
+      "the"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_trans_001",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I saw apple.",
+    "options": [],
+    "source_sentence": "I saw apple.",
+    "instruction": "Rewrite with the correct article.",
+    "correct_answers": [
+      "I saw an apple."
+    ],
+    "accepted_answers": [
+      "I saw an apple.",
+      "I saw an apple"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_trans_002",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: She is teacher.",
+    "options": [],
+    "source_sentence": "She is teacher.",
+    "instruction": "Rewrite with the correct article.",
+    "correct_answers": [
+      "She is a teacher."
+    ],
+    "accepted_answers": [
+      "She is a teacher.",
+      "She is a teacher"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_trans_003",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Sun is bright.",
+    "options": [],
+    "source_sentence": "Sun is bright.",
+    "instruction": "Rewrite with the correct article.",
+    "correct_answers": [
+      "The sun is bright."
+    ],
+    "accepted_answers": [
+      "The sun is bright.",
+      "The sun is bright"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "articles_a_an_the_trans_004",
+    "topic_id": "articles_a_an_the",
+    "level": "A1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: He bought umbrella.",
+    "options": [],
+    "source_sentence": "He bought umbrella.",
+    "instruction": "Rewrite with the correct article.",
+    "correct_answers": [
+      "He bought an umbrella."
+    ],
+    "accepted_answers": [
+      "He bought an umbrella.",
+      "He bought an umbrella"
+    ],
+    "explanation_template": "Use a/an for singular non-specific nouns and the for specific things already known.",
+    "mistake_type": "article_use",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

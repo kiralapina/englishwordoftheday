@@ -1,0 +1,21 @@
+{
+  "topic_id": "modal_deduction",
+  "title": "Modal Deduction",
+  "summary": "Use must, might, may, and can't to guess or deduce how likely something is.",
+  "structure": [
+    "must be",
+    "might be",
+    "can't be",
+    "must have been"
+  ],
+  "examples": [
+    "She must be tired.",
+    "It might rain later.",
+    "That can't be right."
+  ],
+  "common_mistakes": [
+    "Using to after the modal.",
+    "Confusing mustn't with can't for deduction.",
+    "Using wrong perfect forms for past deduction."
+  ]
+}

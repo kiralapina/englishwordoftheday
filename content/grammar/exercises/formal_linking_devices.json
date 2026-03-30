@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "formal_linking_devices_mc_001",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "The proposal is expensive. ___, it may still be worth adopting.",
+    "options": [
+      "Nevertheless",
+      "For example",
+      "Consequently",
+      "And"
+    ],
+    "correct_answers": [
+      "Nevertheless"
+    ],
+    "accepted_answers": [
+      "Nevertheless"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_mc_002",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "The team lacked resources. ___, they completed the project.",
+    "options": [
+      "So",
+      "Nevertheless",
+      "Consequently",
+      "Furthermore"
+    ],
+    "correct_answers": [
+      "Nevertheless"
+    ],
+    "accepted_answers": [
+      "Nevertheless"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_mc_003",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Costs rose sharply. ___, several services were cut.",
+    "options": [
+      "Nevertheless",
+      "Furthermore",
+      "Consequently",
+      "And then"
+    ],
+    "correct_answers": [
+      "Consequently"
+    ],
+    "accepted_answers": [
+      "Consequently"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_mc_004",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "The method is fast. ___, it is also reliable.",
+    "options": [
+      "Consequently",
+      "Nevertheless",
+      "But",
+      "Furthermore"
+    ],
+    "correct_answers": [
+      "Furthermore"
+    ],
+    "accepted_answers": [
+      "Furthermore"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_mc_005",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "Online sales increased. ___, shop sales declined.",
+    "options": [
+      "Consequently",
+      "In contrast",
+      "Furthermore",
+      "So"
+    ],
+    "correct_answers": [
+      "In contrast"
+    ],
+    "accepted_answers": [
+      "In contrast"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_mc_006",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "The measure is unpopular. ___, it may be necessary.",
+    "options": [
+      "And",
+      "Nevertheless",
+      "Consequently",
+      "Furthermore"
+    ],
+    "correct_answers": [
+      "Nevertheless"
+    ],
+    "accepted_answers": [
+      "Nevertheless"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_mc_007",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "The company expanded rapidly. ___, it hired more staff.",
+    "options": [
+      "In contrast",
+      "But",
+      "Nevertheless",
+      "Consequently"
+    ],
+    "correct_answers": [
+      "Consequently"
+    ],
+    "accepted_answers": [
+      "Consequently"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_mc_008",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "The northern region grew, __ the southern region declined.",
+    "options": [
+      "whereas",
+      "therefore",
+      "nevertheless",
+      "furthermore"
+    ],
+    "correct_answers": [
+      "whereas"
+    ],
+    "accepted_answers": [
+      "whereas"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_gap_001",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "The proposal is expensive. ___, it may still be worth adopting.",
+    "options": [],
+    "correct_answers": [
+      "Nevertheless"
+    ],
+    "accepted_answers": [
+      "Nevertheless"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_gap_002",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "The team lacked resources. ___, they completed the project.",
+    "options": [],
+    "correct_answers": [
+      "Nevertheless"
+    ],
+    "accepted_answers": [
+      "Nevertheless"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_gap_003",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Costs rose sharply. ___, several services were cut.",
+    "options": [],
+    "correct_answers": [
+      "Consequently"
+    ],
+    "accepted_answers": [
+      "Consequently"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_gap_004",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "The method is fast. ___, it is also reliable.",
+    "options": [],
+    "correct_answers": [
+      "Furthermore"
+    ],
+    "accepted_answers": [
+      "Furthermore"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_gap_005",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "Online sales increased. ___, shop sales declined.",
+    "options": [],
+    "correct_answers": [
+      "In contrast"
+    ],
+    "accepted_answers": [
+      "In contrast"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_gap_006",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "The measure is unpopular. ___, it may be necessary.",
+    "options": [],
+    "correct_answers": [
+      "Nevertheless"
+    ],
+    "accepted_answers": [
+      "Nevertheless"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_gap_007",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "The company expanded rapidly. ___, it hired more staff.",
+    "options": [],
+    "correct_answers": [
+      "Consequently"
+    ],
+    "accepted_answers": [
+      "Consequently"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_gap_008",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "The northern region grew, __ the southern region declined.",
+    "options": [],
+    "correct_answers": [
+      "whereas"
+    ],
+    "accepted_answers": [
+      "whereas"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_trans_001",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The method is fast. It is also reliable.",
+    "options": [],
+    "source_sentence": "The method is fast. It is also reliable.",
+    "instruction": "Join the ideas more formally.",
+    "correct_answers": [
+      "Furthermore, the method is reliable."
+    ],
+    "accepted_answers": [
+      "Furthermore, the method is reliable.",
+      "Furthermore, the method is reliable"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_trans_002",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Costs rose sharply, so services were cut.",
+    "options": [],
+    "source_sentence": "Costs rose sharply, so services were cut.",
+    "instruction": "Rewrite with a more formal linker.",
+    "correct_answers": [
+      "Costs rose sharply. Consequently, several services were cut."
+    ],
+    "accepted_answers": [
+      "Costs rose sharply. Consequently, several services were cut.",
+      "Costs rose sharply. Consequently, several services were cut"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_trans_003",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The policy is unpopular, but it may be necessary.",
+    "options": [],
+    "source_sentence": "The policy is unpopular, but it may be necessary.",
+    "instruction": "Rewrite with a more formal linker.",
+    "correct_answers": [
+      "The policy is unpopular. Nevertheless, it may be necessary."
+    ],
+    "accepted_answers": [
+      "The policy is unpopular. Nevertheless, it may be necessary.",
+      "The policy is unpopular. Nevertheless, it may be necessary"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "formal_linking_devices_trans_004",
+    "topic_id": "formal_linking_devices",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Online sales increased, but shop sales declined.",
+    "options": [],
+    "source_sentence": "Online sales increased, but shop sales declined.",
+    "instruction": "Rewrite with a contrast linker.",
+    "correct_answers": [
+      "Online sales increased. In contrast, shop sales declined."
+    ],
+    "accepted_answers": [
+      "Online sales increased. In contrast, shop sales declined.",
+      "Online sales increased. In contrast, shop sales declined"
+    ],
+    "explanation_template": "Use formal linking devices to organize arguments in essays and professional writing.",
+    "mistake_type": "formal_linker_choice",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]

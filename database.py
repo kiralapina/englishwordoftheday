@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """PostgreSQL-база для пользователей и лексики (alwaysdata / любой PostgreSQL)."""
+import logging
 import os
 from contextlib import contextmanager
 from datetime import date, timedelta
@@ -7,14 +8,18 @@ from typing import List, Optional
 
 import psycopg2
 from psycopg2.extras import RealDictCursor
+from psycopg2 import pool as _pg_pool
+
+logger = logging.getLogger(__name__)
 
 # Интервалы SRS (дней до следующего повторения по этапам)
 SRS_INTERVALS = [1, 3, 7, 14, 30]  # этапы 1-5
 
+_connection_pool: _pg_pool.ThreadedConnectionPool | None = None
+
 
 def _get_connection_params() -> dict:
     """Параметры подключения из переменных окружения (alwaysdata и др.)."""
-    # Если заданы отдельные переменные — используем их (удобно для пароля без спецсимволов в URL)
     if os.getenv("PGHOST"):
         return {
             "host": os.getenv("PGHOST"),
@@ -28,7 +33,6 @@ def _get_connection_params() -> dict:
         if url.startswith("postgres://"):
             url = "postgresql://" + url.split("://", 1)[1]
         return {"dsn": url}
-    # Fallback на отдельные переменные
     return {
         "host": os.getenv("PGHOST", "localhost"),
         "port": int(os.getenv("PGPORT", "5432")),
@@ -38,12 +42,12 @@ def _get_connection_params() -> dict:
     }
 
 
-@contextmanager
-def get_connection():
+def _ensure_pool() -> _pg_pool.ThreadedConnectionPool:
+    global _connection_pool
+    if _connection_pool is not None and not _connection_pool.closed:
+        return _connection_pool
     params = _get_connection_params()
-    if "dsn" in params:
-        conn = psycopg2.connect(params["dsn"], cursor_factory=RealDictCursor)
-    else:
+    if "dsn" not in params:
         if (params.get("host") == "localhost" or not params.get("host")) and not params.get("password"):
             raise ValueError(
                 "Не заданы параметры БД. Добавьте в .env:\n"
@@ -53,7 +57,22 @@ def get_connection():
                 "PGUSER=superwomansocool\n"
                 "PGPASSWORD=ваш_пароль"
             )
-        conn = psycopg2.connect(**params, cursor_factory=RealDictCursor)
+    if "dsn" in params:
+        _connection_pool = _pg_pool.ThreadedConnectionPool(
+            minconn=1, maxconn=8, dsn=params["dsn"], cursor_factory=RealDictCursor,
+        )
+    else:
+        _connection_pool = _pg_pool.ThreadedConnectionPool(
+            minconn=1, maxconn=8, cursor_factory=RealDictCursor, **params,
+        )
+    logger.info("DB connection pool created (1–8 connections)")
+    return _connection_pool
+
+
+@contextmanager
+def get_connection():
+    p = _ensure_pool()
+    conn = p.getconn()
     try:
         yield conn
         conn.commit()
@@ -61,7 +80,7 @@ def get_connection():
         conn.rollback()
         raise
     finally:
-        conn.close()
+        p.putconn(conn)
 
 
 def init_db() -> None:
@@ -74,9 +93,14 @@ def init_db() -> None:
                     username TEXT,
                     target_language TEXT DEFAULT 'English',
                     level TEXT DEFAULT 'B1',
+                    grammar_notifications_enabled BOOLEAN DEFAULT FALSE,
                     daily_goal INTEGER DEFAULT 5,
                     created_at DATE DEFAULT CURRENT_DATE
                 );
+            """)
+            cur.execute("""
+                ALTER TABLE users
+                ADD COLUMN IF NOT EXISTS grammar_notifications_enabled BOOLEAN DEFAULT FALSE;
             """)
             cur.execute("""
                 CREATE TABLE IF NOT EXISTS vocabulary (
@@ -98,6 +122,113 @@ def init_db() -> None:
             cur.execute("""
                 CREATE INDEX IF NOT EXISTS idx_vocabulary_user_id
                 ON vocabulary(user_id);
+            """)
+
+
+def init_grammar_db() -> None:
+    """Создание таблиц grammar-модуля."""
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS grammar_topics (
+                    id BIGSERIAL PRIMARY KEY,
+                    topic_id VARCHAR(255) NOT NULL UNIQUE,
+                    level VARCHAR(10) NOT NULL,
+                    title VARCHAR(255) NOT NULL,
+                    sort_order INTEGER NOT NULL,
+                    is_active BOOLEAN NOT NULL DEFAULT TRUE,
+                    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+                    updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+                );
+            """)
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS grammar_exercises (
+                    id BIGSERIAL PRIMARY KEY,
+                    exercise_id VARCHAR(255) NOT NULL UNIQUE,
+                    topic_id VARCHAR(255) NOT NULL,
+                    level VARCHAR(10) NOT NULL,
+                    type VARCHAR(50) NOT NULL,
+                    prompt TEXT NOT NULL,
+                    payload_json JSONB NOT NULL,
+                    correct_answers_json JSONB NOT NULL,
+                    accepted_answers_json JSONB NOT NULL,
+                    explanation_template TEXT,
+                    mistake_type VARCHAR(255),
+                    difficulty INTEGER NOT NULL DEFAULT 1,
+                    llm_check_allowed BOOLEAN NOT NULL DEFAULT FALSE,
+                    is_active BOOLEAN NOT NULL DEFAULT TRUE,
+                    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+                    updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+                );
+            """)
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS user_grammar_topic_progress (
+                    id BIGSERIAL PRIMARY KEY,
+                    user_id VARCHAR(255) NOT NULL,
+                    topic_id VARCHAR(255) NOT NULL,
+                    attempts_count INTEGER NOT NULL DEFAULT 0,
+                    correct_count INTEGER NOT NULL DEFAULT 0,
+                    wrong_count INTEGER NOT NULL DEFAULT 0,
+                    mastery_score INTEGER NOT NULL DEFAULT 0,
+                    status VARCHAR(50) NOT NULL DEFAULT 'new',
+                    last_practiced_at TIMESTAMP NULL,
+                    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+                    updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
+                    UNIQUE (user_id, topic_id)
+                );
+            """)
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_user_grammar_topic_progress_user_status
+                ON user_grammar_topic_progress(user_id, status);
+            """)
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS user_grammar_mistakes (
+                    id BIGSERIAL PRIMARY KEY,
+                    user_id VARCHAR(255) NOT NULL,
+                    topic_id VARCHAR(255) NOT NULL,
+                    exercise_id VARCHAR(255) NOT NULL,
+                    mistake_type VARCHAR(255),
+                    user_answer TEXT,
+                    correct_answer TEXT,
+                    is_repeated BOOLEAN NOT NULL DEFAULT FALSE,
+                    created_at TIMESTAMP NOT NULL DEFAULT NOW()
+                );
+            """)
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_user_grammar_mistakes_topic
+                ON user_grammar_mistakes(user_id, topic_id);
+            """)
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_user_grammar_mistakes_created_at
+                ON user_grammar_mistakes(user_id, created_at);
+            """)
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS grammar_sessions (
+                    id BIGSERIAL PRIMARY KEY,
+                    session_id UUID NOT NULL UNIQUE,
+                    user_id VARCHAR(255) NOT NULL,
+                    chat_id VARCHAR(255) NOT NULL,
+                    level VARCHAR(10) NOT NULL,
+                    topic_id VARCHAR(255),
+                    mode VARCHAR(50) NOT NULL,
+                    state VARCHAR(50) NOT NULL,
+                    current_exercise_index INTEGER NOT NULL DEFAULT 0,
+                    exercise_queue_json JSONB NOT NULL,
+                    correct_answers_count INTEGER NOT NULL DEFAULT 0,
+                    wrong_answers_count INTEGER NOT NULL DEFAULT 0,
+                    started_at TIMESTAMP NOT NULL DEFAULT NOW(),
+                    completed_at TIMESTAMP NULL,
+                    abandoned_at TIMESTAMP NULL,
+                    updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+                );
+            """)
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_grammar_sessions_user_state
+                ON grammar_sessions(user_id, state);
+            """)
+            cur.execute("""
+                CREATE INDEX IF NOT EXISTS idx_grammar_sessions_user_started_at
+                ON grammar_sessions(user_id, started_at);
             """)
 
 
@@ -130,6 +261,44 @@ def get_user_level(user_id: int) -> str:
             cur.execute("SELECT level FROM users WHERE user_id = %s", (user_id,))
             row = cur.fetchone()
             return row["level"] if row else "B1"
+
+
+def set_grammar_notifications_enabled(user_id: int, enabled: bool) -> None:
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO users (user_id, grammar_notifications_enabled)
+                VALUES (%s, %s)
+                ON CONFLICT (user_id) DO UPDATE
+                SET grammar_notifications_enabled = EXCLUDED.grammar_notifications_enabled
+                """,
+                (user_id, enabled),
+            )
+
+
+def get_grammar_notifications_enabled(user_id: int) -> bool:
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                "SELECT grammar_notifications_enabled FROM users WHERE user_id = %s",
+                (user_id,),
+            )
+            row = cur.fetchone()
+            return bool(row["grammar_notifications_enabled"]) if row else False
+
+
+def get_users_with_grammar_notifications() -> List[int]:
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT user_id
+                FROM users
+                WHERE grammar_notifications_enabled = TRUE
+                """
+            )
+            return [row["user_id"] for row in cur.fetchall()]
 
 
 def add_word(user_id: int, word: str, translation: str = "", transcription: str = "", example: str = "") -> Optional[int]:

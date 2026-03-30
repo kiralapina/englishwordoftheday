@@ -1,0 +1,434 @@
+[
+  {
+    "exercise_id": "cleft_sentences_mc_001",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "It was Anna ___ solved the problem.",
+    "options": [
+      "what",
+      "which",
+      "where",
+      "who"
+    ],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_mc_002",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "What I need ___ a holiday.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "be"
+    ],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_mc_003",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "It was yesterday ___ we met.",
+    "options": [
+      "that",
+      "where",
+      "who",
+      "what"
+    ],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_mc_004",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "The reason why I left ___ the noise.",
+    "options": [
+      "is",
+      "were",
+      "was",
+      "be"
+    ],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_mc_005",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "What surprised me most ___ his calm reaction.",
+    "options": [
+      "be",
+      "is being",
+      "was",
+      "were"
+    ],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_mc_006",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "It was the manager ___ approved the plan.",
+    "options": [
+      "who",
+      "what",
+      "which",
+      "where"
+    ],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_mc_007",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "What she wants ___ more independence.",
+    "options": [
+      "be",
+      "is",
+      "were",
+      "are"
+    ],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_mc_008",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "multiple_choice",
+    "prompt": "It was in Paris ___ they first met.",
+    "options": [
+      "that",
+      "who",
+      "which",
+      "what"
+    ],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_gap_001",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "It was Anna ___ solved the problem.",
+    "options": [],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_gap_002",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "What I need ___ a holiday.",
+    "options": [],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_gap_003",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "It was yesterday ___ we met.",
+    "options": [],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_gap_004",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "The reason why I left ___ the noise.",
+    "options": [],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 1,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_gap_005",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "What surprised me most ___ his calm reaction.",
+    "options": [],
+    "correct_answers": [
+      "was"
+    ],
+    "accepted_answers": [
+      "was"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_gap_006",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "It was the manager ___ approved the plan.",
+    "options": [],
+    "correct_answers": [
+      "who"
+    ],
+    "accepted_answers": [
+      "who"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_gap_007",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "What she wants ___ more independence.",
+    "options": [],
+    "correct_answers": [
+      "is"
+    ],
+    "accepted_answers": [
+      "is"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_gap_008",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "fill_in_the_gap",
+    "prompt": "It was in Paris ___ they first met.",
+    "options": [],
+    "correct_answers": [
+      "that"
+    ],
+    "accepted_answers": [
+      "that"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 2,
+    "llm_check_allowed": false,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_trans_001",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: Anna solved the problem.",
+    "options": [],
+    "source_sentence": "Anna solved the problem.",
+    "instruction": "Rewrite with a cleft sentence.",
+    "correct_answers": [
+      "It was Anna who solved the problem."
+    ],
+    "accepted_answers": [
+      "It was Anna who solved the problem.",
+      "It was Anna who solved the problem"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_trans_002",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: I need a holiday.",
+    "options": [],
+    "source_sentence": "I need a holiday.",
+    "instruction": "Rewrite with what-clause emphasis.",
+    "correct_answers": [
+      "What I need is a holiday."
+    ],
+    "accepted_answers": [
+      "What I need is a holiday.",
+      "What I need is a holiday"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_trans_003",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: We met yesterday.",
+    "options": [],
+    "source_sentence": "We met yesterday.",
+    "instruction": "Rewrite with a cleft sentence.",
+    "correct_answers": [
+      "It was yesterday that we met."
+    ],
+    "accepted_answers": [
+      "It was yesterday that we met.",
+      "It was yesterday that we met"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  },
+  {
+    "exercise_id": "cleft_sentences_trans_004",
+    "topic_id": "cleft_sentences",
+    "level": "C1",
+    "type": "sentence_transformation",
+    "prompt": "Rewrite: The noise made me leave.",
+    "options": [],
+    "source_sentence": "The noise made me leave.",
+    "instruction": "Rewrite with reason emphasis.",
+    "correct_answers": [
+      "The reason why I left was the noise."
+    ],
+    "accepted_answers": [
+      "The reason why I left was the noise.",
+      "The reason why I left was the noise"
+    ],
+    "explanation_template": "Use cleft sentences to emphasize one part of a sentence.",
+    "mistake_type": "cleft_sentence_form",
+    "difficulty": 3,
+    "llm_check_allowed": true,
+    "is_active": true
+  }
+]
