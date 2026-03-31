@@ -30,8 +30,18 @@ fi
 pkill -f "python.*bot.py" 2>/dev/null || true
 sleep 1
 
-# Запустить снова
+# Установить/обновить зависимости и запустить
 source venv/bin/activate
+pip install -q -r requirements.txt
+
 nohup python bot.py >> "$LOG" 2>&1 &
 echo $! > "$PIDFILE"
-echo "Bot restarted (PID $(cat $PIDFILE)). Log: $LOG"
+sleep 3
+
+if kill -0 "$(cat "$PIDFILE")" 2>/dev/null; then
+  echo "Bot restarted (PID $(cat $PIDFILE)). Log: $LOG"
+else
+  echo "ERROR: bot failed to start. Check $LOG"
+  tail -20 "$LOG"
+  exit 1
+fi
