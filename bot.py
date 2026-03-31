@@ -122,6 +122,7 @@ def level_keyboard() -> InlineKeyboardMarkup:
 # Множество для хранения ID пользователей, подписанных на слова дня
 subscribed_users: Set[int] = set()
 GRAMMAR_RUNTIME_READY = False
+ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
 
 def get_word_of_day() -> dict:
     """Получает слово дня на основе текущей даты"""
@@ -462,6 +463,30 @@ async def stats_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         await update.message.reply_text("Не удалось получить статистику. Проверь подключение к БД.")
 
 
+async def announce_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Разовая рассылка сообщения всем пользователям. Только для админа."""
+    if update.effective_user.id != ADMIN_ID:
+        return
+    text = " ".join(context.args) if context.args else ""
+    if not text:
+        await update.message.reply_text(
+            "Использование: <code>/announce Текст сообщения</code>\n"
+            "Поддерживается HTML-разметка.",
+            parse_mode="HTML",
+        )
+        return
+    user_ids = database.get_all_user_ids()
+    sent, failed = 0, 0
+    for uid in user_ids:
+        try:
+            await context.bot.send_message(chat_id=uid, text=text, parse_mode="HTML")
+            sent += 1
+        except Exception:
+            failed += 1
+    await update.message.reply_text(f"Рассылка завершена: {sent} доставлено, {failed} ошибок.")
+    logger.info("Admin announce: sent=%d, failed=%d", sent, failed)
+
+
 async def idiom_of_day_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Идиома дня по уровню пользователя."""
     user = update.effective_user
@@ -750,7 +775,8 @@ async def send_daily_words(context: ContextTypes.DEFAULT_TYPE) -> None:
         f"🔊 <i>{word_data['transcription']}</i>\n"
         f"{word_data['translation']}\n"
         f"<i>Пример: {word_data['example']}</i>\n\n"
-        f"Удачи в изучении английского! 📚✨"
+        f"Удачи в изучении английского! 📚✨\n\n"
+        f"📘 Не забудь попрактиковать грамматику → /grammar"
     )
     
     # Берем пользователей из БД, чтобы рассылка работала и после рестарта.
@@ -782,7 +808,8 @@ async def send_daily_idiom(context: ContextTypes.DEFAULT_TYPE) -> None:
                 f"<b>{idiom['idiom']}</b>\n"
                 f"Значение: {idiom['meaning']}\n"
                 f"<i>Пример: {idiom['example']}</i>\n\n"
-                f"✏️ Напиши предложение с этой фразой — закрепишь!"
+                f"✏️ Напиши предложение с этой фразой — закрепишь!\n\n"
+                f"📘 А ещё загляни в грамматику → /grammar"
             )
             await context.bot.send_message(chat_id=user_id, text=msg, parse_mode='HTML')
             logger.info(f"Sent daily idiom to user {user_id}")
@@ -880,6 +907,7 @@ def main() -> None:
         application.add_handler(CommandHandler("test", test_command))
         application.add_handler(CommandHandler("stats", stats_command))
         application.add_handler(CommandHandler("grammar", grammar_command))
+        application.add_handler(CommandHandler("announce", announce_command))
         application.add_handler(CallbackQueryHandler(callback_level, pattern="^level_"))
         application.add_handler(CallbackQueryHandler(callback_review, pattern="^review"))
         application.add_handler(CallbackQueryHandler(callback_grammar, pattern="^grammar:"))
