@@ -926,30 +926,17 @@ def main() -> None:
         if application.job_queue is None:
             logger.warning("JobQueue недоступен. Ежедневные рассылки отключены. Установите: pip install 'python-telegram-bot[job-queue]==20.7'")
         else:
-            if now.time() > target_time_word:
-                next_run = datetime.combine(now.date() + timedelta(days=1), target_time_word)
-            else:
-                next_run = datetime.combine(now.date(), target_time_word)
-            delay_word = (next_run - now).total_seconds()
-            application.job_queue.run_once(send_daily_words, when=delay_word, name="daily_word")
-            application.job_queue.run_daily(send_daily_words, time=target_time_word, name="daily_word_recurring")
+            next_run = datetime.combine(now.date() + timedelta(days=1), target_time_word)
+            application.job_queue.run_daily(send_daily_words, time=target_time_word, name="daily_word")
             logger.info(f"Запланирована отправка слова дня в 9:00 (первый раз: {next_run.strftime('%d.%m.%Y %H:%M')})")
-            if now.time() > target_time_idiom:
-                next_idiom = datetime.combine(now.date() + timedelta(days=1), target_time_idiom)
-            else:
-                next_idiom = datetime.combine(now.date(), target_time_idiom)
-            delay_idiom = (next_idiom - now).total_seconds()
-            application.job_queue.run_once(send_daily_idiom, when=delay_idiom, name="daily_idiom")
-            application.job_queue.run_daily(send_daily_idiom, time=target_time_idiom, name="daily_idiom_recurring")
+
+            next_idiom = datetime.combine(now.date() + timedelta(days=1), target_time_idiom)
+            application.job_queue.run_daily(send_daily_idiom, time=target_time_idiom, name="daily_idiom")
             logger.info(f"Запланирована отправка идиомы дня в 10:00 (первый раз: {next_idiom.strftime('%d.%m.%Y %H:%M')})")
+
             if grammar_config.grammar_module_enabled():
-                if now.time() > target_time_grammar:
-                    next_grammar = datetime.combine(now.date() + timedelta(days=1), target_time_grammar)
-                else:
-                    next_grammar = datetime.combine(now.date(), target_time_grammar)
-                delay_grammar = (next_grammar - now).total_seconds()
-                application.job_queue.run_once(send_daily_grammar_push, when=delay_grammar, name="daily_grammar_push")
-                application.job_queue.run_daily(send_daily_grammar_push, time=target_time_grammar, name="daily_grammar_push_recurring")
+                next_grammar = datetime.combine(now.date() + timedelta(days=1), target_time_grammar)
+                application.job_queue.run_daily(send_daily_grammar_push, time=target_time_grammar, name="daily_grammar_push")
                 logger.info(f"Запланирован grammar push в 18:00 (первый раз: {next_grammar.strftime('%d.%m.%Y %H:%M')})")
         
         logger.info("=" * 50)
