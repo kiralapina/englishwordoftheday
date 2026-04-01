@@ -961,7 +961,7 @@ def main() -> None:
         logger.info("=" * 50)
         
         # Запускаем бота
-        application.run_polling(allowed_updates=Update.ALL_TYPES)
+        application.run_polling(allowed_updates=Update.ALL_TYPES, drop_pending_updates=True)
         
     except Exception as e:
         logger.exception(f"Критическая ошибка при запуске бота: {e}")
