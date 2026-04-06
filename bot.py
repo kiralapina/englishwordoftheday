@@ -1,9 +1,11 @@
 import asyncio
 import concurrent.futures
+import fcntl
 import logging
 import os
 import random
 import re
+import sys
 from datetime import datetime, time, timedelta
 from functools import partial
 from typing import Set
@@ -864,6 +866,19 @@ async def send_daily_grammar_push(context: ContextTypes.DEFAULT_TYPE) -> None:
 def main() -> None:
     """Основная функция запуска бота"""
     global GRAMMAR_RUNTIME_READY
+
+    # Singleton guard: only one bot instance allowed per host.
+    # Uses an exclusive file lock so a second container/process exits immediately.
+    _lock_path = "/tmp/telegram_eng_bot.lock"
+    _lock_file = open(_lock_path, "w")
+    try:
+        fcntl.flock(_lock_file, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        logger.error(
+            "Another bot instance is already running (lock: %s). Exiting.", _lock_path
+        )
+        sys.exit(1)
+
     try:
         if not BOT_TOKEN:
             logger.error("BOT_TOKEN не найден в переменных окружения!")
