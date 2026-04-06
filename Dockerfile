@@ -6,10 +6,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Меняй значение ниже, если Dokploy/Docker отдаёт старый код (всё ниже — без кеша).
-# Или в Dokploy включи «Clean cache» / Rebuild без кеша.
-ARG IMAGE_REVISION=2026-04-06-pg-lock
-RUN echo "build=${IMAGE_REVISION}"
+# Увеличь число в этом файле перед деплоем, если Dokploy снова берёт CACHED для COPY.
+# Меняется checksum → пересобираются все слои ниже (свежий bot.py и т.д.).
+COPY docker-build-stamp.txt /tmp/
 
 # Код бота и данных
 COPY bot.py database.py word_api.py usage_metrics.py ./
