@@ -83,6 +83,33 @@ def get_connection():
         p.putconn(conn)
 
 
+_ADVISORY_LOCK_ID = 73917149  # derived from bot token prefix, arbitrary unique int
+
+
+def try_acquire_bot_lock() -> bool:
+    """Try to acquire a PostgreSQL session-level advisory lock.
+
+    Returns True if this is the only running instance. The lock is held for the
+    lifetime of the connection, which the caller must keep open.
+    """
+    _ensure_pool()
+    try:
+        conn = _ensure_pool().getconn()
+        conn.autocommit = True
+        with conn.cursor() as cur:
+            cur.execute("SELECT pg_try_advisory_lock(%s)", (_ADVISORY_LOCK_ID,))
+            result = cur.fetchone()
+            acquired = result["pg_try_advisory_lock"] if result else False
+        if not acquired:
+            _ensure_pool().putconn(conn)
+        # If acquired, intentionally do NOT return the connection to the pool —
+        # the advisory lock stays held for as long as this connection is alive.
+        return acquired
+    except Exception as e:
+        logger.error("Failed to acquire advisory lock: %s", e)
+        return False
+
+
 def init_db() -> None:
     """Создание таблиц users и vocabulary, если их нет (совместимо с alwaysdata)."""
     with get_connection() as conn:
