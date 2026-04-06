@@ -97,9 +97,9 @@ def try_acquire_bot_lock() -> bool:
         conn = _ensure_pool().getconn()
         conn.autocommit = True
         with conn.cursor() as cur:
-            cur.execute("SELECT pg_try_advisory_lock(%s)", (_ADVISORY_LOCK_ID,))
-            result = cur.fetchone()
-            acquired = result["pg_try_advisory_lock"] if result else False
+            cur.execute("SELECT pg_try_advisory_lock(%s) AS ok", (_ADVISORY_LOCK_ID,))
+            row = cur.fetchone()
+            acquired = bool(row and row["ok"])
         if not acquired:
             _ensure_pool().putconn(conn)
         # If acquired, intentionally do NOT return the connection to the pool —
