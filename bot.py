@@ -885,8 +885,11 @@ def main() -> None:
             logger.error("Ошибка подключения к БД: %s. Проверьте DATABASE_URL или PGHOST/PGUSER/PGPASSWORD в .env", e)
             raise
 
-        if not database.try_acquire_bot_lock():
-            logger.error("Another bot instance is already running (PostgreSQL advisory lock). Exiting.")
+        if not database.wait_for_bot_lock():
+            logger.error(
+                "Could not acquire PostgreSQL singleton lock in time. "
+                "Another instance is still running or BOT_LOCK_WAIT_SECONDS too low."
+            )
             sys.exit(1)
         logger.info("Singleton lock acquired — this is the only running instance")
 

@@ -2,6 +2,7 @@
 """PostgreSQL-база для пользователей и лексики (alwaysdata / любой PostgreSQL)."""
 import logging
 import os
+import time
 from contextlib import contextmanager
 from datetime import date, timedelta
 from typing import List, Optional
@@ -108,6 +109,32 @@ def try_acquire_bot_lock() -> bool:
     except Exception as e:
         logger.error("Failed to acquire advisory lock: %s", e)
         return False
+
+
+def wait_for_bot_lock() -> bool:
+    """Retry lock until old container releases it (rolling deploy) or timeout."""
+    try:
+        max_wait = int(os.getenv("BOT_LOCK_WAIT_SECONDS", "120"))
+    except ValueError:
+        max_wait = 120
+    interval = 3.0
+    deadline = time.monotonic() + max_wait
+    attempt = 0
+    while time.monotonic() < deadline:
+        if try_acquire_bot_lock():
+            if attempt > 0:
+                logger.info("Singleton lock acquired after %s attempt(s)", attempt + 1)
+            return True
+        attempt += 1
+        logger.warning(
+            "Another bot instance holds the DB lock (deploy overlap?). "
+            "Retry in %.0fs... (attempt %d, max wait %ds)",
+            interval,
+            attempt,
+            max_wait,
+        )
+        time.sleep(interval)
+    return False
 
 
 def init_db() -> None:
