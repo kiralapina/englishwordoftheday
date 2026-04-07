@@ -177,6 +177,13 @@ def init_db() -> None:
                 CREATE INDEX IF NOT EXISTS idx_vocabulary_user_id
                 ON vocabulary(user_id);
             """)
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS daily_broadcast_log (
+                    kind VARCHAR(32) NOT NULL,
+                    broadcast_date DATE NOT NULL,
+                    PRIMARY KEY (kind, broadcast_date)
+                );
+            """)
 
 
 def init_grammar_db() -> None:
@@ -415,5 +422,21 @@ def get_all_user_words(user_id: int, limit: int = 50) -> List[dict]:
 def get_all_user_ids() -> List[int]:
     with get_connection() as conn:
         with conn.cursor() as cur:
-            cur.execute("SELECT user_id FROM users")
+            cur.execute("SELECT DISTINCT user_id FROM users ORDER BY user_id")
             return [r["user_id"] for r in cur.fetchall()]
+
+
+def try_begin_daily_broadcast(kind: str) -> bool:
+    """Один успешный запуск рассылки на календарный день (защита от двойного job / двух процессов)."""
+    d = date.today()
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO daily_broadcast_log (kind, broadcast_date)
+                VALUES (%s, %s)
+                ON CONFLICT (kind, broadcast_date) DO NOTHING
+                """,
+                (kind, d),
+            )
+            return cur.rowcount > 0

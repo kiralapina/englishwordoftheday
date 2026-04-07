@@ -5,7 +5,7 @@ import os
 import random
 import re
 import sys
-from datetime import datetime, time, timedelta
+from datetime import datetime, time, timedelta, timezone
 from functools import partial
 from typing import Set
 from dotenv import load_dotenv
@@ -766,8 +766,20 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     track_activity(user.id, "message")
     logger.info(f"User {user.id} sent a message: {message_text}")
 
+_last_daily_word_date = None
+_last_daily_idiom_date = None
+_last_daily_grammar_date = None
+
+
 async def send_daily_words(context: ContextTypes.DEFAULT_TYPE) -> None:
     """Отправляет слово дня всем подписанным пользователям"""
+    global _last_daily_word_date
+    today = datetime.now(tz=timezone.utc).date()
+    if _last_daily_word_date == today:
+        logger.warning("send_daily_words already executed today (%s), skipping duplicate run", today)
+        return
+    _last_daily_word_date = today
+
     word_data = get_word_of_day()
     
     message = (
@@ -800,6 +812,13 @@ async def send_daily_words(context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def send_daily_idiom(context: ContextTypes.DEFAULT_TYPE) -> None:
     """Рассылает идиому дня всем пользователям из БД (по их уровню)."""
+    global _last_daily_idiom_date
+    today = datetime.now(tz=timezone.utc).date()
+    if _last_daily_idiom_date == today:
+        logger.warning("send_daily_idiom already executed today (%s), skipping duplicate run", today)
+        return
+    _last_daily_idiom_date = today
+
     for user_id in database.get_all_user_ids():
         try:
             level = database.get_user_level(user_id)
@@ -844,6 +863,13 @@ async def send_daily_grammar_push(context: ContextTypes.DEFAULT_TYPE) -> None:
     """Отправляет opt-in напоминание по grammar."""
     if not grammar_config.grammar_module_enabled():
         return
+    global _last_daily_grammar_date
+    today = datetime.now(tz=timezone.utc).date()
+    if _last_daily_grammar_date == today:
+        logger.warning("send_daily_grammar_push already executed today (%s), skipping duplicate run", today)
+        return
+    _last_daily_grammar_date = today
+
     for user_id in database.get_users_with_grammar_notifications():
         try:
             topic = _get_daily_grammar_topic(user_id)
@@ -928,9 +954,9 @@ def main() -> None:
         logger.info("Обработчик текстовых сообщений зарегистрирован")
         
         now = datetime.now()
-        target_time_word = time(9, 0)
-        target_time_idiom = time(10, 0)
-        target_time_grammar = time(18, 0)
+        target_time_word = time(9, 0, tzinfo=timezone.utc)
+        target_time_idiom = time(10, 0, tzinfo=timezone.utc)
+        target_time_grammar = time(18, 0, tzinfo=timezone.utc)
         next_run = now  # для лога
         
         if application.job_queue is None:
