@@ -10,7 +10,9 @@ from functools import partial
 from typing import Set
 from dotenv import load_dotenv
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup
+from telegram.error import NetworkError, RetryAfter, TimedOut
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
+from telegram.request import HTTPXRequest
 
 import database
 import usage_metrics
@@ -80,6 +82,31 @@ async def _run_sync(func, *args, **kwargs):
     """Run a synchronous function in the thread pool without blocking the event loop."""
     loop = asyncio.get_running_loop()
     return await loop.run_in_executor(_executor, partial(func, *args, **kwargs))
+
+
+async def _send_message_with_retry(bot, *, chat_id: int, text: str, parse_mode: str | None = None, reply_markup=None) -> None:
+    """Send a message with retries for common transient Telegram/network errors."""
+    # Conservative retries to avoid amplifying rate limits.
+    for attempt in range(1, 5):
+        try:
+            await bot.send_message(
+                chat_id=chat_id,
+                text=text,
+                parse_mode=parse_mode,
+                reply_markup=reply_markup,
+            )
+            return
+        except RetryAfter as e:
+            delay = max(float(getattr(e, "retry_after", 1.0)), 1.0)
+            logger.warning("RetryAfter for user %s: sleep %.1fs (attempt %d/4)", chat_id, delay, attempt)
+            await asyncio.sleep(delay)
+        except (TimedOut, NetworkError) as e:
+            delay = min(2 ** (attempt - 1), 10)
+            logger.warning("Transient send error to user %s: %s; retry in %ss (attempt %d/4)", chat_id, e, delay, attempt)
+            await asyncio.sleep(delay)
+        except Exception:
+            # Non-transient error: caller will log with context.
+            raise
 
 
 # Большие базы слов и идиом (подгружаются из data/)
@@ -778,6 +805,10 @@ async def send_daily_words(context: ContextTypes.DEFAULT_TYPE) -> None:
     if _last_daily_word_date == today:
         logger.warning("send_daily_words already executed today (%s), skipping duplicate run", today)
         return
+    if not database.try_begin_daily_broadcast("daily_word"):
+        logger.info("Рассылка слова дня за сегодня уже выполнялась — пропуск.")
+        _last_daily_word_date = today
+        return
     _last_daily_word_date = today
 
     word_data = get_word_of_day()
@@ -798,11 +829,7 @@ async def send_daily_words(context: ContextTypes.DEFAULT_TYPE) -> None:
 
     for user_id in user_ids:
         try:
-            await context.bot.send_message(
-                chat_id=user_id,
-                text=message,
-                parse_mode='HTML'
-            )
+            await _send_message_with_retry(context.bot, chat_id=user_id, text=message, parse_mode="HTML")
             logger.info(f"Sent daily word to user {user_id}")
         except Exception as e:
             logger.error(f"Failed to send message to user {user_id}: {e}")
@@ -816,6 +843,10 @@ async def send_daily_idiom(context: ContextTypes.DEFAULT_TYPE) -> None:
     today = datetime.now(tz=timezone.utc).date()
     if _last_daily_idiom_date == today:
         logger.warning("send_daily_idiom already executed today (%s), skipping duplicate run", today)
+        return
+    if not database.try_begin_daily_broadcast("daily_idiom"):
+        logger.info("Рассылка идиомы дня за сегодня уже выполнялась — пропуск.")
+        _last_daily_idiom_date = today
         return
     _last_daily_idiom_date = today
 
@@ -831,7 +862,7 @@ async def send_daily_idiom(context: ContextTypes.DEFAULT_TYPE) -> None:
                 f"✏️ Напиши предложение с этой фразой — закрепишь!\n\n"
                 f"📘 А ещё загляни в грамматику → /grammar"
             )
-            await context.bot.send_message(chat_id=user_id, text=msg, parse_mode='HTML')
+            await _send_message_with_retry(context.bot, chat_id=user_id, text=msg, parse_mode="HTML")
             logger.info(f"Sent daily idiom to user {user_id}")
         except Exception as e:
             logger.error(f"Failed to send idiom to user {user_id}: {e}")
@@ -868,6 +899,10 @@ async def send_daily_grammar_push(context: ContextTypes.DEFAULT_TYPE) -> None:
     if _last_daily_grammar_date == today:
         logger.warning("send_daily_grammar_push already executed today (%s), skipping duplicate run", today)
         return
+    if not database.try_begin_daily_broadcast("grammar_push"):
+        logger.info("Grammar push за сегодня уже выполнялся — пропуск.")
+        _last_daily_grammar_date = today
+        return
     _last_daily_grammar_date = today
 
     for user_id in database.get_users_with_grammar_notifications():
@@ -882,7 +917,7 @@ async def send_daily_grammar_push(context: ContextTypes.DEFAULT_TYPE) -> None:
                 f"Текущее освоение: {topic['mastery_score']}\n\n"
                 "Открой /grammar и продолжи практику."
             )
-            await context.bot.send_message(chat_id=user_id, text=text, parse_mode="HTML")
+            await _send_message_with_retry(context.bot, chat_id=user_id, text=text, parse_mode="HTML")
             logger.info("Sent daily grammar push to user %s", user_id)
         except Exception as e:
             logger.error("Failed to send grammar push to user %s: %s", user_id, e)
@@ -932,7 +967,13 @@ def main() -> None:
         
         # Создаем приложение
         logger.info("Создание приложения бота...")
-        application = Application.builder().token(BOT_TOKEN).build()
+        request = HTTPXRequest(
+            connect_timeout=float(os.getenv("TG_CONNECT_TIMEOUT", "10")),
+            read_timeout=float(os.getenv("TG_READ_TIMEOUT", "25")),
+            write_timeout=float(os.getenv("TG_WRITE_TIMEOUT", "25")),
+            pool_timeout=float(os.getenv("TG_POOL_TIMEOUT", "25")),
+        )
+        application = Application.builder().token(BOT_TOKEN).request(request).build()
         logger.info("Приложение бота создано успешно")
         
         # Регистрируем обработчики команд
